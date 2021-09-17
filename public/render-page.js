@@ -14,13 +14,23 @@
 
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
-  "component---src-pages-contact-js": preferDefault(__webpack_require__(/*! ./src/pages/contact.js */ "./src/pages/contact.js")),
   "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")),
   "component---src-pages-italanta-programs-js": preferDefault(__webpack_require__(/*! ./src/pages/italanta-programs.js */ "./src/pages/italanta-programs.js")),
   "component---src-pages-team-js": preferDefault(__webpack_require__(/*! ./src/pages/team.js */ "./src/pages/team.js"))
   }
 
 
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/257692674.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/257692674.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAACTpAAAk6QFQJOf4AAACiUlEQVQozwXB31PScAAA8D301mvnXXdlnWdZIQqKE6YgP7bJxn7AgPHd2Bg/B4z4NTdB5IcoQoem9kPL7Lquv6azh5567q2nHvsD+nwgHVB7MjsuiRMt1c3ylVgoibs51MMGtniaBFwkEeclMSmJSUEQZVlWFEWS5Ew6m0lnoF4uZorksCxcjwdfTof9crID8LrIlBK0QqNiYJ1DlrGAD8Mwv89HEgRJBOkQyVAUSzNQg99WWW8F0J+no4/j3qSZMQSqVVR6TXW3lGoqcSPJ4IEtBwxbLJZFq4Ui8GiYXl2Yo9etkCkGx4W0QkXOhgeGVp+apY4UPW5q+82SUUy11WQ/C8IM5Vy1e1eWrMvWBM9FGSq0uVZl/dBOAv1xdT3MdjNZo2B+2K9Uz4xGT812lHhbjt68f/vt8grHg7jTEycoF7wGAE8iCOfbbHAolKe8V/ru1io2OTxPv+yU1fKkqumi8K4oDqPbP3/9/vP3nxsV7j30Of1RI5eXgIQguNXqkAgfFLAtIDbYseL+fntrA8rzmMhPx+xRvyCAVnBD03Yr5qkTJmceo3NP19r7U8RNkDhht7s4Ogxhy/OwHR6MzvPl+obHP/NsicgV0Fye5YAUol5YXU8WvSghxRufwtr5ZHwRiUlelA5zggwEiMEJjztodl/NzttmH8zTEfGy3TrWjV5/LPCC3ebaQDBaNsHOTe/k68mba7XcYMIgxsvxMAvxQqpSrA2OXj9acNy5ez+RKg8bdVVS2t2jaCyBrTtRGInHeEzYM1q904tLrdbKFKoRDohxHhoddEeHg1ar5fZu2x2bqqqq2WxGSes7hmmauq7rzYaqFiORhCTJJa2aShdAAtRqerVS+Q9gN+25qzs1fwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/3f5e61db6be74cb319bbd232fd834e73/a764f/elewa-team.jpg","srcSet":"/static/3f5e61db6be74cb319bbd232fd834e73/37bba/elewa-team.jpg 750w,\\n/static/3f5e61db6be74cb319bbd232fd834e73/97edb/elewa-team.jpg 1080w,\\n/static/3f5e61db6be74cb319bbd232fd834e73/d61e8/elewa-team.jpg 1366w,\\n/static/3f5e61db6be74cb319bbd232fd834e73/a764f/elewa-team.jpg 1920w","sizes":"100vw"},"sources":[{"srcSet":"/static/3f5e61db6be74cb319bbd232fd834e73/a66aa/elewa-team.webp 750w,\\n/static/3f5e61db6be74cb319bbd232fd834e73/2a327/elewa-team.webp 1080w,\\n/static/3f5e61db6be74cb319bbd232fd834e73/4fad6/elewa-team.webp 1366w,\\n/static/3f5e61db6be74cb319bbd232fd834e73/c512e/elewa-team.webp 1920w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.5625}');
 
 /***/ }),
 
@@ -54,28 +64,6 @@ module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"da
 
 "use strict";
 module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQElEQVQ4yx2Sa0yTBwBFvz9LlojMzbmBzukmkIyoODXoHDrDnCa6GZzIRNw0ykTEaSYaDSqiZjpAC3U8BKqAUgpSeZYCiiAwX0AoWgT6oCC0tBQqICjq9DuL/XFz/53knlxhdOzl+LPxVzx/8Vq0WO3oDUa6u7sxGAzou0z09g/QY7Y609c/gPFJH/VNGvoHhuh+0keL5hFWm00EEEXxrdBUraS9uVYctFmwDTroMpmcwL4+M0PDz3g6NoFtaJh+u8MZi91BTcMd9h84zLqAELZs20PU8bPUN9x3QgVFQqRYcjGaRlWmODDooOdJL1arDYOug5wrlyhQZKE36NH39KI39WB3DFNVdYMvPLzxmruEpcvX8FPAFnFHaAStrY9EQbI7kLyYUB4oU3kHNFv6sdsH2P5bMAHLvFElR9PW2khruw5th86p4bHBREFuDv5LluDlvYhFvivwW7GKsjI1gvxgCLfiwmiUn8NitmAfGkb76CE+87yJWL+ckoRjtGlaGB4dY8gxwuDQU3Q9ZiwmA4k7N7B0vg+zPefj5+dPm1aLkHcggMq4cLqbbzM0Mu50N/HqP9TpEmI2+yM7sBVNRSFvgNGRUeyDDjpMvU6vKukpooPWsO6bxchk2bx8/Qah4p8TdLbcZez5BP02O+Z+GwUlVVyQJnF08yqiNq3k/NFIjp1NpqWti7EXL2nXPqS3U4vF6iBdImHbd4vIzC+joLwGYeTZhHNOp7YZx9NhbtY9YIbHQiZ9NJ1vv57PisULcJ/lxQfuX/Hr/r9pqVaR9Ptasvb9TM3VFPIuZxAeEkxWvoprZdUI7z5o7NBSp85lfOIVh2LO856rO59+9iVuMz2cPWOWF9PnzGOj/0rkfwZSnBiNPO445cmnSPljExelUm4/0JJ6RYnQ2qGnsigHRfJR2vVG/jpyhND13+Ph4cnUae7MnDWHqW6f877rx4TtDEPXpqXXOkheWQ2ltS0olaXU3WmkzWAm8bISoaJKhSLjPPGHf6Hieg5hgRtJ3xdEzsnd/LB6DbO9fFjo68dcH18io06j77FSc1dDseoGDepiCpVFXFIUcyE9ixNnExBuylNFVXwk0l1rRUn4JmRReymU52DU6UjLyMR7wTJk2XkYey2UV1WTV1xBiaqSjEPbidm6Gi9PT6Z94oab+3SmTPkQQXHh9FtleiJX0qSiVBKLLOkcDXU1dBhN3FCXc3DvHhLPnKY+P5esFCmJ8bHERkYQvtKX4B/X4uLiyuTJrqKLiwsuLpNEQV2kIDM7U9waEsjusFAi9u4hbNcOTkYfplRxlZrCPOpKlahTk1DnyKi+nsv1jBQqc+U01d8mLSWZM/ESAoO3iRuCghDadV3ma/nXSEiQiBKJhPj4eGLj4jgWdYSklFRS0jPJzi2gSH0TeUEplbX3aHzYyb+NGpo0Wlof67jX3CrearhPRe2dif8BlyBUCuC9vOQAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/706eb22fe2b5eac6363a28b5be7decf7/47800/about-us-l5-img.png","srcSet":"/static/706eb22fe2b5eac6363a28b5be7decf7/47800/about-us-l5-img.png 637w","sizes":"100vw"},"sources":[{"srcSet":"/static/706eb22fe2b5eac6363a28b5be7decf7/b4c0a/about-us-l5-img.webp 637w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.7441130298273156}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3641822452.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3641822452.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEEklEQVQ4yzWTa2xTBRiGz18T/xhvgA4Nl7CExDsEowQiRsRggiBGxUyDYqbiQpSJCcEIkhHJuAzGXLkMkd267kZdt7EyWNdtdJN1966Xbd162VnP6Tm9bN3GNs5jVvFL3r9Pnjf5XsHjds35/T5CIVFTlDBqJIoaiRGLT5GYnmVyKsHIqIeFBxpXLl9Fd/kszqEe5ubmk7l/f06bn1/QSopLOXP6TFwYGR4iEPBrkjSBosioqkokCZxkcmqaeDxBz0A7Hfbb6MsLOJVzjJA0QTwe58EDjf9Przdo+7/LQOjusWmSFHpoKBNWwshyGFWNEo1GicViBEUf5iYjh49/QtapDERRTBq3NDdz4tiv2snjiznK7p07NSH77C+IE+NIkoiiSKgRlUg0Tiw2SSQaxTHYj2NwgPP5J9mdtp79B/bQZe/hQs5ZVj67lFUpy3gxdRWbN7zGh9u3IezZ+w4j3iEWK4fDoWRkeYLpmSkMxdfIO5KBz9GFqbaCgz98RObBTPZ9mcbyJU+Q8vTjpK5Yzgupq1m7eiVvvfkGQp4ui/HxAKIYfGgZIiyLJGYT6HU5nP7qA+w1xTTUGMn8Zh/ncs/z/nupbHl5DSlLnuS5ZU+xKmVpErxpwzoEl3MAWZaShotmqioloZNTMdz9nVw6sAeX6TqN9TfITP+Uuqrr7Nq2iZ93bGTT2hWsW/P8f9Dlz7Bx/SsIjbdqGBzoxefzEg5LqEoIRZWTxr29XVTqsnE0N3B/fgHF34eno5zK0mv8cSidQ9tfJ/frXbz7aiqPPfoIm9e/hHDxXBZlhfnca7ciKwpeRyeOm0X4hpyMjAwzOupFCiuElUjypVytN5A6zbSV5XP047fJ/mwrv6Vt58fvv8V0owqhqCCH+r9LuGezEpJlXN13OZ+2hU6THlmWURQVJazg9wfwj/kYtN6k+3YZnTYLuYczOPL5DuoqyggGRBLTMwgVJTpu1Zdja2kkKAYZ7rZQfCydDmsTwx43ojhBKCQx5vXicrrxefqwmQuxNBppvnMLc201vT09jI36EcUQQqX+IubaMqx3avEO9+JpLaW/tRq3x4OpvJCOtlZ8Y34CvjHcTheqJDIZkbFZzbS3Wei2d+BxO5Nj8I4MIxgK87Q6YxG3G6o0R58deWIcR18vQ0MjxGJxZmZmkxOMxRPEpqaZnl0gGBTp/OcurZYGWprqtQaTQXO7BjGWl2jC9UvZVBuuJKH9fd34fEHS936B7g8dwfEQPv84oYCfCb+PMacDe5sFW6uVjrvNtDTVLQKpM5bwZ94JraqkACH7+E+zBXknMBTlaW3WRgb6+tm6eSP5F/IIjMvY29vpqinD2WahIvd3Kv/Kp8FowGwqx3qnjqrSy1p7W7NWrb/KuayD6r9Hxa4Q4zHvDQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/9a3d917753737eed940e7db70c57adea/8f823/content-l3-img-1.png","srcSet":"/static/9a3d917753737eed940e7db70c57adea/8f823/content-l3-img-1.png 706w","sizes":"100vw"},"sources":[{"srcSet":"/static/9a3d917753737eed940e7db70c57adea/644f3/content-l3-img-1.webp 706w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.7677053824362606}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3941923232.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3941923232.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,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"},"images":{"fallback":{"src":"/static/bd8b0cc397bf83c836a014f4a9f3fa5d/62d24/content-1-l5-img.png","srcSet":"/static/bd8b0cc397bf83c836a014f4a9f3fa5d/62d24/content-1-l5-img.png 416w","sizes":"100vw"},"sources":[{"srcSet":"/static/bd8b0cc397bf83c836a014f4a9f3fa5d/abc3d/content-1-l5-img.webp 416w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":1.2259615384615385}');
 
 /***/ }),
 
@@ -12212,90 +12200,114 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _image_it_services_insta_4_png__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ~image/it-services/insta-4.png */ "./src/assets/image/it-services/insta-4.png");
 /* harmony import */ var _image_it_services_insta_5_png__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ~image/it-services/insta-5.png */ "./src/assets/image/it-services/insta-5.png");
 /* harmony import */ var _image_it_services_insta_6_png__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ~image/it-services/insta-6.png */ "./src/assets/image/it-services/insta-6.png");
-/* harmony import */ var _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ~image/home-services/hero-l4-image.png */ "./src/assets/image/home-services/hero-l4-image.png");
-/* harmony import */ var _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ~image/home-services/hero-overlay.png */ "./src/assets/image/home-services/hero-overlay.png");
-/* harmony import */ var _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-1.png */ "./src/assets/image/home-services/about-us-image-l4-1.png");
-/* harmony import */ var _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-2.png */ "./src/assets/image/home-services/about-us-image-l4-2.png");
-/* harmony import */ var _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! ~image/home-services/content-img-l4-2.png */ "./src/assets/image/home-services/content-img-l4-2.png");
-/* harmony import */ var _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ~image/home-services/promo-l4-img.png */ "./src/assets/image/home-services/promo-l4-img.png");
-/* harmony import */ var _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ~image/home-services/user-img-1.png */ "./src/assets/image/home-services/user-img-1.png");
-/* harmony import */ var _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ~image/home-services/contact-map.png */ "./src/assets/image/home-services/contact-map.png");
-/* harmony import */ var _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ~image/home-agency/hero-l5-bg.jpg */ "./src/assets/image/home-agency/hero-l5-bg.jpg");
-/* harmony import */ var _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ~image/home-agency/hero-bg-overlay.png */ "./src/assets/image/home-agency/hero-bg-overlay.png");
-/* harmony import */ var _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ~image/home-agency/about-us-l5-img.png */ "./src/assets/image/home-agency/about-us-l5-img.png");
-/* harmony import */ var _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ~image/home-agency/content-1-l5-img.png */ "./src/assets/image/home-agency/content-1-l5-img.png");
-/* harmony import */ var _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ~image/home-agency/customer-img-1.png */ "./src/assets/image/home-agency/customer-img-1.png");
-/* harmony import */ var _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ~image/home-agency/customer-img-2.png */ "./src/assets/image/home-agency/customer-img-2.png");
-/* harmony import */ var _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ~image/home-agency/customer-img-3.png */ "./src/assets/image/home-agency/customer-img-3.png");
-/* harmony import */ var _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ~image/home-agency/promo-l5-img.png */ "./src/assets/image/home-agency/promo-l5-img.png");
-/* harmony import */ var _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ~image/home-digital-agency/hero-l7-bg.png */ "./src/assets/image/home-digital-agency/hero-l7-bg.png");
-/* harmony import */ var _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-1.png */ "./src/assets/image/home-digital-agency/services-icon-1.png");
-/* harmony import */ var _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-2.png */ "./src/assets/image/home-digital-agency/services-icon-2.png");
-/* harmony import */ var _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-3.png */ "./src/assets/image/home-digital-agency/services-icon-3.png");
-/* harmony import */ var _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ~image/home-digital-agency/about-videos-img.png */ "./src/assets/image/home-digital-agency/about-videos-img.png");
-/* harmony import */ var _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-1.png */ "./src/assets/image/home-digital-agency/content-l7-1.png");
-/* harmony import */ var _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-2.png */ "./src/assets/image/home-digital-agency/content-l7-2.png");
-/* harmony import */ var _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ~image/home-digital-agency/1.jpg */ "./src/assets/image/home-digital-agency/1.jpg");
-/* harmony import */ var _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ~image/home-digital-agency/2.jpg */ "./src/assets/image/home-digital-agency/2.jpg");
-/* harmony import */ var _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-1.png */ "./src/assets/image/home-digital-agency/team-member-1.png");
-/* harmony import */ var _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-2.png */ "./src/assets/image/home-digital-agency/team-member-2.png");
-/* harmony import */ var _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-3.png */ "./src/assets/image/home-digital-agency/team-member-3.png");
-/* harmony import */ var _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-4.png */ "./src/assets/image/home-digital-agency/team-member-4.png");
-/* harmony import */ var _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-5.png */ "./src/assets/image/home-digital-agency/team-member-5.png");
-/* harmony import */ var _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-1.png */ "./src/assets/image/portfolio/portfolio-l6-img-1.png");
-/* harmony import */ var _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-2.png */ "./src/assets/image/portfolio/portfolio-l6-img-2.png");
-/* harmony import */ var _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-1.png */ "./src/assets/image/portfolio/portfolio-img-1.png");
-/* harmony import */ var _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ~image/home-app/hero-l8-1.png */ "./src/assets/image/home-app/hero-l8-1.png");
-/* harmony import */ var _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ~image/home-app/hero-l8-2.png */ "./src/assets/image/home-app/hero-l8-2.png");
-/* harmony import */ var _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ~image/home-app/about-mobile-img.png */ "./src/assets/image/home-app/about-mobile-img.png");
-/* harmony import */ var _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ~image/home-app/content-mobile-img.png */ "./src/assets/image/home-app/content-mobile-img.png");
-/* harmony import */ var _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ~image/home-app/red-shape.png */ "./src/assets/image/home-app/red-shape.png");
-/* harmony import */ var _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ~image/home-app/promo-l8-img.png */ "./src/assets/image/home-app/promo-l8-img.png");
-/* harmony import */ var _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ~image/home-startup/hero-img.png */ "./src/assets/image/home-startup/hero-img.png");
-/* harmony import */ var _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ~image/home-startup/services-img-1.png */ "./src/assets/image/home-startup/services-img-1.png");
-/* harmony import */ var _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ~image/home-startup/services-img-2.png */ "./src/assets/image/home-startup/services-img-2.png");
-/* harmony import */ var _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ~image/home-startup/about-us-img.png */ "./src/assets/image/home-startup/about-us-img.png");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-1.png */ "./src/assets/image/portfolio/l8-portfolio-img-1.png");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-2.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-2.jpg");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-3.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-3.jpg");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-4.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-4.jpg");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-5.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-5.jpg");
-/* harmony import */ var _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ~image/home-startup/blogs-img-1.png */ "./src/assets/image/home-startup/blogs-img-1.png");
-/* harmony import */ var _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ~image/home-startup/blogs-img-2.png */ "./src/assets/image/home-startup/blogs-img-2.png");
-/* harmony import */ var _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ~image/home-startup/blogs-img-3.png */ "./src/assets/image/home-startup/blogs-img-3.png");
-/* harmony import */ var _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ~image/mixed/inner-banner-shape.png */ "./src/assets/image/mixed/inner-banner-shape.png");
-/* harmony import */ var _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ~image/blogs/blog-post-1.png */ "./src/assets/image/blogs/blog-post-1.png");
-/* harmony import */ var _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ~image/blogs/blog-post-2.png */ "./src/assets/image/blogs/blog-post-2.png");
-/* harmony import */ var _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ~image/blogs/blog-post-3.png */ "./src/assets/image/blogs/blog-post-3.png");
-/* harmony import */ var _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ~image/blogs/blog-post-4.png */ "./src/assets/image/blogs/blog-post-4.png");
-/* harmony import */ var _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ~image/blogs/blog-post-5.png */ "./src/assets/image/blogs/blog-post-5.png");
-/* harmony import */ var _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ~image/blogs/blog-post-6.png */ "./src/assets/image/blogs/blog-post-6.png");
-/* harmony import */ var _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ~image/blogs/blog-post-7.png */ "./src/assets/image/blogs/blog-post-7.png");
-/* harmony import */ var _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ~image/blogs/blog-details-img-1.png */ "./src/assets/image/blogs/blog-details-img-1.png");
-/* harmony import */ var _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ~image/mixed/ads-img.png */ "./src/assets/image/mixed/ads-img.png");
-/* harmony import */ var _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ~image/mixed/user-img-1.png */ "./src/assets/image/mixed/user-img-1.png");
-/* harmony import */ var _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ~image/mixed/user-img-2.png */ "./src/assets/image/mixed/user-img-2.png");
-/* harmony import */ var _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ~image/mixed/user-img-3.png */ "./src/assets/image/mixed/user-img-3.png");
-/* harmony import */ var _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ~image/mixed/career-video-bg.png */ "./src/assets/image/mixed/career-video-bg.png");
-/* harmony import */ var _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ~image/accounts/sign-in.jpg */ "./src/assets/image/accounts/sign-in.jpg");
-/* harmony import */ var _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ~image/accounts/sign-up.jpg */ "./src/assets/image/accounts/sign-up.jpg");
-/* harmony import */ var _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ~image/accounts/reset-pass-img.jpg */ "./src/assets/image/accounts/reset-pass-img.jpg");
-/* harmony import */ var _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-2.png */ "./src/assets/image/portfolio/portfolio-img-2.png");
-/* harmony import */ var _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-3.png */ "./src/assets/image/portfolio/portfolio-img-3.png");
-/* harmony import */ var _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-4.png */ "./src/assets/image/portfolio/portfolio-img-4.png");
-/* harmony import */ var _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-5.png */ "./src/assets/image/portfolio/portfolio-img-5.png");
-/* harmony import */ var _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-5.jpg */ "./src/assets/image/portfolio/portfolio-mas-5.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-1.jpg */ "./src/assets/image/portfolio/portfolio-mas-1.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-2.jpg */ "./src/assets/image/portfolio/portfolio-mas-2.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-11.jpg */ "./src/assets/image/portfolio/portfolio-mas-11.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-9.jpg */ "./src/assets/image/portfolio/portfolio-mas-9.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-6.jpg */ "./src/assets/image/portfolio/portfolio-mas-6.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-8.jpg */ "./src/assets/image/portfolio/portfolio-mas-8.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-4.jpg */ "./src/assets/image/portfolio/portfolio-mas-4.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-15.jpg */ "./src/assets/image/portfolio/portfolio-mas-15.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-16.jpg */ "./src/assets/image/portfolio/portfolio-mas-16.jpg");
-/* harmony import */ var _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ~image/portfolio/portfolio-details-left.jpg */ "./src/assets/image/portfolio/portfolio-details-left.jpg");
-/* harmony import */ var _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ~image/mixed/404.png */ "./src/assets/image/mixed/404.png");
+/* harmony import */ var _image_it_services_jente_jpg__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ~image/it-services/jente.jpg */ "./src/assets/image/it-services/jente.jpg");
+/* harmony import */ var _image_it_services_denis_png__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ~image/it-services/denis.png */ "./src/assets/image/it-services/denis.png");
+/* harmony import */ var _image_it_services_peter_png__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ~image/it-services/peter.png */ "./src/assets/image/it-services/peter.png");
+/* harmony import */ var _image_it_services_ken_png__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! ~image/it-services/ken.png */ "./src/assets/image/it-services/ken.png");
+/* harmony import */ var _image_it_services_joyce_png__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! ~image/it-services/joyce.png */ "./src/assets/image/it-services/joyce.png");
+/* harmony import */ var _image_it_services_esther_png__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ~image/it-services/esther.png */ "./src/assets/image/it-services/esther.png");
+/* harmony import */ var _image_it_services_noella_png__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ~image/it-services/noella.png */ "./src/assets/image/it-services/noella.png");
+/* harmony import */ var _image_it_services_Joy_Linda_png__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ~image/it-services/Joy-Linda.png */ "./src/assets/image/it-services/Joy-Linda.png");
+/* harmony import */ var _image_it_services_Fatuma_png__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ~image/it-services/Fatuma.png */ "./src/assets/image/it-services/Fatuma.png");
+/* harmony import */ var _image_it_services_denis_rm_bg_png__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ~image/it-services/denis-rm-bg.png */ "./src/assets/image/it-services/denis-rm-bg.png");
+/* harmony import */ var _image_it_services_elewa_team_png__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ~image/it-services/elewa-team.png */ "./src/assets/image/it-services/elewa-team.png");
+/* harmony import */ var _image_it_services_ital_png__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ~image/it-services/ital.png */ "./src/assets/image/it-services/ital.png");
+/* harmony import */ var _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ~image/home-services/hero-l4-image.png */ "./src/assets/image/home-services/hero-l4-image.png");
+/* harmony import */ var _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ~image/home-services/hero-overlay.png */ "./src/assets/image/home-services/hero-overlay.png");
+/* harmony import */ var _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-1.png */ "./src/assets/image/home-services/about-us-image-l4-1.png");
+/* harmony import */ var _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-2.png */ "./src/assets/image/home-services/about-us-image-l4-2.png");
+/* harmony import */ var _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ~image/home-services/content-img-l4-2.png */ "./src/assets/image/home-services/content-img-l4-2.png");
+/* harmony import */ var _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ~image/home-services/promo-l4-img.png */ "./src/assets/image/home-services/promo-l4-img.png");
+/* harmony import */ var _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ~image/home-services/user-img-1.png */ "./src/assets/image/home-services/user-img-1.png");
+/* harmony import */ var _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ~image/home-services/contact-map.png */ "./src/assets/image/home-services/contact-map.png");
+/* harmony import */ var _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ~image/home-agency/hero-l5-bg.jpg */ "./src/assets/image/home-agency/hero-l5-bg.jpg");
+/* harmony import */ var _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ~image/home-agency/hero-bg-overlay.png */ "./src/assets/image/home-agency/hero-bg-overlay.png");
+/* harmony import */ var _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ~image/home-agency/about-us-l5-img.png */ "./src/assets/image/home-agency/about-us-l5-img.png");
+/* harmony import */ var _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ~image/home-agency/content-1-l5-img.png */ "./src/assets/image/home-agency/content-1-l5-img.png");
+/* harmony import */ var _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ~image/home-agency/customer-img-1.png */ "./src/assets/image/home-agency/customer-img-1.png");
+/* harmony import */ var _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ~image/home-agency/customer-img-2.png */ "./src/assets/image/home-agency/customer-img-2.png");
+/* harmony import */ var _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ~image/home-agency/customer-img-3.png */ "./src/assets/image/home-agency/customer-img-3.png");
+/* harmony import */ var _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ~image/home-agency/promo-l5-img.png */ "./src/assets/image/home-agency/promo-l5-img.png");
+/* harmony import */ var _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ~image/home-digital-agency/hero-l7-bg.png */ "./src/assets/image/home-digital-agency/hero-l7-bg.png");
+/* harmony import */ var _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-1.png */ "./src/assets/image/home-digital-agency/services-icon-1.png");
+/* harmony import */ var _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-2.png */ "./src/assets/image/home-digital-agency/services-icon-2.png");
+/* harmony import */ var _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-3.png */ "./src/assets/image/home-digital-agency/services-icon-3.png");
+/* harmony import */ var _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ~image/home-digital-agency/about-videos-img.png */ "./src/assets/image/home-digital-agency/about-videos-img.png");
+/* harmony import */ var _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-1.png */ "./src/assets/image/home-digital-agency/content-l7-1.png");
+/* harmony import */ var _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-2.png */ "./src/assets/image/home-digital-agency/content-l7-2.png");
+/* harmony import */ var _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ~image/home-digital-agency/1.jpg */ "./src/assets/image/home-digital-agency/1.jpg");
+/* harmony import */ var _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ~image/home-digital-agency/2.jpg */ "./src/assets/image/home-digital-agency/2.jpg");
+/* harmony import */ var _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-1.png */ "./src/assets/image/home-digital-agency/team-member-1.png");
+/* harmony import */ var _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-2.png */ "./src/assets/image/home-digital-agency/team-member-2.png");
+/* harmony import */ var _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-3.png */ "./src/assets/image/home-digital-agency/team-member-3.png");
+/* harmony import */ var _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-4.png */ "./src/assets/image/home-digital-agency/team-member-4.png");
+/* harmony import */ var _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-5.png */ "./src/assets/image/home-digital-agency/team-member-5.png");
+/* harmony import */ var _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-1.png */ "./src/assets/image/portfolio/portfolio-l6-img-1.png");
+/* harmony import */ var _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-2.png */ "./src/assets/image/portfolio/portfolio-l6-img-2.png");
+/* harmony import */ var _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-1.png */ "./src/assets/image/portfolio/portfolio-img-1.png");
+/* harmony import */ var _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ~image/home-app/hero-l8-1.png */ "./src/assets/image/home-app/hero-l8-1.png");
+/* harmony import */ var _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ~image/home-app/hero-l8-2.png */ "./src/assets/image/home-app/hero-l8-2.png");
+/* harmony import */ var _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ~image/home-app/about-mobile-img.png */ "./src/assets/image/home-app/about-mobile-img.png");
+/* harmony import */ var _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ~image/home-app/content-mobile-img.png */ "./src/assets/image/home-app/content-mobile-img.png");
+/* harmony import */ var _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ~image/home-app/red-shape.png */ "./src/assets/image/home-app/red-shape.png");
+/* harmony import */ var _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ~image/home-app/promo-l8-img.png */ "./src/assets/image/home-app/promo-l8-img.png");
+/* harmony import */ var _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ~image/home-startup/hero-img.png */ "./src/assets/image/home-startup/hero-img.png");
+/* harmony import */ var _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ~image/home-startup/services-img-1.png */ "./src/assets/image/home-startup/services-img-1.png");
+/* harmony import */ var _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ~image/home-startup/services-img-2.png */ "./src/assets/image/home-startup/services-img-2.png");
+/* harmony import */ var _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ~image/home-startup/about-us-img.png */ "./src/assets/image/home-startup/about-us-img.png");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-1.png */ "./src/assets/image/portfolio/l8-portfolio-img-1.png");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-2.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-2.jpg");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-3.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-3.jpg");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-4.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-4.jpg");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-5.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-5.jpg");
+/* harmony import */ var _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ~image/home-startup/blogs-img-1.png */ "./src/assets/image/home-startup/blogs-img-1.png");
+/* harmony import */ var _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ~image/home-startup/blogs-img-2.png */ "./src/assets/image/home-startup/blogs-img-2.png");
+/* harmony import */ var _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ~image/home-startup/blogs-img-3.png */ "./src/assets/image/home-startup/blogs-img-3.png");
+/* harmony import */ var _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ~image/mixed/inner-banner-shape.png */ "./src/assets/image/mixed/inner-banner-shape.png");
+/* harmony import */ var _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ~image/blogs/blog-post-1.png */ "./src/assets/image/blogs/blog-post-1.png");
+/* harmony import */ var _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ~image/blogs/blog-post-2.png */ "./src/assets/image/blogs/blog-post-2.png");
+/* harmony import */ var _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ~image/blogs/blog-post-3.png */ "./src/assets/image/blogs/blog-post-3.png");
+/* harmony import */ var _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ~image/blogs/blog-post-4.png */ "./src/assets/image/blogs/blog-post-4.png");
+/* harmony import */ var _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ~image/blogs/blog-post-5.png */ "./src/assets/image/blogs/blog-post-5.png");
+/* harmony import */ var _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ~image/blogs/blog-post-6.png */ "./src/assets/image/blogs/blog-post-6.png");
+/* harmony import */ var _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ~image/blogs/blog-post-7.png */ "./src/assets/image/blogs/blog-post-7.png");
+/* harmony import */ var _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ~image/blogs/blog-details-img-1.png */ "./src/assets/image/blogs/blog-details-img-1.png");
+/* harmony import */ var _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ~image/mixed/ads-img.png */ "./src/assets/image/mixed/ads-img.png");
+/* harmony import */ var _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ~image/mixed/user-img-1.png */ "./src/assets/image/mixed/user-img-1.png");
+/* harmony import */ var _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ~image/mixed/user-img-2.png */ "./src/assets/image/mixed/user-img-2.png");
+/* harmony import */ var _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ~image/mixed/user-img-3.png */ "./src/assets/image/mixed/user-img-3.png");
+/* harmony import */ var _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ~image/mixed/career-video-bg.png */ "./src/assets/image/mixed/career-video-bg.png");
+/* harmony import */ var _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ~image/accounts/sign-in.jpg */ "./src/assets/image/accounts/sign-in.jpg");
+/* harmony import */ var _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ~image/accounts/sign-up.jpg */ "./src/assets/image/accounts/sign-up.jpg");
+/* harmony import */ var _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ~image/accounts/reset-pass-img.jpg */ "./src/assets/image/accounts/reset-pass-img.jpg");
+/* harmony import */ var _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-2.png */ "./src/assets/image/portfolio/portfolio-img-2.png");
+/* harmony import */ var _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-3.png */ "./src/assets/image/portfolio/portfolio-img-3.png");
+/* harmony import */ var _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-4.png */ "./src/assets/image/portfolio/portfolio-img-4.png");
+/* harmony import */ var _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-5.png */ "./src/assets/image/portfolio/portfolio-img-5.png");
+/* harmony import */ var _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_163__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-5.jpg */ "./src/assets/image/portfolio/portfolio-mas-5.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_164__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-1.jpg */ "./src/assets/image/portfolio/portfolio-mas-1.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_165__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-2.jpg */ "./src/assets/image/portfolio/portfolio-mas-2.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_166__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-11.jpg */ "./src/assets/image/portfolio/portfolio-mas-11.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_167__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-9.jpg */ "./src/assets/image/portfolio/portfolio-mas-9.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_168__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-6.jpg */ "./src/assets/image/portfolio/portfolio-mas-6.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_169__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-8.jpg */ "./src/assets/image/portfolio/portfolio-mas-8.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_170__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-4.jpg */ "./src/assets/image/portfolio/portfolio-mas-4.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_171__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-15.jpg */ "./src/assets/image/portfolio/portfolio-mas-15.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_172__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-16.jpg */ "./src/assets/image/portfolio/portfolio-mas-16.jpg");
+/* harmony import */ var _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_173__ = __webpack_require__(/*! ~image/portfolio/portfolio-details-left.jpg */ "./src/assets/image/portfolio/portfolio-details-left.jpg");
+/* harmony import */ var _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_174__ = __webpack_require__(/*! ~image/mixed/404.png */ "./src/assets/image/mixed/404.png");
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12536,7 +12548,19 @@ const Images = {
     promoBg: _image_it_services_promo_bg_png__WEBPACK_IMPORTED_MODULE_66__.default,
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
     testiMonialUserImg2: _image_it_services_user_circle_2_png__WEBPACK_IMPORTED_MODULE_68__.default,
-    testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default
+    testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default,
+    jente: _image_it_services_jente_jpg__WEBPACK_IMPORTED_MODULE_79__.default,
+    peter: _image_it_services_peter_png__WEBPACK_IMPORTED_MODULE_81__.default,
+    ken: _image_it_services_ken_png__WEBPACK_IMPORTED_MODULE_82__.default,
+    denis: _image_it_services_denis_png__WEBPACK_IMPORTED_MODULE_80__.default,
+    joyce: _image_it_services_joyce_png__WEBPACK_IMPORTED_MODULE_83__.default,
+    esther: _image_it_services_esther_png__WEBPACK_IMPORTED_MODULE_84__.default,
+    noella: _image_it_services_noella_png__WEBPACK_IMPORTED_MODULE_85__.default,
+    joylinda: _image_it_services_Joy_Linda_png__WEBPACK_IMPORTED_MODULE_86__.default,
+    fatuma: _image_it_services_Fatuma_png__WEBPACK_IMPORTED_MODULE_87__.default,
+    denisrmbg: _image_it_services_denis_rm_bg_png__WEBPACK_IMPORTED_MODULE_88__.default,
+    elewateam: _image_it_services_elewa_team_png__WEBPACK_IMPORTED_MODULE_89__.default,
+    itallogo: _image_it_services_ital_png__WEBPACK_IMPORTED_MODULE_90__.default
   },
   footerThree: {
     instaImg1: _image_it_services_insta_1_png__WEBPACK_IMPORTED_MODULE_73__.default,
@@ -12547,112 +12571,112 @@ const Images = {
     instaImg6: _image_it_services_insta_6_png__WEBPACK_IMPORTED_MODULE_78__.default
   },
   Services: {
-    heroImg: _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_79__.default,
-    heroImgOverlay: _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_80__.default,
-    aboutUsImg1: _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_81__.default,
-    aboutUsImg2: _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_82__.default,
-    whyChooseImg: _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_83__.default,
-    promoBg: _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_84__.default,
+    heroImg: _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_91__.default,
+    heroImgOverlay: _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_92__.default,
+    aboutUsImg1: _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_93__.default,
+    aboutUsImg2: _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_94__.default,
+    whyChooseImg: _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_95__.default,
+    promoBg: _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_96__.default,
     testiMonialUserimg1: _image_marketing_user_1_png__WEBPACK_IMPORTED_MODULE_40__.default,
     testiMonialUserimg2: _image_marketing_user_2_png__WEBPACK_IMPORTED_MODULE_41__.default,
     testiMonialUserimg3: _image_marketing_user_3_png__WEBPACK_IMPORTED_MODULE_42__.default,
-    testiMonialUserimg4: _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_85__.default,
-    mapImg: _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_86__.default
+    testiMonialUserimg4: _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_97__.default,
+    mapImg: _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_98__.default
   },
   agency: {
-    heroImg: _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_87__.default,
-    heroImgOverlay: _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_88__.default,
-    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_89__.default,
-    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_90__.default,
-    testiMonialUserimg1: _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_91__.default,
-    testiMonialUserimg2: _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_92__.default,
-    testiMonialUserimg3: _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_93__.default,
-    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_94__.default
+    heroImg: _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_99__.default,
+    heroImgOverlay: _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_100__.default,
+    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_101__.default,
+    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_102__.default,
+    testiMonialUserimg1: _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_103__.default,
+    testiMonialUserimg2: _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_104__.default,
+    testiMonialUserimg3: _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_105__.default,
+    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_106__.default
   },
   DigiTalagency: {
-    heroImg: _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_95__.default,
-    servicesIcon1: _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_96__.default,
-    servicesIcon2: _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_97__.default,
-    servicesIcon3: _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_98__.default,
-    videoContentImg: _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_99__.default,
-    aboutUsImg1: _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_100__.default,
-    aboutUsImg2: _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_101__.default,
-    contentOneImg1: _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_102__.default,
-    contentOneImg2: _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_103__.default,
-    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_104__.default,
-    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_105__.default,
-    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_106__.default,
-    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_107__.default,
-    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_108__.default,
-    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_94__.default,
-    portFolioImg1: _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_109__.default,
-    portFolioImg2: _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_110__.default,
-    portFolioImg3: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_111__.default
+    heroImg: _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_107__.default,
+    servicesIcon1: _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_108__.default,
+    servicesIcon2: _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_109__.default,
+    servicesIcon3: _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_110__.default,
+    videoContentImg: _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_111__.default,
+    aboutUsImg1: _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_112__.default,
+    aboutUsImg2: _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_113__.default,
+    contentOneImg1: _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_114__.default,
+    contentOneImg2: _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_115__.default,
+    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_116__.default,
+    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_117__.default,
+    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_118__.default,
+    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_119__.default,
+    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_120__.default,
+    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_106__.default,
+    portFolioImg1: _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_121__.default,
+    portFolioImg2: _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_122__.default,
+    portFolioImg3: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__.default
   },
   HomeApp: {
-    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_112__.default,
-    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_113__.default,
-    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_114__.default,
-    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_115__.default,
-    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_116__.default,
+    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_124__.default,
+    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_125__.default,
+    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_126__.default,
+    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_127__.default,
+    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_128__.default,
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
     testiMonialUserImg2: _image_it_services_user_circle_2_png__WEBPACK_IMPORTED_MODULE_68__.default,
     testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default,
-    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_117__.default
+    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_129__.default
   },
   HomeApp: {
-    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_112__.default,
-    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_113__.default,
-    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_114__.default,
-    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_115__.default,
-    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_116__.default,
+    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_124__.default,
+    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_125__.default,
+    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_126__.default,
+    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_127__.default,
+    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_128__.default,
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
     testiMonialUserImg2: _image_it_services_user_circle_2_png__WEBPACK_IMPORTED_MODULE_68__.default,
     testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default,
-    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_117__.default
+    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_129__.default
   },
   HomeStartup: {
-    heroImg: _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_118__.default,
-    serVicesImg1: _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_119__.default,
-    serVicesImg2: _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_120__.default,
-    aboutUsimg: _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_121__.default,
-    portFolioImg1: _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_122__.default,
-    portFolioImg2: _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_123__.default,
-    portFolioImg3: _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_124__.default,
-    portFolioImg4: _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_125__.default,
-    portFolioImg5: _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_126__.default,
+    heroImg: _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_130__.default,
+    serVicesImg1: _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_131__.default,
+    serVicesImg2: _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_132__.default,
+    aboutUsimg: _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_133__.default,
+    portFolioImg1: _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_134__.default,
+    portFolioImg2: _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_135__.default,
+    portFolioImg3: _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_136__.default,
+    portFolioImg4: _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_137__.default,
+    portFolioImg5: _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_138__.default,
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
     testiMonialUserImg2: _image_it_services_user_circle_2_png__WEBPACK_IMPORTED_MODULE_68__.default,
     testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default,
-    blogThumbImg1: _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_127__.default,
-    blogThumbImg2: _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_128__.default,
-    blogThumbImg3: _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_129__.default
+    blogThumbImg1: _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_139__.default,
+    blogThumbImg2: _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_140__.default,
+    blogThumbImg3: _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_141__.default
   },
   PageAboutUs: {
-    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_89__.default,
+    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_101__.default,
     conTentOneImg: _image_it_services_feature_l3_image_png__WEBPACK_IMPORTED_MODULE_64__.default,
-    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_90__.default,
-    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_104__.default,
-    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_105__.default,
-    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_106__.default,
-    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_107__.default,
-    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_108__.default,
-    InnerPromoShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_130__.default
+    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_102__.default,
+    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_116__.default,
+    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_117__.default,
+    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_118__.default,
+    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_119__.default,
+    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_120__.default,
+    InnerPromoShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_142__.default
   },
-  pageTitleShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_130__.default,
+  pageTitleShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_142__.default,
   BlogsPage: {
-    BlogsImg1: _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_131__.default,
-    BlogsImg2: _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_132__.default,
-    BlogsImg3: _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_133__.default,
-    BlogsImg4: _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_134__.default,
-    BlogsImg5: _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_135__.default,
-    BlogsImg6: _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_136__.default,
-    BlogsImg7: _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_137__.default
+    BlogsImg1: _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_143__.default,
+    BlogsImg2: _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_144__.default,
+    BlogsImg3: _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_145__.default,
+    BlogsImg4: _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_146__.default,
+    BlogsImg5: _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_147__.default,
+    BlogsImg6: _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_148__.default,
+    BlogsImg7: _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_149__.default
   },
   CommentsSections: {
-    commentsUserImg1: _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_140__.default,
-    commentsUserImg2: _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_141__.default,
-    commentsUserImg3: _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_142__.default
+    commentsUserImg1: _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_152__.default,
+    commentsUserImg2: _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_153__.default,
+    commentsUserImg3: _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_154__.default
   },
   PricingTable1: {
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
@@ -12679,31 +12703,31 @@ const Images = {
     testiMonialUserImg6: _image_it_services_user_circle_6_png__WEBPACK_IMPORTED_MODULE_72__.default
   },
   PortFolioPage: {
-    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_111__.default,
-    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_147__.default,
-    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_148__.default,
-    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_149__.default,
-    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_150__.default
+    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__.default,
+    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_159__.default,
+    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_160__.default,
+    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_161__.default,
+    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_162__.default
   },
   PortFolioMas4: {
-    PortFoliosImg1: _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_151__.default,
-    PortFoliosImg2: _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_152__.default,
-    PortFoliosImg3: _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_153__.default,
-    PortFoliosImg4: _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_154__.default,
-    PortFoliosImg5: _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_155__.default,
-    PortFoliosImg6: _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_156__.default,
-    PortFoliosImg7: _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_157__.default,
-    PortFoliosImg8: _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_158__.default,
-    PortFoliosImg9: _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_159__.default,
-    PortFoliosImg10: _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_160__.default
+    PortFoliosImg1: _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_163__.default,
+    PortFoliosImg2: _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_164__.default,
+    PortFoliosImg3: _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_165__.default,
+    PortFoliosImg4: _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_166__.default,
+    PortFoliosImg5: _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_167__.default,
+    PortFoliosImg6: _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_168__.default,
+    PortFoliosImg7: _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_169__.default,
+    PortFoliosImg8: _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_170__.default,
+    PortFoliosImg9: _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_171__.default,
+    PortFoliosImg10: _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_172__.default
   },
   PortFolioDetails1: {
-    PortFoliosDetailsMain: _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_161__.default,
-    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_111__.default,
-    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_147__.default,
-    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_148__.default,
-    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_149__.default,
-    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_150__.default
+    PortFoliosDetailsMain: _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_173__.default,
+    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__.default,
+    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_159__.default,
+    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_160__.default,
+    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_161__.default,
+    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_162__.default
   },
   FooterOne: {
     LogoWhite: _image_logo_logo_white_png__WEBPACK_IMPORTED_MODULE_1__.default
@@ -12714,13 +12738,13 @@ const Images = {
   FooterSix: {
     LogoBlack: _image_logo_logo_black_png__WEBPACK_IMPORTED_MODULE_0__.default
   },
-  BlogsDetailsImg: _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_138__.default,
-  SiderbarAdsImg: _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_139__.default,
-  CareerPageVideobg: _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_143__.default,
-  SigninBgImg: _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_144__.default,
-  SignupBgImg: _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_145__.default,
-  ResetBgImg: _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_146__.default,
-  errorImage: _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_162__.default,
+  BlogsDetailsImg: _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_150__.default,
+  SiderbarAdsImg: _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_151__.default,
+  CareerPageVideobg: _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_155__.default,
+  SigninBgImg: _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_156__.default,
+  SignupBgImg: _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_157__.default,
+  ResetBgImg: _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_158__.default,
+  errorImage: _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_174__.default,
   CountdownBgImg: _image_mixed_pattern_img_1_png__WEBPACK_IMPORTED_MODULE_2__.default
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Images);
@@ -13150,48 +13174,6 @@ const ServiceData = {
   }]
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ServiceData);
-
-/***/ }),
-
-/***/ "./src/pages/contact.js":
-/*!******************************!*\
-  !*** ./src/pages/contact.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ HomeIt)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components/Core */ "./src/components/Core/index.js");
-/* harmony import */ var _sections_it_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~sections/it/Header */ "./src/sections/it/Header/index.js");
-/* harmony import */ var _sections_it_Cta__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ~sections/it/Cta */ "./src/sections/it/Cta/index.js");
-/* harmony import */ var _sections_it_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ~sections/it/Contact */ "./src/sections/it/Contact/index.js");
-/* harmony import */ var _sections_it_FooterThree__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ~sections/it/FooterThree */ "./src/sections/it/FooterThree/index.js");
-
-
-
-
-
-
-const header = {
-  headerClasses: "site-header site-header--menu-start light-header site-header--with-border site-header--sticky",
-  containerFluid: false,
-  buttonBlock: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Header__WEBPACK_IMPORTED_MODULE_2__.default, {
-    className: "ms-auto d-none d-xs-inline-flex",
-    btnText: "Purchase",
-    mr: "15px",
-    mrLG: "0"
-  })
-};
-function HomeIt() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Core__WEBPACK_IMPORTED_MODULE_1__.PageWrapper, {
-    headerConfig: header
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Contact__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_FooterThree__WEBPACK_IMPORTED_MODULE_5__.default, null));
-}
 
 /***/ }),
 
@@ -13727,11 +13709,11 @@ function ContentSection() {
     mbMD: "0",
     mtMD: "0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    src: "../../../assets/image/home-agency/content-1-l5-img.png",
+    src: "../../../assets/image/home-agency/elewa-team.png",
     alt: "content",
     layout: "fullWidth",
     placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3941923232.json */ "./.cache/caches/gatsby-plugin-image/3941923232.json")
+    __error: "No data found for image \"../../../assets/image/home-agency/elewa-team.png\"\n              undefinedCould not read image data file \"C:\\Users\\ianod\\elewa\\italanta-website\\.cache\\caches\\gatsby-plugin-image\\2741225273.json\". \nThis may mean that the images in \"C:\\Users\\ianod\\elewa\\italanta-website\\src\\sections\\About\\Content\\ContentSection.js\" were not processed.\nPlease ensure that your gatsby version is at least 2.24.78."
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
     xs: "12",
     className: "col-xl-3 col-lg-4 col-md-6 col-xs-9 order-3"
@@ -14552,25 +14534,41 @@ function TeamSection({ ...rest
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_5__.default.SliderWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__.default, Object.assign({
     ref: elSlider
   }, sliderConfig), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.DigiTalagency.teamImg1,
-    userName: "Talan Bergson",
-    userPosition: "CEO, Greener"
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.jente,
+    userName: "Jente Rosseel",
+    userPosition: "CEO"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.DigiTalagency.teamImg2,
-    userName: "Talan Bergson",
-    userPosition: "CEO, Greener"
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.peter,
+    userName: "Peter Reinartz",
+    userPosition: "Management"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.DigiTalagency.teamImg3,
-    userName: "Talan Bergson",
-    userPosition: "CEO, Greener"
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.ken,
+    userName: "Kennedy Adhola",
+    userPosition: "Management"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.DigiTalagency.teamImg4,
-    userName: "Talan Bergson",
-    userPosition: "CEO, Greener"
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.joyce,
+    userName: "Joyce Njoki",
+    userPosition: "Support"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.DigiTalagency.teamImg5,
-    userName: "Talan Bergson",
-    userPosition: "CEO, Greener"
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.denis,
+    userName: "Denis Githinji",
+    userPosition: "Engineer"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.esther,
+    userName: "Esther Bidali",
+    userPosition: "Engineer"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.noella,
+    userName: "Noella Mwanzia",
+    userPosition: "Engineer"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.joylinda,
+    userName: "Joy Linda",
+    userPosition: "Engineer"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
+    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.fatuma,
+    userName: "Fatuma Abdullahi",
+    userPosition: "Engineer"
   })))));
 }
 
@@ -15215,11 +15213,11 @@ function ContentSectionOne() {
     className: "col-xl-7 col-lg-6 col-md-8 col-xs-10 order-1 order-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Image, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "w-100",
-    src: "../../../assets/image/it-services/content-l3-img-1.png",
+    src: "../../../assets/image/it-services/elewa-team.png",
     alt: "content",
     layout: "fullWidth",
     placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3641822452.json */ "./.cache/caches/gatsby-plugin-image/3641822452.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/257692674.json */ "./.cache/caches/gatsby-plugin-image/257692674.json")
   }))))));
 }
 
@@ -70069,6 +70067,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/image/it-services/Fatuma.png":
+/*!*************************************************!*\
+  !*** ./src/assets/image/it-services/Fatuma.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/Fatuma-571c6b5492973f81b7613f8d7bbf949c.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/Joy-Linda.png":
+/*!****************************************************!*\
+  !*** ./src/assets/image/it-services/Joy-Linda.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/Joy-Linda-0cfd6e9af5bc7116d47fd573da03ba16.png");
+
+/***/ }),
+
 /***/ "./src/assets/image/it-services/content-l3-img-1.png":
 /*!***********************************************************!*\
   !*** ./src/assets/image/it-services/content-l3-img-1.png ***!
@@ -70081,6 +70109,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/content-l3-img-1-f6d9b691b5f21b1909d4bc38f2b7afe2.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/denis-rm-bg.png":
+/*!******************************************************!*\
+  !*** ./src/assets/image/it-services/denis-rm-bg.png ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/denis-rm-bg-7021cbdb324e0964e7676a92928f566a.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/denis.png":
+/*!************************************************!*\
+  !*** ./src/assets/image/it-services/denis.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/denis-a40b7a398822041b9d660c6692b4d967.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/elewa-team.png":
+/*!*****************************************************!*\
+  !*** ./src/assets/image/it-services/elewa-team.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/elewa-team-e08e5e8deec3ace49ad4bbab51f08d1e.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/esther.png":
+/*!*************************************************!*\
+  !*** ./src/assets/image/it-services/esther.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/esther-97add2983374c7b8fdd9aa5957cfe3a0.png");
 
 /***/ }),
 
@@ -70186,6 +70274,96 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/ital.png":
+/*!***********************************************!*\
+  !*** ./src/assets/image/it-services/ital.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/ital-a75f3ca2cd8c2c8b9017ddf36fa07e23.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/jente.jpg":
+/*!************************************************!*\
+  !*** ./src/assets/image/it-services/jente.jpg ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/jente-842fe1c13c90cc1e77d09c99ff6a6d25.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/joyce.png":
+/*!************************************************!*\
+  !*** ./src/assets/image/it-services/joyce.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/joyce-c0676ab2db0101ac335c5657fc15c1e7.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/ken.png":
+/*!**********************************************!*\
+  !*** ./src/assets/image/it-services/ken.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/ken-20c9c6efccbb94e95ce2073545cb601b.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/noella.png":
+/*!*************************************************!*\
+  !*** ./src/assets/image/it-services/noella.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/noella-ec3678eb5b187ab6d7714154a2717038.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/peter.png":
+/*!************************************************!*\
+  !*** ./src/assets/image/it-services/peter.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/peter-a1e15dcfdd8b9b76e72858d2c15ccba1.png");
 
 /***/ }),
 
