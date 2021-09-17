@@ -108,6 +108,11 @@ import l6teamImg2 from "~image/home-digital-agency/team-member-2.png";
 import l6teamImg3 from "~image/home-digital-agency/team-member-3.png";
 import l6teamImg4 from "~image/home-digital-agency/team-member-4.png";
 import l6teamImg5 from "~image/home-digital-agency/team-member-5.png";
+import jente from "~image/home-digital-agency/jente.jpg";
+import denis from "~image/home-digital-agency/denis.png";
+import peter from "~image/home-digital-agency/peter.png";
+import ken from "~image/home-digital-agency/ken.png";
+import joyce from "~image/home-digital-agency/joyce.png";
 import l6portFolioImg1 from "~image/portfolio/portfolio-l6-img-1.png";
 import l6portFolioImg2 from "~image/portfolio/portfolio-l6-img-2.png";
 import l6portFolioImg3 from "~image/portfolio/portfolio-img-1.png";
@@ -291,6 +296,11 @@ const Images = {
         teamImg3: l6teamImg3,
         teamImg4: l6teamImg4,
         teamImg5: l6teamImg5,
+        jente: jente,
+        peter: peter,
+        ken: ken,
+        denis: denis,
+        joyce: joyce,
         promoBg: l5promoBg,
         portFolioImg1: l6portFolioImg1,
         portFolioImg2: l6portFolioImg2,
@@ -348,6 +358,11 @@ const Images = {
         teamImg3: l6teamImg3,
         teamImg4: l6teamImg4,
         teamImg5: l6teamImg5,
+        jente: jente,
+        peter: peter,
+        ken: ken,
+        denis: denis,
+        joyce: joyce,
         InnerPromoShape: InnerPromoShape,
     },
 
