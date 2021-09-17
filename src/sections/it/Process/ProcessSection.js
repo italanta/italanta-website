@@ -3,11 +3,12 @@ import ProcessCard from './Components/Card'
 import { Container, Row, Col } from 'react-bootstrap'
 import Process from "./style"
 import ProcessData from "~data/it/Process"
+
 export default function ProcessSection({...rest }){
 return(
 <Process>
   <Container>
-    <Process.Box  pb="30p" pbXL="50px">
+    <Process.Box  pb="30p" pbXL="30px">
       <Row>
         <Col xs="12" className="text-center">
             <Process.Subtitle as="h5">Our Process</Process.Subtitle>

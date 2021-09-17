@@ -87,6 +87,9 @@ import esther from "~image/it-services/esther.png";
 import noella from "~image/it-services/noella.png";
 import joylinda from "~image/it-services/Joy-Linda.png";
 import fatuma from "~image/it-services/Fatuma.png";
+import deployicon from "~image/it-services/deploy-icon.png";
+import discovericon from "~image/it-services/discover-icon.png";
+import developicon from "~image/it-services/develop-icon.png";
 import denisrmbg from "~image/it-services/denis-rm-bg.png";
 import elewateam from "~image/it-services/elewa-team.png";
 import itallogo from "~image/it-services/ital.png";
@@ -266,6 +269,9 @@ const Images = {
         denisrmbg: denisrmbg,
         elewateam: elewateam,
         itallogo: itallogo,
+        developicon: developicon,
+        discovericon: discovericon,
+        deployicon: deployicon,
     },
     footerThree: {
         instaImg1: footer3instaImg1,

@@ -24,8 +24,8 @@ const header = {
 export default function HomeIt() {
   return (
     <PageWrapper headerConfig={header}>
+        <ProcessSection/>
         <FeatureSection/>
-        <ProcessSection/>  
         <ContentSectionOne/>
         <ContentSectionOne/>
         <ContentSectionOne/>

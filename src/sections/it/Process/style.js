@@ -17,7 +17,7 @@ const Process = styled(Box)
 
     @media (min-width:992px) {
         padding-top: 110px;
-        padding-bottom: 100px;
+        padding-bottom: 10px;
     }
 
 `
