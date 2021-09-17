@@ -89,11 +89,15 @@ export default function TeamSection({...rest}) {
               ref={elSlider}
               {...sliderConfig}
             >
-              <TeamCard image={Images.DigiTalagency.jente} userName="Jente Rosseel" userPosition="CEO"/>
-              <TeamCard image={Images.DigiTalagency.peter} userName="Peter Reinartz" userPosition="Management"/>
-              <TeamCard image={Images.DigiTalagency.ken} userName="Kennedy Adhola" userPosition="Management"/>
-              <TeamCard image={Images.DigiTalagency.joyce} userName="Joyce Njoki" userPosition="Support"/>
-              <TeamCard image={Images.DigiTalagency.denis} userName="Denis Githinji" userPosition="Engineer"/>
+              <TeamCard image={Images.itServices.jente} userName="Jente Rosseel" userPosition="CEO"/>
+              <TeamCard image={Images.itServices.peter} userName="Peter Reinartz" userPosition="Management"/>
+              <TeamCard image={Images.itServices.ken} userName="Kennedy Adhola" userPosition="Management"/>
+              <TeamCard image={Images.itServices.joyce} userName="Joyce Njoki" userPosition="Support"/>
+              <TeamCard image={Images.itServices.denis} userName="Denis Githinji" userPosition="Engineer"/>
+              <TeamCard image={Images.itServices.esther} userName="Esther Bidali" userPosition="Engineer"/>
+              <TeamCard image={Images.itServices.noella} userName="Noella Mwanzia" userPosition="Engineer"/>
+              <TeamCard image={Images.itServices.joylinda} userName="Joy Linda" userPosition="Engineer"/>
+              <TeamCard image={Images.itServices.fatuma} userName="Fatuma Abdullahi" userPosition="Engineer"/>
             </Slider>
             </Team.SliderWrapper>
       </Container>

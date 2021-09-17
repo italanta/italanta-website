@@ -78,6 +78,18 @@ import footer3instaImg3 from "~image/it-services/insta-3.png";
 import footer3instaImg4 from "~image/it-services/insta-4.png";
 import footer3instaImg5 from "~image/it-services/insta-5.png";
 import footer3instaImg6 from "~image/it-services/insta-6.png";
+import jente from "~image/it-services/jente.jpg";
+import denis from "~image/it-services/denis.png";
+import peter from "~image/it-services/peter.png";
+import ken from "~image/it-services/ken.png";
+import joyce from "~image/it-services/joyce.png";
+import esther from "~image/it-services/esther.png";
+import noella from "~image/it-services/noella.png";
+import joylinda from "~image/it-services/Joy-Linda.png";
+import fatuma from "~image/it-services/Fatuma.png";
+import denisrmbg from "~image/it-services/denis-rm-bg.png";
+import elewateam from "~image/it-services/elewa-team.png";
+import itallogo from "~image/it-services/ital.png";
 import herol4Img from "~image/home-services/hero-l4-image.png";
 import herol4ImgOverlay from "~image/home-services/hero-overlay.png";
 import aboutUsl4Img1 from "~image/home-services/about-us-image-l4-1.png";
@@ -108,11 +120,6 @@ import l6teamImg2 from "~image/home-digital-agency/team-member-2.png";
 import l6teamImg3 from "~image/home-digital-agency/team-member-3.png";
 import l6teamImg4 from "~image/home-digital-agency/team-member-4.png";
 import l6teamImg5 from "~image/home-digital-agency/team-member-5.png";
-import jente from "~image/home-digital-agency/jente.jpg";
-import denis from "~image/home-digital-agency/denis.png";
-import peter from "~image/home-digital-agency/peter.png";
-import ken from "~image/home-digital-agency/ken.png";
-import joyce from "~image/home-digital-agency/joyce.png";
 import l6portFolioImg1 from "~image/portfolio/portfolio-l6-img-1.png";
 import l6portFolioImg2 from "~image/portfolio/portfolio-l6-img-2.png";
 import l6portFolioImg3 from "~image/portfolio/portfolio-img-1.png";
@@ -247,6 +254,18 @@ const Images = {
         testiMonialUserImg1: l3testiMonialUserImg1,
         testiMonialUserImg2: l3testiMonialUserImg2,
         testiMonialUserImg3: l3testiMonialUserImg3,
+        jente: jente,
+        peter: peter,
+        ken: ken,
+        denis: denis,
+        joyce: joyce,
+        esther: esther,
+        noella: noella,
+        joylinda: joylinda,
+        fatuma: fatuma,
+        denisrmbg: denisrmbg,
+        elewateam: elewateam,
+        itallogo: itallogo,
     },
     footerThree: {
         instaImg1: footer3instaImg1,
@@ -296,11 +315,6 @@ const Images = {
         teamImg3: l6teamImg3,
         teamImg4: l6teamImg4,
         teamImg5: l6teamImg5,
-        jente: jente,
-        peter: peter,
-        ken: ken,
-        denis: denis,
-        joyce: joyce,
         promoBg: l5promoBg,
         portFolioImg1: l6portFolioImg1,
         portFolioImg2: l6portFolioImg2,
@@ -358,11 +372,6 @@ const Images = {
         teamImg3: l6teamImg3,
         teamImg4: l6teamImg4,
         teamImg5: l6teamImg5,
-        jente: jente,
-        peter: peter,
-        ken: ken,
-        denis: denis,
-        joyce: joyce,
         InnerPromoShape: InnerPromoShape,
     },
 

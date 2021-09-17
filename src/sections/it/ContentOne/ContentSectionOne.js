@@ -33,7 +33,7 @@ export default function ContentSectionOne() {
             <Content.Image>
               <Img
                 className="w-100"
-                src="../../../assets/image/it-services/content-l3-img-1.png"
+                src="../../../assets/image/it-services/elewa-team.png"
                 alt="content"
                 layout="fullWidth"
                 placeholder="blurred"
