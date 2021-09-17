@@ -15,8 +15,7 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")),
-  "component---src-pages-italanta-programs-js": preferDefault(__webpack_require__(/*! ./src/pages/italanta-programs.js */ "./src/pages/italanta-programs.js")),
-  "component---src-pages-team-js": preferDefault(__webpack_require__(/*! ./src/pages/team.js */ "./src/pages/team.js"))
+  "component---src-pages-italanta-programs-js": preferDefault(__webpack_require__(/*! ./src/pages/italanta-programs.js */ "./src/pages/italanta-programs.js"))
   }
 
 
@@ -53,17 +52,6 @@ module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"da
 
 "use strict";
 module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,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"},"images":{"fallback":{"src":"/static/027759448166ac0c0289e05430782432/86008/welcome-man-l3.png","srcSet":"/static/027759448166ac0c0289e05430782432/86008/welcome-man-l3.png 488w","sizes":"100vw"},"sources":[{"srcSet":"/static/027759448166ac0c0289e05430782432/40a0a/welcome-man-l3.webp 488w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":1.375}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3030153767.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3030153767.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"layout":"fullWidth","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQElEQVQ4yx2Sa0yTBwBFvz9LlojMzbmBzukmkIyoODXoHDrDnCa6GZzIRNw0ykTEaSYaDSqiZjpAC3U8BKqAUgpSeZYCiiAwX0AoWgT6oCC0tBQqICjq9DuL/XFz/53knlxhdOzl+LPxVzx/8Vq0WO3oDUa6u7sxGAzou0z09g/QY7Y609c/gPFJH/VNGvoHhuh+0keL5hFWm00EEEXxrdBUraS9uVYctFmwDTroMpmcwL4+M0PDz3g6NoFtaJh+u8MZi91BTcMd9h84zLqAELZs20PU8bPUN9x3QgVFQqRYcjGaRlWmODDooOdJL1arDYOug5wrlyhQZKE36NH39KI39WB3DFNVdYMvPLzxmruEpcvX8FPAFnFHaAStrY9EQbI7kLyYUB4oU3kHNFv6sdsH2P5bMAHLvFElR9PW2khruw5th86p4bHBREFuDv5LluDlvYhFvivwW7GKsjI1gvxgCLfiwmiUn8NitmAfGkb76CE+87yJWL+ckoRjtGlaGB4dY8gxwuDQU3Q9ZiwmA4k7N7B0vg+zPefj5+dPm1aLkHcggMq4cLqbbzM0Mu50N/HqP9TpEmI2+yM7sBVNRSFvgNGRUeyDDjpMvU6vKukpooPWsO6bxchk2bx8/Qah4p8TdLbcZez5BP02O+Z+GwUlVVyQJnF08yqiNq3k/NFIjp1NpqWti7EXL2nXPqS3U4vF6iBdImHbd4vIzC+joLwGYeTZhHNOp7YZx9NhbtY9YIbHQiZ9NJ1vv57PisULcJ/lxQfuX/Hr/r9pqVaR9Ptasvb9TM3VFPIuZxAeEkxWvoprZdUI7z5o7NBSp85lfOIVh2LO856rO59+9iVuMz2cPWOWF9PnzGOj/0rkfwZSnBiNPO445cmnSPljExelUm4/0JJ6RYnQ2qGnsigHRfJR2vVG/jpyhND13+Ph4cnUae7MnDWHqW6f877rx4TtDEPXpqXXOkheWQ2ltS0olaXU3WmkzWAm8bISoaJKhSLjPPGHf6Hieg5hgRtJ3xdEzsnd/LB6DbO9fFjo68dcH18io06j77FSc1dDseoGDepiCpVFXFIUcyE9ixNnExBuylNFVXwk0l1rRUn4JmRReymU52DU6UjLyMR7wTJk2XkYey2UV1WTV1xBiaqSjEPbidm6Gi9PT6Z94oab+3SmTPkQQXHh9FtleiJX0qSiVBKLLOkcDXU1dBhN3FCXc3DvHhLPnKY+P5esFCmJ8bHERkYQvtKX4B/X4uLiyuTJrqKLiwsuLpNEQV2kIDM7U9waEsjusFAi9u4hbNcOTkYfplRxlZrCPOpKlahTk1DnyKi+nsv1jBQqc+U01d8mLSWZM/ESAoO3iRuCghDadV3ma/nXSEiQiBKJhPj4eGLj4jgWdYSklFRS0jPJzi2gSH0TeUEplbX3aHzYyb+NGpo0Wlof67jX3CrearhPRe2dif8BlyBUCuC9vOQAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/706eb22fe2b5eac6363a28b5be7decf7/47800/about-us-l5-img.png","srcSet":"/static/706eb22fe2b5eac6363a28b5be7decf7/47800/about-us-l5-img.png 637w","sizes":"100vw"},"sources":[{"srcSet":"/static/706eb22fe2b5eac6363a28b5be7decf7/b4c0a/about-us-l5-img.webp 637w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.7441130298273156}');
 
 /***/ }),
 
@@ -12209,93 +12197,99 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _image_it_services_noella_png__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ~image/it-services/noella.png */ "./src/assets/image/it-services/noella.png");
 /* harmony import */ var _image_it_services_Joy_Linda_png__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ~image/it-services/Joy-Linda.png */ "./src/assets/image/it-services/Joy-Linda.png");
 /* harmony import */ var _image_it_services_Fatuma_png__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ~image/it-services/Fatuma.png */ "./src/assets/image/it-services/Fatuma.png");
-/* harmony import */ var _image_it_services_denis_rm_bg_png__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ~image/it-services/denis-rm-bg.png */ "./src/assets/image/it-services/denis-rm-bg.png");
-/* harmony import */ var _image_it_services_elewa_team_png__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ~image/it-services/elewa-team.png */ "./src/assets/image/it-services/elewa-team.png");
-/* harmony import */ var _image_it_services_ital_png__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ~image/it-services/ital.png */ "./src/assets/image/it-services/ital.png");
-/* harmony import */ var _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ~image/home-services/hero-l4-image.png */ "./src/assets/image/home-services/hero-l4-image.png");
-/* harmony import */ var _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ~image/home-services/hero-overlay.png */ "./src/assets/image/home-services/hero-overlay.png");
-/* harmony import */ var _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-1.png */ "./src/assets/image/home-services/about-us-image-l4-1.png");
-/* harmony import */ var _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-2.png */ "./src/assets/image/home-services/about-us-image-l4-2.png");
-/* harmony import */ var _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ~image/home-services/content-img-l4-2.png */ "./src/assets/image/home-services/content-img-l4-2.png");
-/* harmony import */ var _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ~image/home-services/promo-l4-img.png */ "./src/assets/image/home-services/promo-l4-img.png");
-/* harmony import */ var _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ~image/home-services/user-img-1.png */ "./src/assets/image/home-services/user-img-1.png");
-/* harmony import */ var _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ~image/home-services/contact-map.png */ "./src/assets/image/home-services/contact-map.png");
-/* harmony import */ var _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ~image/home-agency/hero-l5-bg.jpg */ "./src/assets/image/home-agency/hero-l5-bg.jpg");
-/* harmony import */ var _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ~image/home-agency/hero-bg-overlay.png */ "./src/assets/image/home-agency/hero-bg-overlay.png");
-/* harmony import */ var _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ~image/home-agency/about-us-l5-img.png */ "./src/assets/image/home-agency/about-us-l5-img.png");
-/* harmony import */ var _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ~image/home-agency/content-1-l5-img.png */ "./src/assets/image/home-agency/content-1-l5-img.png");
-/* harmony import */ var _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ~image/home-agency/customer-img-1.png */ "./src/assets/image/home-agency/customer-img-1.png");
-/* harmony import */ var _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ~image/home-agency/customer-img-2.png */ "./src/assets/image/home-agency/customer-img-2.png");
-/* harmony import */ var _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ~image/home-agency/customer-img-3.png */ "./src/assets/image/home-agency/customer-img-3.png");
-/* harmony import */ var _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ~image/home-agency/promo-l5-img.png */ "./src/assets/image/home-agency/promo-l5-img.png");
-/* harmony import */ var _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ~image/home-digital-agency/hero-l7-bg.png */ "./src/assets/image/home-digital-agency/hero-l7-bg.png");
-/* harmony import */ var _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-1.png */ "./src/assets/image/home-digital-agency/services-icon-1.png");
-/* harmony import */ var _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-2.png */ "./src/assets/image/home-digital-agency/services-icon-2.png");
-/* harmony import */ var _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-3.png */ "./src/assets/image/home-digital-agency/services-icon-3.png");
-/* harmony import */ var _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ~image/home-digital-agency/about-videos-img.png */ "./src/assets/image/home-digital-agency/about-videos-img.png");
-/* harmony import */ var _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-1.png */ "./src/assets/image/home-digital-agency/content-l7-1.png");
-/* harmony import */ var _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-2.png */ "./src/assets/image/home-digital-agency/content-l7-2.png");
-/* harmony import */ var _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ~image/home-digital-agency/1.jpg */ "./src/assets/image/home-digital-agency/1.jpg");
-/* harmony import */ var _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ~image/home-digital-agency/2.jpg */ "./src/assets/image/home-digital-agency/2.jpg");
-/* harmony import */ var _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-1.png */ "./src/assets/image/home-digital-agency/team-member-1.png");
-/* harmony import */ var _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-2.png */ "./src/assets/image/home-digital-agency/team-member-2.png");
-/* harmony import */ var _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-3.png */ "./src/assets/image/home-digital-agency/team-member-3.png");
-/* harmony import */ var _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-4.png */ "./src/assets/image/home-digital-agency/team-member-4.png");
-/* harmony import */ var _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-5.png */ "./src/assets/image/home-digital-agency/team-member-5.png");
-/* harmony import */ var _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-1.png */ "./src/assets/image/portfolio/portfolio-l6-img-1.png");
-/* harmony import */ var _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-2.png */ "./src/assets/image/portfolio/portfolio-l6-img-2.png");
-/* harmony import */ var _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-1.png */ "./src/assets/image/portfolio/portfolio-img-1.png");
-/* harmony import */ var _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ~image/home-app/hero-l8-1.png */ "./src/assets/image/home-app/hero-l8-1.png");
-/* harmony import */ var _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ~image/home-app/hero-l8-2.png */ "./src/assets/image/home-app/hero-l8-2.png");
-/* harmony import */ var _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ~image/home-app/about-mobile-img.png */ "./src/assets/image/home-app/about-mobile-img.png");
-/* harmony import */ var _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ~image/home-app/content-mobile-img.png */ "./src/assets/image/home-app/content-mobile-img.png");
-/* harmony import */ var _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ~image/home-app/red-shape.png */ "./src/assets/image/home-app/red-shape.png");
-/* harmony import */ var _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ~image/home-app/promo-l8-img.png */ "./src/assets/image/home-app/promo-l8-img.png");
-/* harmony import */ var _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ~image/home-startup/hero-img.png */ "./src/assets/image/home-startup/hero-img.png");
-/* harmony import */ var _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ~image/home-startup/services-img-1.png */ "./src/assets/image/home-startup/services-img-1.png");
-/* harmony import */ var _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ~image/home-startup/services-img-2.png */ "./src/assets/image/home-startup/services-img-2.png");
-/* harmony import */ var _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ~image/home-startup/about-us-img.png */ "./src/assets/image/home-startup/about-us-img.png");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-1.png */ "./src/assets/image/portfolio/l8-portfolio-img-1.png");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-2.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-2.jpg");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-3.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-3.jpg");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-4.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-4.jpg");
-/* harmony import */ var _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-5.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-5.jpg");
-/* harmony import */ var _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ~image/home-startup/blogs-img-1.png */ "./src/assets/image/home-startup/blogs-img-1.png");
-/* harmony import */ var _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ~image/home-startup/blogs-img-2.png */ "./src/assets/image/home-startup/blogs-img-2.png");
-/* harmony import */ var _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ~image/home-startup/blogs-img-3.png */ "./src/assets/image/home-startup/blogs-img-3.png");
-/* harmony import */ var _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ~image/mixed/inner-banner-shape.png */ "./src/assets/image/mixed/inner-banner-shape.png");
-/* harmony import */ var _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ~image/blogs/blog-post-1.png */ "./src/assets/image/blogs/blog-post-1.png");
-/* harmony import */ var _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ~image/blogs/blog-post-2.png */ "./src/assets/image/blogs/blog-post-2.png");
-/* harmony import */ var _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ~image/blogs/blog-post-3.png */ "./src/assets/image/blogs/blog-post-3.png");
-/* harmony import */ var _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ~image/blogs/blog-post-4.png */ "./src/assets/image/blogs/blog-post-4.png");
-/* harmony import */ var _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ~image/blogs/blog-post-5.png */ "./src/assets/image/blogs/blog-post-5.png");
-/* harmony import */ var _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ~image/blogs/blog-post-6.png */ "./src/assets/image/blogs/blog-post-6.png");
-/* harmony import */ var _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ~image/blogs/blog-post-7.png */ "./src/assets/image/blogs/blog-post-7.png");
-/* harmony import */ var _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ~image/blogs/blog-details-img-1.png */ "./src/assets/image/blogs/blog-details-img-1.png");
-/* harmony import */ var _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ~image/mixed/ads-img.png */ "./src/assets/image/mixed/ads-img.png");
-/* harmony import */ var _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ~image/mixed/user-img-1.png */ "./src/assets/image/mixed/user-img-1.png");
-/* harmony import */ var _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ~image/mixed/user-img-2.png */ "./src/assets/image/mixed/user-img-2.png");
-/* harmony import */ var _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ~image/mixed/user-img-3.png */ "./src/assets/image/mixed/user-img-3.png");
-/* harmony import */ var _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ~image/mixed/career-video-bg.png */ "./src/assets/image/mixed/career-video-bg.png");
-/* harmony import */ var _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ~image/accounts/sign-in.jpg */ "./src/assets/image/accounts/sign-in.jpg");
-/* harmony import */ var _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ~image/accounts/sign-up.jpg */ "./src/assets/image/accounts/sign-up.jpg");
-/* harmony import */ var _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ~image/accounts/reset-pass-img.jpg */ "./src/assets/image/accounts/reset-pass-img.jpg");
-/* harmony import */ var _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-2.png */ "./src/assets/image/portfolio/portfolio-img-2.png");
-/* harmony import */ var _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-3.png */ "./src/assets/image/portfolio/portfolio-img-3.png");
-/* harmony import */ var _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-4.png */ "./src/assets/image/portfolio/portfolio-img-4.png");
-/* harmony import */ var _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-5.png */ "./src/assets/image/portfolio/portfolio-img-5.png");
-/* harmony import */ var _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_163__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-5.jpg */ "./src/assets/image/portfolio/portfolio-mas-5.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_164__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-1.jpg */ "./src/assets/image/portfolio/portfolio-mas-1.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_165__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-2.jpg */ "./src/assets/image/portfolio/portfolio-mas-2.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_166__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-11.jpg */ "./src/assets/image/portfolio/portfolio-mas-11.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_167__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-9.jpg */ "./src/assets/image/portfolio/portfolio-mas-9.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_168__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-6.jpg */ "./src/assets/image/portfolio/portfolio-mas-6.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_169__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-8.jpg */ "./src/assets/image/portfolio/portfolio-mas-8.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_170__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-4.jpg */ "./src/assets/image/portfolio/portfolio-mas-4.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_171__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-15.jpg */ "./src/assets/image/portfolio/portfolio-mas-15.jpg");
-/* harmony import */ var _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_172__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-16.jpg */ "./src/assets/image/portfolio/portfolio-mas-16.jpg");
-/* harmony import */ var _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_173__ = __webpack_require__(/*! ~image/portfolio/portfolio-details-left.jpg */ "./src/assets/image/portfolio/portfolio-details-left.jpg");
-/* harmony import */ var _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_174__ = __webpack_require__(/*! ~image/mixed/404.png */ "./src/assets/image/mixed/404.png");
+/* harmony import */ var _image_it_services_deploy_icon_png__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ~image/it-services/deploy-icon.png */ "./src/assets/image/it-services/deploy-icon.png");
+/* harmony import */ var _image_it_services_discover_icon_png__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ~image/it-services/discover-icon.png */ "./src/assets/image/it-services/discover-icon.png");
+/* harmony import */ var _image_it_services_develop_icon_png__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ~image/it-services/develop-icon.png */ "./src/assets/image/it-services/develop-icon.png");
+/* harmony import */ var _image_it_services_denis_rm_bg_png__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ~image/it-services/denis-rm-bg.png */ "./src/assets/image/it-services/denis-rm-bg.png");
+/* harmony import */ var _image_it_services_elewa_team_png__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ~image/it-services/elewa-team.png */ "./src/assets/image/it-services/elewa-team.png");
+/* harmony import */ var _image_it_services_ital_png__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ~image/it-services/ital.png */ "./src/assets/image/it-services/ital.png");
+/* harmony import */ var _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ~image/home-services/hero-l4-image.png */ "./src/assets/image/home-services/hero-l4-image.png");
+/* harmony import */ var _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ~image/home-services/hero-overlay.png */ "./src/assets/image/home-services/hero-overlay.png");
+/* harmony import */ var _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-1.png */ "./src/assets/image/home-services/about-us-image-l4-1.png");
+/* harmony import */ var _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ~image/home-services/about-us-image-l4-2.png */ "./src/assets/image/home-services/about-us-image-l4-2.png");
+/* harmony import */ var _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ~image/home-services/content-img-l4-2.png */ "./src/assets/image/home-services/content-img-l4-2.png");
+/* harmony import */ var _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ~image/home-services/promo-l4-img.png */ "./src/assets/image/home-services/promo-l4-img.png");
+/* harmony import */ var _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ~image/home-services/user-img-1.png */ "./src/assets/image/home-services/user-img-1.png");
+/* harmony import */ var _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ~image/home-services/contact-map.png */ "./src/assets/image/home-services/contact-map.png");
+/* harmony import */ var _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ~image/home-agency/hero-l5-bg.jpg */ "./src/assets/image/home-agency/hero-l5-bg.jpg");
+/* harmony import */ var _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ~image/home-agency/hero-bg-overlay.png */ "./src/assets/image/home-agency/hero-bg-overlay.png");
+/* harmony import */ var _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ~image/home-agency/about-us-l5-img.png */ "./src/assets/image/home-agency/about-us-l5-img.png");
+/* harmony import */ var _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ~image/home-agency/content-1-l5-img.png */ "./src/assets/image/home-agency/content-1-l5-img.png");
+/* harmony import */ var _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ~image/home-agency/customer-img-1.png */ "./src/assets/image/home-agency/customer-img-1.png");
+/* harmony import */ var _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ~image/home-agency/customer-img-2.png */ "./src/assets/image/home-agency/customer-img-2.png");
+/* harmony import */ var _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ~image/home-agency/customer-img-3.png */ "./src/assets/image/home-agency/customer-img-3.png");
+/* harmony import */ var _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ~image/home-agency/promo-l5-img.png */ "./src/assets/image/home-agency/promo-l5-img.png");
+/* harmony import */ var _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ~image/home-digital-agency/hero-l7-bg.png */ "./src/assets/image/home-digital-agency/hero-l7-bg.png");
+/* harmony import */ var _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-1.png */ "./src/assets/image/home-digital-agency/services-icon-1.png");
+/* harmony import */ var _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-2.png */ "./src/assets/image/home-digital-agency/services-icon-2.png");
+/* harmony import */ var _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ~image/home-digital-agency/services-icon-3.png */ "./src/assets/image/home-digital-agency/services-icon-3.png");
+/* harmony import */ var _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ~image/home-digital-agency/about-videos-img.png */ "./src/assets/image/home-digital-agency/about-videos-img.png");
+/* harmony import */ var _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-1.png */ "./src/assets/image/home-digital-agency/content-l7-1.png");
+/* harmony import */ var _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ~image/home-digital-agency/content-l7-2.png */ "./src/assets/image/home-digital-agency/content-l7-2.png");
+/* harmony import */ var _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ~image/home-digital-agency/1.jpg */ "./src/assets/image/home-digital-agency/1.jpg");
+/* harmony import */ var _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ~image/home-digital-agency/2.jpg */ "./src/assets/image/home-digital-agency/2.jpg");
+/* harmony import */ var _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-1.png */ "./src/assets/image/home-digital-agency/team-member-1.png");
+/* harmony import */ var _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-2.png */ "./src/assets/image/home-digital-agency/team-member-2.png");
+/* harmony import */ var _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-3.png */ "./src/assets/image/home-digital-agency/team-member-3.png");
+/* harmony import */ var _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-4.png */ "./src/assets/image/home-digital-agency/team-member-4.png");
+/* harmony import */ var _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ~image/home-digital-agency/team-member-5.png */ "./src/assets/image/home-digital-agency/team-member-5.png");
+/* harmony import */ var _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-1.png */ "./src/assets/image/portfolio/portfolio-l6-img-1.png");
+/* harmony import */ var _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ~image/portfolio/portfolio-l6-img-2.png */ "./src/assets/image/portfolio/portfolio-l6-img-2.png");
+/* harmony import */ var _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-1.png */ "./src/assets/image/portfolio/portfolio-img-1.png");
+/* harmony import */ var _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ~image/home-app/hero-l8-1.png */ "./src/assets/image/home-app/hero-l8-1.png");
+/* harmony import */ var _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ~image/home-app/hero-l8-2.png */ "./src/assets/image/home-app/hero-l8-2.png");
+/* harmony import */ var _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ~image/home-app/about-mobile-img.png */ "./src/assets/image/home-app/about-mobile-img.png");
+/* harmony import */ var _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ~image/home-app/content-mobile-img.png */ "./src/assets/image/home-app/content-mobile-img.png");
+/* harmony import */ var _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ~image/home-app/red-shape.png */ "./src/assets/image/home-app/red-shape.png");
+/* harmony import */ var _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ~image/home-app/promo-l8-img.png */ "./src/assets/image/home-app/promo-l8-img.png");
+/* harmony import */ var _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ~image/home-startup/hero-img.png */ "./src/assets/image/home-startup/hero-img.png");
+/* harmony import */ var _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ~image/home-startup/services-img-1.png */ "./src/assets/image/home-startup/services-img-1.png");
+/* harmony import */ var _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ~image/home-startup/services-img-2.png */ "./src/assets/image/home-startup/services-img-2.png");
+/* harmony import */ var _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ~image/home-startup/about-us-img.png */ "./src/assets/image/home-startup/about-us-img.png");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-1.png */ "./src/assets/image/portfolio/l8-portfolio-img-1.png");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-2.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-2.jpg");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-3.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-3.jpg");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-4.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-4.jpg");
+/* harmony import */ var _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ~image/portfolio/l8-portfolio-img-5.jpg */ "./src/assets/image/portfolio/l8-portfolio-img-5.jpg");
+/* harmony import */ var _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ~image/home-startup/blogs-img-1.png */ "./src/assets/image/home-startup/blogs-img-1.png");
+/* harmony import */ var _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ~image/home-startup/blogs-img-2.png */ "./src/assets/image/home-startup/blogs-img-2.png");
+/* harmony import */ var _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ~image/home-startup/blogs-img-3.png */ "./src/assets/image/home-startup/blogs-img-3.png");
+/* harmony import */ var _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ~image/mixed/inner-banner-shape.png */ "./src/assets/image/mixed/inner-banner-shape.png");
+/* harmony import */ var _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ~image/blogs/blog-post-1.png */ "./src/assets/image/blogs/blog-post-1.png");
+/* harmony import */ var _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ~image/blogs/blog-post-2.png */ "./src/assets/image/blogs/blog-post-2.png");
+/* harmony import */ var _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ~image/blogs/blog-post-3.png */ "./src/assets/image/blogs/blog-post-3.png");
+/* harmony import */ var _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ~image/blogs/blog-post-4.png */ "./src/assets/image/blogs/blog-post-4.png");
+/* harmony import */ var _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ~image/blogs/blog-post-5.png */ "./src/assets/image/blogs/blog-post-5.png");
+/* harmony import */ var _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ~image/blogs/blog-post-6.png */ "./src/assets/image/blogs/blog-post-6.png");
+/* harmony import */ var _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ~image/blogs/blog-post-7.png */ "./src/assets/image/blogs/blog-post-7.png");
+/* harmony import */ var _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ~image/blogs/blog-details-img-1.png */ "./src/assets/image/blogs/blog-details-img-1.png");
+/* harmony import */ var _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ~image/mixed/ads-img.png */ "./src/assets/image/mixed/ads-img.png");
+/* harmony import */ var _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ~image/mixed/user-img-1.png */ "./src/assets/image/mixed/user-img-1.png");
+/* harmony import */ var _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ~image/mixed/user-img-2.png */ "./src/assets/image/mixed/user-img-2.png");
+/* harmony import */ var _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ~image/mixed/user-img-3.png */ "./src/assets/image/mixed/user-img-3.png");
+/* harmony import */ var _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ~image/mixed/career-video-bg.png */ "./src/assets/image/mixed/career-video-bg.png");
+/* harmony import */ var _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ~image/accounts/sign-in.jpg */ "./src/assets/image/accounts/sign-in.jpg");
+/* harmony import */ var _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ~image/accounts/sign-up.jpg */ "./src/assets/image/accounts/sign-up.jpg");
+/* harmony import */ var _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ~image/accounts/reset-pass-img.jpg */ "./src/assets/image/accounts/reset-pass-img.jpg");
+/* harmony import */ var _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-2.png */ "./src/assets/image/portfolio/portfolio-img-2.png");
+/* harmony import */ var _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_163__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-3.png */ "./src/assets/image/portfolio/portfolio-img-3.png");
+/* harmony import */ var _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_164__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-4.png */ "./src/assets/image/portfolio/portfolio-img-4.png");
+/* harmony import */ var _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_165__ = __webpack_require__(/*! ~image/portfolio/portfolio-img-5.png */ "./src/assets/image/portfolio/portfolio-img-5.png");
+/* harmony import */ var _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_166__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-5.jpg */ "./src/assets/image/portfolio/portfolio-mas-5.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_167__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-1.jpg */ "./src/assets/image/portfolio/portfolio-mas-1.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_168__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-2.jpg */ "./src/assets/image/portfolio/portfolio-mas-2.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_169__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-11.jpg */ "./src/assets/image/portfolio/portfolio-mas-11.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_170__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-9.jpg */ "./src/assets/image/portfolio/portfolio-mas-9.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_171__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-6.jpg */ "./src/assets/image/portfolio/portfolio-mas-6.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_172__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-8.jpg */ "./src/assets/image/portfolio/portfolio-mas-8.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_173__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-4.jpg */ "./src/assets/image/portfolio/portfolio-mas-4.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_174__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-15.jpg */ "./src/assets/image/portfolio/portfolio-mas-15.jpg");
+/* harmony import */ var _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_175__ = __webpack_require__(/*! ~image/portfolio/portfolio-mas-16.jpg */ "./src/assets/image/portfolio/portfolio-mas-16.jpg");
+/* harmony import */ var _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_176__ = __webpack_require__(/*! ~image/portfolio/portfolio-details-left.jpg */ "./src/assets/image/portfolio/portfolio-details-left.jpg");
+/* harmony import */ var _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_177__ = __webpack_require__(/*! ~image/mixed/404.png */ "./src/assets/image/mixed/404.png");
+
+
+
 
 
 
@@ -12558,9 +12552,12 @@ const Images = {
     noella: _image_it_services_noella_png__WEBPACK_IMPORTED_MODULE_85__.default,
     joylinda: _image_it_services_Joy_Linda_png__WEBPACK_IMPORTED_MODULE_86__.default,
     fatuma: _image_it_services_Fatuma_png__WEBPACK_IMPORTED_MODULE_87__.default,
-    denisrmbg: _image_it_services_denis_rm_bg_png__WEBPACK_IMPORTED_MODULE_88__.default,
-    elewateam: _image_it_services_elewa_team_png__WEBPACK_IMPORTED_MODULE_89__.default,
-    itallogo: _image_it_services_ital_png__WEBPACK_IMPORTED_MODULE_90__.default
+    denisrmbg: _image_it_services_denis_rm_bg_png__WEBPACK_IMPORTED_MODULE_91__.default,
+    elewateam: _image_it_services_elewa_team_png__WEBPACK_IMPORTED_MODULE_92__.default,
+    itallogo: _image_it_services_ital_png__WEBPACK_IMPORTED_MODULE_93__.default,
+    developicon: _image_it_services_develop_icon_png__WEBPACK_IMPORTED_MODULE_90__.default,
+    discovericon: _image_it_services_discover_icon_png__WEBPACK_IMPORTED_MODULE_89__.default,
+    deployicon: _image_it_services_deploy_icon_png__WEBPACK_IMPORTED_MODULE_88__.default
   },
   footerThree: {
     instaImg1: _image_it_services_insta_1_png__WEBPACK_IMPORTED_MODULE_73__.default,
@@ -12571,112 +12568,112 @@ const Images = {
     instaImg6: _image_it_services_insta_6_png__WEBPACK_IMPORTED_MODULE_78__.default
   },
   Services: {
-    heroImg: _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_91__.default,
-    heroImgOverlay: _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_92__.default,
-    aboutUsImg1: _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_93__.default,
-    aboutUsImg2: _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_94__.default,
-    whyChooseImg: _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_95__.default,
-    promoBg: _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_96__.default,
+    heroImg: _image_home_services_hero_l4_image_png__WEBPACK_IMPORTED_MODULE_94__.default,
+    heroImgOverlay: _image_home_services_hero_overlay_png__WEBPACK_IMPORTED_MODULE_95__.default,
+    aboutUsImg1: _image_home_services_about_us_image_l4_1_png__WEBPACK_IMPORTED_MODULE_96__.default,
+    aboutUsImg2: _image_home_services_about_us_image_l4_2_png__WEBPACK_IMPORTED_MODULE_97__.default,
+    whyChooseImg: _image_home_services_content_img_l4_2_png__WEBPACK_IMPORTED_MODULE_98__.default,
+    promoBg: _image_home_services_promo_l4_img_png__WEBPACK_IMPORTED_MODULE_99__.default,
     testiMonialUserimg1: _image_marketing_user_1_png__WEBPACK_IMPORTED_MODULE_40__.default,
     testiMonialUserimg2: _image_marketing_user_2_png__WEBPACK_IMPORTED_MODULE_41__.default,
     testiMonialUserimg3: _image_marketing_user_3_png__WEBPACK_IMPORTED_MODULE_42__.default,
-    testiMonialUserimg4: _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_97__.default,
-    mapImg: _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_98__.default
+    testiMonialUserimg4: _image_home_services_user_img_1_png__WEBPACK_IMPORTED_MODULE_100__.default,
+    mapImg: _image_home_services_contact_map_png__WEBPACK_IMPORTED_MODULE_101__.default
   },
   agency: {
-    heroImg: _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_99__.default,
-    heroImgOverlay: _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_100__.default,
-    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_101__.default,
-    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_102__.default,
-    testiMonialUserimg1: _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_103__.default,
-    testiMonialUserimg2: _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_104__.default,
-    testiMonialUserimg3: _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_105__.default,
-    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_106__.default
+    heroImg: _image_home_agency_hero_l5_bg_jpg__WEBPACK_IMPORTED_MODULE_102__.default,
+    heroImgOverlay: _image_home_agency_hero_bg_overlay_png__WEBPACK_IMPORTED_MODULE_103__.default,
+    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_104__.default,
+    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_105__.default,
+    testiMonialUserimg1: _image_home_agency_customer_img_1_png__WEBPACK_IMPORTED_MODULE_106__.default,
+    testiMonialUserimg2: _image_home_agency_customer_img_2_png__WEBPACK_IMPORTED_MODULE_107__.default,
+    testiMonialUserimg3: _image_home_agency_customer_img_3_png__WEBPACK_IMPORTED_MODULE_108__.default,
+    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_109__.default
   },
   DigiTalagency: {
-    heroImg: _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_107__.default,
-    servicesIcon1: _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_108__.default,
-    servicesIcon2: _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_109__.default,
-    servicesIcon3: _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_110__.default,
-    videoContentImg: _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_111__.default,
-    aboutUsImg1: _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_112__.default,
-    aboutUsImg2: _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_113__.default,
-    contentOneImg1: _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_114__.default,
-    contentOneImg2: _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_115__.default,
-    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_116__.default,
-    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_117__.default,
-    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_118__.default,
-    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_119__.default,
-    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_120__.default,
-    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_106__.default,
-    portFolioImg1: _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_121__.default,
-    portFolioImg2: _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_122__.default,
-    portFolioImg3: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__.default
+    heroImg: _image_home_digital_agency_hero_l7_bg_png__WEBPACK_IMPORTED_MODULE_110__.default,
+    servicesIcon1: _image_home_digital_agency_services_icon_1_png__WEBPACK_IMPORTED_MODULE_111__.default,
+    servicesIcon2: _image_home_digital_agency_services_icon_2_png__WEBPACK_IMPORTED_MODULE_112__.default,
+    servicesIcon3: _image_home_digital_agency_services_icon_3_png__WEBPACK_IMPORTED_MODULE_113__.default,
+    videoContentImg: _image_home_digital_agency_about_videos_img_png__WEBPACK_IMPORTED_MODULE_114__.default,
+    aboutUsImg1: _image_home_digital_agency_content_l7_1_png__WEBPACK_IMPORTED_MODULE_115__.default,
+    aboutUsImg2: _image_home_digital_agency_content_l7_2_png__WEBPACK_IMPORTED_MODULE_116__.default,
+    contentOneImg1: _image_home_digital_agency_1_jpg__WEBPACK_IMPORTED_MODULE_117__.default,
+    contentOneImg2: _image_home_digital_agency_2_jpg__WEBPACK_IMPORTED_MODULE_118__.default,
+    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_119__.default,
+    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_120__.default,
+    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_121__.default,
+    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_122__.default,
+    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_123__.default,
+    promoBg: _image_home_agency_promo_l5_img_png__WEBPACK_IMPORTED_MODULE_109__.default,
+    portFolioImg1: _image_portfolio_portfolio_l6_img_1_png__WEBPACK_IMPORTED_MODULE_124__.default,
+    portFolioImg2: _image_portfolio_portfolio_l6_img_2_png__WEBPACK_IMPORTED_MODULE_125__.default,
+    portFolioImg3: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_126__.default
   },
   HomeApp: {
-    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_124__.default,
-    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_125__.default,
-    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_126__.default,
-    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_127__.default,
-    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_128__.default,
+    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_127__.default,
+    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_128__.default,
+    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_129__.default,
+    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_130__.default,
+    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_131__.default,
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
     testiMonialUserImg2: _image_it_services_user_circle_2_png__WEBPACK_IMPORTED_MODULE_68__.default,
     testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default,
-    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_129__.default
+    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_132__.default
   },
   HomeApp: {
-    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_124__.default,
-    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_125__.default,
-    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_126__.default,
-    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_127__.default,
-    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_128__.default,
+    heroImg1: _image_home_app_hero_l8_1_png__WEBPACK_IMPORTED_MODULE_127__.default,
+    heroImg2: _image_home_app_hero_l8_2_png__WEBPACK_IMPORTED_MODULE_128__.default,
+    ContenToneImg1: _image_home_app_about_mobile_img_png__WEBPACK_IMPORTED_MODULE_129__.default,
+    ContenTtwoImg: _image_home_app_content_mobile_img_png__WEBPACK_IMPORTED_MODULE_130__.default,
+    ContenTtwoShape: _image_home_app_red_shape_png__WEBPACK_IMPORTED_MODULE_131__.default,
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
     testiMonialUserImg2: _image_it_services_user_circle_2_png__WEBPACK_IMPORTED_MODULE_68__.default,
     testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default,
-    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_129__.default
+    promoImg: _image_home_app_promo_l8_img_png__WEBPACK_IMPORTED_MODULE_132__.default
   },
   HomeStartup: {
-    heroImg: _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_130__.default,
-    serVicesImg1: _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_131__.default,
-    serVicesImg2: _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_132__.default,
-    aboutUsimg: _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_133__.default,
-    portFolioImg1: _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_134__.default,
-    portFolioImg2: _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_135__.default,
-    portFolioImg3: _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_136__.default,
-    portFolioImg4: _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_137__.default,
-    portFolioImg5: _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_138__.default,
+    heroImg: _image_home_startup_hero_img_png__WEBPACK_IMPORTED_MODULE_133__.default,
+    serVicesImg1: _image_home_startup_services_img_1_png__WEBPACK_IMPORTED_MODULE_134__.default,
+    serVicesImg2: _image_home_startup_services_img_2_png__WEBPACK_IMPORTED_MODULE_135__.default,
+    aboutUsimg: _image_home_startup_about_us_img_png__WEBPACK_IMPORTED_MODULE_136__.default,
+    portFolioImg1: _image_portfolio_l8_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_137__.default,
+    portFolioImg2: _image_portfolio_l8_portfolio_img_2_jpg__WEBPACK_IMPORTED_MODULE_138__.default,
+    portFolioImg3: _image_portfolio_l8_portfolio_img_3_jpg__WEBPACK_IMPORTED_MODULE_139__.default,
+    portFolioImg4: _image_portfolio_l8_portfolio_img_4_jpg__WEBPACK_IMPORTED_MODULE_140__.default,
+    portFolioImg5: _image_portfolio_l8_portfolio_img_5_jpg__WEBPACK_IMPORTED_MODULE_141__.default,
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
     testiMonialUserImg2: _image_it_services_user_circle_2_png__WEBPACK_IMPORTED_MODULE_68__.default,
     testiMonialUserImg3: _image_it_services_user_circle_3_png__WEBPACK_IMPORTED_MODULE_69__.default,
-    blogThumbImg1: _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_139__.default,
-    blogThumbImg2: _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_140__.default,
-    blogThumbImg3: _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_141__.default
+    blogThumbImg1: _image_home_startup_blogs_img_1_png__WEBPACK_IMPORTED_MODULE_142__.default,
+    blogThumbImg2: _image_home_startup_blogs_img_2_png__WEBPACK_IMPORTED_MODULE_143__.default,
+    blogThumbImg3: _image_home_startup_blogs_img_3_png__WEBPACK_IMPORTED_MODULE_144__.default
   },
   PageAboutUs: {
-    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_101__.default,
+    videoContentImg: _image_home_agency_about_us_l5_img_png__WEBPACK_IMPORTED_MODULE_104__.default,
     conTentOneImg: _image_it_services_feature_l3_image_png__WEBPACK_IMPORTED_MODULE_64__.default,
-    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_102__.default,
-    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_116__.default,
-    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_117__.default,
-    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_118__.default,
-    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_119__.default,
-    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_120__.default,
-    InnerPromoShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_142__.default
+    aboutUsImg1: _image_home_agency_content_1_l5_img_png__WEBPACK_IMPORTED_MODULE_105__.default,
+    teamImg1: _image_home_digital_agency_team_member_1_png__WEBPACK_IMPORTED_MODULE_119__.default,
+    teamImg2: _image_home_digital_agency_team_member_2_png__WEBPACK_IMPORTED_MODULE_120__.default,
+    teamImg3: _image_home_digital_agency_team_member_3_png__WEBPACK_IMPORTED_MODULE_121__.default,
+    teamImg4: _image_home_digital_agency_team_member_4_png__WEBPACK_IMPORTED_MODULE_122__.default,
+    teamImg5: _image_home_digital_agency_team_member_5_png__WEBPACK_IMPORTED_MODULE_123__.default,
+    InnerPromoShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_145__.default
   },
-  pageTitleShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_142__.default,
+  pageTitleShape: _image_mixed_inner_banner_shape_png__WEBPACK_IMPORTED_MODULE_145__.default,
   BlogsPage: {
-    BlogsImg1: _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_143__.default,
-    BlogsImg2: _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_144__.default,
-    BlogsImg3: _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_145__.default,
-    BlogsImg4: _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_146__.default,
-    BlogsImg5: _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_147__.default,
-    BlogsImg6: _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_148__.default,
-    BlogsImg7: _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_149__.default
+    BlogsImg1: _image_blogs_blog_post_1_png__WEBPACK_IMPORTED_MODULE_146__.default,
+    BlogsImg2: _image_blogs_blog_post_2_png__WEBPACK_IMPORTED_MODULE_147__.default,
+    BlogsImg3: _image_blogs_blog_post_3_png__WEBPACK_IMPORTED_MODULE_148__.default,
+    BlogsImg4: _image_blogs_blog_post_4_png__WEBPACK_IMPORTED_MODULE_149__.default,
+    BlogsImg5: _image_blogs_blog_post_5_png__WEBPACK_IMPORTED_MODULE_150__.default,
+    BlogsImg6: _image_blogs_blog_post_6_png__WEBPACK_IMPORTED_MODULE_151__.default,
+    BlogsImg7: _image_blogs_blog_post_7_png__WEBPACK_IMPORTED_MODULE_152__.default
   },
   CommentsSections: {
-    commentsUserImg1: _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_152__.default,
-    commentsUserImg2: _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_153__.default,
-    commentsUserImg3: _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_154__.default
+    commentsUserImg1: _image_mixed_user_img_1_png__WEBPACK_IMPORTED_MODULE_155__.default,
+    commentsUserImg2: _image_mixed_user_img_2_png__WEBPACK_IMPORTED_MODULE_156__.default,
+    commentsUserImg3: _image_mixed_user_img_3_png__WEBPACK_IMPORTED_MODULE_157__.default
   },
   PricingTable1: {
     testiMonialUserImg1: _image_it_services_user_circle_1_png__WEBPACK_IMPORTED_MODULE_67__.default,
@@ -12703,31 +12700,31 @@ const Images = {
     testiMonialUserImg6: _image_it_services_user_circle_6_png__WEBPACK_IMPORTED_MODULE_72__.default
   },
   PortFolioPage: {
-    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__.default,
-    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_159__.default,
-    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_160__.default,
-    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_161__.default,
-    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_162__.default
+    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_126__.default,
+    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_162__.default,
+    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_163__.default,
+    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_164__.default,
+    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_165__.default
   },
   PortFolioMas4: {
-    PortFoliosImg1: _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_163__.default,
-    PortFoliosImg2: _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_164__.default,
-    PortFoliosImg3: _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_165__.default,
-    PortFoliosImg4: _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_166__.default,
-    PortFoliosImg5: _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_167__.default,
-    PortFoliosImg6: _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_168__.default,
-    PortFoliosImg7: _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_169__.default,
-    PortFoliosImg8: _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_170__.default,
-    PortFoliosImg9: _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_171__.default,
-    PortFoliosImg10: _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_172__.default
+    PortFoliosImg1: _image_portfolio_portfolio_mas_5_jpg__WEBPACK_IMPORTED_MODULE_166__.default,
+    PortFoliosImg2: _image_portfolio_portfolio_mas_1_jpg__WEBPACK_IMPORTED_MODULE_167__.default,
+    PortFoliosImg3: _image_portfolio_portfolio_mas_2_jpg__WEBPACK_IMPORTED_MODULE_168__.default,
+    PortFoliosImg4: _image_portfolio_portfolio_mas_11_jpg__WEBPACK_IMPORTED_MODULE_169__.default,
+    PortFoliosImg5: _image_portfolio_portfolio_mas_9_jpg__WEBPACK_IMPORTED_MODULE_170__.default,
+    PortFoliosImg6: _image_portfolio_portfolio_mas_6_jpg__WEBPACK_IMPORTED_MODULE_171__.default,
+    PortFoliosImg7: _image_portfolio_portfolio_mas_8_jpg__WEBPACK_IMPORTED_MODULE_172__.default,
+    PortFoliosImg8: _image_portfolio_portfolio_mas_4_jpg__WEBPACK_IMPORTED_MODULE_173__.default,
+    PortFoliosImg9: _image_portfolio_portfolio_mas_15_jpg__WEBPACK_IMPORTED_MODULE_174__.default,
+    PortFoliosImg10: _image_portfolio_portfolio_mas_16_jpg__WEBPACK_IMPORTED_MODULE_175__.default
   },
   PortFolioDetails1: {
-    PortFoliosDetailsMain: _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_173__.default,
-    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_123__.default,
-    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_159__.default,
-    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_160__.default,
-    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_161__.default,
-    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_162__.default
+    PortFoliosDetailsMain: _image_portfolio_portfolio_details_left_jpg__WEBPACK_IMPORTED_MODULE_176__.default,
+    PortFoliosImg1: _image_portfolio_portfolio_img_1_png__WEBPACK_IMPORTED_MODULE_126__.default,
+    PortFoliosImg2: _image_portfolio_portfolio_img_2_png__WEBPACK_IMPORTED_MODULE_162__.default,
+    PortFoliosImg3: _image_portfolio_portfolio_img_3_png__WEBPACK_IMPORTED_MODULE_163__.default,
+    PortFoliosImg4: _image_portfolio_portfolio_img_4_png__WEBPACK_IMPORTED_MODULE_164__.default,
+    PortFoliosImg5: _image_portfolio_portfolio_img_5_png__WEBPACK_IMPORTED_MODULE_165__.default
   },
   FooterOne: {
     LogoWhite: _image_logo_logo_white_png__WEBPACK_IMPORTED_MODULE_1__.default
@@ -12738,13 +12735,13 @@ const Images = {
   FooterSix: {
     LogoBlack: _image_logo_logo_black_png__WEBPACK_IMPORTED_MODULE_0__.default
   },
-  BlogsDetailsImg: _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_150__.default,
-  SiderbarAdsImg: _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_151__.default,
-  CareerPageVideobg: _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_155__.default,
-  SigninBgImg: _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_156__.default,
-  SignupBgImg: _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_157__.default,
-  ResetBgImg: _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_158__.default,
-  errorImage: _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_174__.default,
+  BlogsDetailsImg: _image_blogs_blog_details_img_1_png__WEBPACK_IMPORTED_MODULE_153__.default,
+  SiderbarAdsImg: _image_mixed_ads_img_png__WEBPACK_IMPORTED_MODULE_154__.default,
+  CareerPageVideobg: _image_mixed_career_video_bg_png__WEBPACK_IMPORTED_MODULE_158__.default,
+  SigninBgImg: _image_accounts_sign_in_jpg__WEBPACK_IMPORTED_MODULE_159__.default,
+  SignupBgImg: _image_accounts_sign_up_jpg__WEBPACK_IMPORTED_MODULE_160__.default,
+  ResetBgImg: _image_accounts_reset_pass_img_jpg__WEBPACK_IMPORTED_MODULE_161__.default,
+  errorImage: _image_mixed_404_png__WEBPACK_IMPORTED_MODULE_177__.default,
   CountdownBgImg: _image_mixed_pattern_img_1_png__WEBPACK_IMPORTED_MODULE_2__.default
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Images);
@@ -13272,1357 +13269,8 @@ const header = {
 function HomeIt() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Core__WEBPACK_IMPORTED_MODULE_1__.PageWrapper, {
     headerConfig: header
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Feature__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Process__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_ContentOne__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_ContentOne__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_ContentOne__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Contact__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_FooterThree__WEBPACK_IMPORTED_MODULE_7__.default, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Process__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Feature__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_ContentOne__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_ContentOne__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_ContentOne__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Contact__WEBPACK_IMPORTED_MODULE_6__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_FooterThree__WEBPACK_IMPORTED_MODULE_7__.default, null));
 }
-
-/***/ }),
-
-/***/ "./src/pages/team.js":
-/*!***************************!*\
-  !*** ./src/pages/team.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ HomeIt)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components/Core */ "./src/components/Core/index.js");
-/* harmony import */ var _sections_it_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~sections/it/Header */ "./src/sections/it/Header/index.js");
-/* harmony import */ var _sections_it_FooterThree__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ~sections/it/FooterThree */ "./src/sections/it/FooterThree/index.js");
-/* harmony import */ var _sections_About__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ~sections/About */ "./src/sections/About/index.js");
-
-
-
-
-
-const header = {
-  headerClasses: "site-header site-header--menu-start light-header site-header--with-border site-header--sticky",
-  containerFluid: false,
-  buttonBlock: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_Header__WEBPACK_IMPORTED_MODULE_2__.default, {
-    className: "ms-auto d-none d-xs-inline-flex",
-    btnText: "Purchase",
-    mr: "15px",
-    mrLG: "0"
-  })
-};
-function HomeIt() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Core__WEBPACK_IMPORTED_MODULE_1__.PageWrapper, {
-    headerConfig: header
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_About__WEBPACK_IMPORTED_MODULE_4__.TeamSection, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_About__WEBPACK_IMPORTED_MODULE_4__.ContentSection, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_About__WEBPACK_IMPORTED_MODULE_4__.PromoSection, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_sections_it_FooterThree__WEBPACK_IMPORTED_MODULE_3__.default, null));
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/About/AboutSection.js":
-/*!**************************************************!*\
-  !*** ./src/sections/About/About/AboutSection.js ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ AboutSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components */ "./src/components/index.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./src/sections/About/About/style.js");
-/* harmony import */ var _Components_SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/SectionTitle */ "./src/sections/About/About/Components/SectionTitle/index.js");
-/* harmony import */ var _components_VideoModal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ~components/VideoModal */ "./src/components/VideoModal/index.js");
-
-
-
-
-
-
-
-function AboutSection() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    className: "align-items-center justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__.default, {
-    xs: "12",
-    className: "col-xl-6 col-lg-6 col-md-8 col-xs-10"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Image, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_8__.StaticImage, {
-    className: "w-100",
-    src: "../../../assets/image/home-agency/about-us-l5-img.png",
-    alt: "about",
-    layout: "fullWidth",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3030153767.json */ "./.cache/caches/gatsby-plugin-image/3030153767.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_VideoModal__WEBPACK_IMPORTED_MODULE_4__.default, {
-    id: "LWZ7iytIA6k",
-    className: "video-btn sonar-emitter"
-  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fa fa-play"
-  }), " "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__.default, {
-    col: "12",
-    className: "col-xxl-5 offset-xxl-1 col-lg-5 col-md-8 col-xs-10"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Content, {
-    mt: "40px",
-    mtLG: "0",
-    mb: "50px",
-    mbLG: "0",
-    mlLG: "30px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_SectionTitle__WEBPACK_IMPORTED_MODULE_3__.default, {
-    subTitle: "Watch video",
-    title: "Watch how we work",
-    text: "Scale up and down easily as your business demands. And make use of business-grade consultation. Book flexibly by the day, week or longer and customise the layout to reflect your brand.",
-    titleProps: {
-      mb: "30px"
-    },
-    subTitleProps: {
-      mb: "25px"
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.ButtonGroup, {
-    mt: "25px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Button, {
-    className: "btn-primary btn-1",
-    as: _components__WEBPACK_IMPORTED_MODULE_1__.Link,
-    to: "/"
-  }, "Learn More"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Button, {
-    className: "btn-electric-violet-2 btn-2",
-    as: _components__WEBPACK_IMPORTED_MODULE_1__.Link,
-    to: "/"
-  }, "Get Started")))))));
-}
-{
-  /* <SectionTitleBlock 
-  subTitle="Watch video" 
-  title="Consultation Trade
-  Easier Than Ever"
-  text="Scale up and down easily as your business demands. And make use of business-grade consultation. Book flexibly by the day, week or longer and customise the layout to reflect your brand."
-  titleProps={{mb:"30px"}}
-  subTitleProps={{mb:"25px"}}
-  /> */
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/About/Components/SectionTitle/index.js":
-/*!*******************************************************************!*\
-  !*** ./src/sections/About/About/Components/SectionTitle/index.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SectionTitleBlock)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components */ "./src/components/index.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./src/sections/About/About/Components/SectionTitle/style.js");
-
-
-
-function SectionTitleBlock({
-  subTitleProps,
-  titleProps,
-  textProps,
-  subTitle,
-  title,
-  text,
-  ...rest
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default, rest, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Subtitle, subTitleProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: subTitle
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Main, Object.assign({}, titleProps, {
-    as: "h2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: title
-  })), text ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Text, textProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: text
-  })) : null);
-} // export default function SectionTitleBlock(){
-// return(
-//     <SectionTitleBlock 
-// subTitle="Hellow Bellow" 
-// title=" Hellow Bellow title"
-// text="Hellow Bellow text"
-// subTitleProps={{mt:"20px", mb:"20px"}}
-// titleProps={{mt:"20px", mb:"20px"}}
-// textProps={{mt:"20px", mb:"20px"}}
-// mb="20px" />
-// )
-// }
-
-/***/ }),
-
-/***/ "./src/sections/About/About/Components/SectionTitle/style.js":
-/*!*******************************************************************!*\
-  !*** ./src/sections/About/About/Components/SectionTitle/style.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const SectionTitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__SectionTitle",
-  componentId: "sc-1w1vnie-0"
-})([""]);
-
-SectionTitle.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "sc-1w1vnie-1"
-})(["font-size:18px;font-weight:400;letter-spacing:normal;line-height:1.77777;color:inherit;"]);
-SectionTitle.Subtitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Subtitle",
-  componentId: "sc-1w1vnie-2"
-})(["color:#ff5722;font-size:16px;font-weight:500;letter-spacing:normal;line-height:28px;position:relative;display:inline-block;"]);
-SectionTitle.Main = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Main",
-  componentId: "sc-1w1vnie-3"
-})(["font-size:32px;font-weight:500;letter-spacing:normal;line-height:1.38095;@media (min-width:768px){font-size:33px;}@media (min-width:1200px){font-size:42px;}"]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionTitle);
-
-/***/ }),
-
-/***/ "./src/sections/About/About/index.js":
-/*!*******************************************!*\
-  !*** ./src/sections/About/About/index.js ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _AboutSection__WEBPACK_IMPORTED_MODULE_0__.default)
-/* harmony export */ });
-/* harmony import */ var _AboutSection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AboutSection */ "./src/sections/About/About/AboutSection.js");
-
-
-/***/ }),
-
-/***/ "./src/sections/About/About/style.js":
-/*!*******************************************!*\
-  !*** ./src/sections/About/About/style.js ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const About = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__About",
-  componentId: "sc-7r660w-0"
-})(["padding-top:60px;padding-bottom:20px;@media (min-width:768px){padding-top:80px;padding-bottom:40px;}@media (min-width:992px){padding-top:100px;padding-bottom:110px;}"]);
-
-About.Content = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Content",
-  componentId: "sc-7r660w-1"
-})([""]);
-About.Title = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Title",
-  componentId: "sc-7r660w-2"
-})(["font-size:32px;font-weight:500;letter-spacing:normal;line-height:1.3;position:relative;@media (min-width:768px){font-size:38px;}@media (min-width:992px){font-size:48px;}"]);
-About.Subtitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Subtitle",
-  componentId: "sc-7r660w-3"
-})(["font-size:16px;font-weight:500;letter-spacing:normal;line-height:1.75;"]);
-About.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "sc-7r660w-4"
-})(["font-size:16px;font-weight:400;letter-spacing:normal;line-height:1.77777;"]);
-About.ButtonGroup = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__ButtonGroup",
-  componentId: "sc-7r660w-5"
-})(["margin-right:-17.0656px;display:flex;flex-wrap:wrap;"]);
-About.Image = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Image",
-  componentId: "sc-7r660w-6"
-})([".video-btn{min-width:96px;max-width:96px;min-height:96px;max-height:96px;display:flex;align-items:center;justify-content:center;font-size:16px;color:#fff;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border-radius:50%;background-color:#ff5722;border-color:transparent;}"]);
-About.Button = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Button).withConfig({
-  displayName: "style__Button",
-  componentId: "sc-7r660w-7"
-})(["margin-right:17.0656px;border-radius:500px;color:#fff;min-width:140px;height:56px;margin-top:15px;@media (min-width:1200px){min-width:165px;height:60px;}&.btn-1{box-shadow:4px 4px 56px rgb(255 87 34 / 0%);&:hover{box-shadow:4px 4px 56px rgb(80 52 252 / 30%);}}&.btn-2{box-shadow:4px 4px 56px rgb(80 52 252 / 0%);&:hover{box-shadow:4px 4px 56px rgb(80 52 252 / 30%);}}"]);
-About.Box = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Box",
-  componentId: "sc-7r660w-8"
-})([""]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
-
-/***/ }),
-
-/***/ "./src/sections/About/Content/Components/SectionTitle/index.js":
-/*!*********************************************************************!*\
-  !*** ./src/sections/About/Content/Components/SectionTitle/index.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SectionTitleBlock)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components */ "./src/components/index.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./src/sections/About/Content/Components/SectionTitle/style.js");
-
-
-
-function SectionTitleBlock({
-  subTitleProps,
-  titleProps,
-  textProps,
-  subTitle,
-  title,
-  text,
-  ...rest
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default, rest, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Subtitle, subTitleProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: subTitle
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Main, Object.assign({}, titleProps, {
-    as: "h2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: title
-  })), text ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Text, textProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: text
-  })) : null);
-} // export default function SectionTitleBlock(){
-// return(
-//     <SectionTitleBlock 
-// subTitle="Hellow Bellow" 
-// title=" Hellow Bellow title"
-// text="Hellow Bellow text"
-// subTitleProps={{mt:"20px", mb:"20px"}}
-// titleProps={{mt:"20px", mb:"20px"}}
-// textProps={{mt:"20px", mb:"20px"}}
-// mb="20px" />
-// )
-// }
-
-/***/ }),
-
-/***/ "./src/sections/About/Content/Components/SectionTitle/style.js":
-/*!*********************************************************************!*\
-  !*** ./src/sections/About/Content/Components/SectionTitle/style.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const SectionTitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__SectionTitle",
-  componentId: "ni2uz1-0"
-})([""]);
-
-SectionTitle.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "ni2uz1-1"
-})(["font-size:18px;font-weight:400;letter-spacing:normal;line-height:1.77777;color:inherit;"]);
-SectionTitle.Subtitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Subtitle",
-  componentId: "ni2uz1-2"
-})(["color:#ff5722;font-size:16px;font-weight:500;letter-spacing:normal;line-height:28px;position:relative;display:inline-block;"]);
-SectionTitle.Main = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Main",
-  componentId: "ni2uz1-3"
-})(["font-size:32px;font-weight:500;letter-spacing:normal;line-height:1.38095;@media (min-width:768px){font-size:33px;}@media (min-width:1200px){font-size:42px;}"]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionTitle);
-
-/***/ }),
-
-/***/ "./src/sections/About/Content/ContentSection.js":
-/*!******************************************************!*\
-  !*** ./src/sections/About/Content/ContentSection.js ***!
-  \******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ ContentSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style */ "./src/sections/About/Content/style.js");
-/* harmony import */ var _Components_SectionTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Components/SectionTitle */ "./src/sections/About/Content/Components/SectionTitle/index.js");
-
-
-
-
-
-function ContentSection() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.InnerWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
-    className: "align-items-center justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
-    xs: "12",
-    className: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Image, {
-    mt: "30px",
-    mb: "30px",
-    mbMD: "0",
-    mtMD: "0"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    src: "../../../assets/image/it-services/elewa-team.png",
-    alt: "content",
-    layout: "fullWidth",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/257692674.json */ "./.cache/caches/gatsby-plugin-image/257692674.json")
-  })))))));
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/Content/index.js":
-/*!*********************************************!*\
-  !*** ./src/sections/About/Content/index.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _ContentSection__WEBPACK_IMPORTED_MODULE_0__.default)
-/* harmony export */ });
-/* harmony import */ var _ContentSection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContentSection */ "./src/sections/About/Content/ContentSection.js");
-
-
-/***/ }),
-
-/***/ "./src/sections/About/Content/style.js":
-/*!*********************************************!*\
-  !*** ./src/sections/About/Content/style.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-/* harmony import */ var polished__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! polished */ "./node_modules/polished/dist/polished.esm.js");
-
-
-
-
-const Content = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Content",
-  componentId: "sc-16vsnj7-0"
-})([""]);
-
-Content.InnerWrapper = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__InnerWrapper",
-  componentId: "sc-16vsnj7-1"
-})(["padding-top:60px;padding-bottom:20px;@media (min-width:768px){padding-top:80px;padding-bottom:40px;}@media (min-width:992px){padding-top:100px;padding-bottom:110px;}"]);
-Content.WidgetsWrapper = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__WidgetsWrapper",
-  componentId: "sc-16vsnj7-2"
-})([""]);
-Content.Widget = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Widget",
-  componentId: "sc-16vsnj7-3"
-})([""]);
-Content.WidgetTitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__WidgetTitle",
-  componentId: "sc-16vsnj7-4"
-})(["font-size:21px;font-weight:500;letter-spacing:normal;line-height:30px;color:#ff5722;margin-bottom:13px;"]);
-Content.WidgetText = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__WidgetText",
-  componentId: "sc-16vsnj7-5"
-})(["font-size:15px;font-weight:400;letter-spacing:normal;line-height:30px;@media (min-width:1600px){font-size:16px;}"]);
-Content.Image = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Image",
-  componentId: "sc-16vsnj7-6"
-})(["@media (min-width:1400px){padding:0 55px;}"]);
-Content.Button = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Button).withConfig({
-  displayName: "style__Button",
-  componentId: "sc-16vsnj7-7"
-})(["min-width:183px;height:56px;border-radius:5px;font-size:15px;border-radius:500px;color:#fff;transition:.4s;background:", ";box-shadow:", ";&:hover{background:", ";box-shadow:", ";color:#fff;}"], props => props.background, props => props.background ? "-12px 12px 50px " + (0,polished__WEBPACK_IMPORTED_MODULE_2__.rgba)(props.background, 0) : "none", props => props.background, props => props.background ? "-12px 12px 50px " + (0,polished__WEBPACK_IMPORTED_MODULE_2__.rgba)(props.background, .3) : "none");
-Content.Box = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Box",
-  componentId: "sc-16vsnj7-8"
-})([""]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Content);
-
-/***/ }),
-
-/***/ "./src/sections/About/Feature/Components/CounterBlock/index.js":
-/*!*********************************************************************!*\
-  !*** ./src/sections/About/Feature/Components/CounterBlock/index.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ CounterBlock)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style */ "./src/sections/About/Feature/Components/CounterBlock/style.js");
-
-
-function CounterBlock({ ...rest
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default, rest, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Wrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Single, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Title, {
-    as: "h3",
-    fontColor: "#fff"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "counter"
-  }, "280")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    fontColor: "#ffffffb3"
-  }, "Project Launched")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Single, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Title, {
-    as: "h3",
-    fontColor: "#fff"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "counter"
-  }, "640"), "%"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    fontColor: "#ffffffb3"
-  }, "Happy clients")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Single, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Title, {
-    as: "h3",
-    fontColor: "#fff"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "counter"
-  }, "+3500"), "+"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    fontColor: "#ffffffb3"
-  }, "Users Comments"))));
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/Feature/Components/CounterBlock/style.js":
-/*!*********************************************************************!*\
-  !*** ./src/sections/About/Feature/Components/CounterBlock/style.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const Counter = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Counter",
-  componentId: "qvfu1x-0"
-})(["@media (min-width:992px){left:-25%;min-width:120%;}"]);
-
-Counter.Wrapper = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Wrapper",
-  componentId: "qvfu1x-1"
-})(["box-shadow:0 24px 50px rgba(96,1,211,0.2);border-radius:15px;background-color:rgba(80,52,252,0.9);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:50px;padding-bottom:20px;padding-left:0px;padding-right:0px;"]);
-Counter.Single = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).attrs({
-  className: "counter-single"
-}).withConfig({
-  displayName: "style__Single",
-  componentId: "qvfu1x-2"
-})(["border:none !important;position:relative;text-align:center;margin:0 auto;margin-bottom:30px;text-align:center;width:100%;margin-bottom:30px;flex:0 0 100%;@media (min-width:480px){width:50%;flex:0 0 50%;}@media (min-width:768px){padding:0 45px;width:calc(33.3333% - 10px);flex:0 0 calc(33.3333% - 10px);}@media (min-width:992px){padding-left:0px;padding-right:0px;}@media (min-width:1400px){padding-left:10px;padding-right:10px;}@media (min-width:320px){&::before{content:\"\";position:absolute;right:0;top:50%;transform:translateY(-50%);width:2px;height:90px;background-color:#fff;opacity:0.1;}}&:nth-child(2){&::before{content:\"\";background-color:transparent;}@media (min-width:768px){&::before{content:\"\";background-color:#fff;opacity:0.1;}}}&:last-child{&::before{content:\"\";position:absolute;right:0;top:50%;transform:translateY(-50%);width:2px;height:68px;background-color:transparent;}}"]);
-Counter.Title = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Title",
-  componentId: "qvfu1x-3"
-})(["font-size:28px;font-weight:500;letter-spacing:normal;line-height:1.4761;@media (min-width:768px){font-size:32px;}@media (min-width:992px){font-size:35px;}@media (min-width:1200px){font-size:42px;}"]);
-Counter.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "qvfu1x-4"
-})(["font-size:13px;font-weight:400;letter-spacing:normal;line-height:30px;margin-bottom:0;@media (min-width:768px){font-size:16px;}@media (min-width:992px){font-size:18px;}"]);
-Counter.Box = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Box",
-  componentId: "qvfu1x-5"
-})([""]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Counter);
-
-/***/ }),
-
-/***/ "./src/sections/About/Feature/Components/SectionTitle/index.js":
-/*!*********************************************************************!*\
-  !*** ./src/sections/About/Feature/Components/SectionTitle/index.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SectionTitleBlock)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components */ "./src/components/index.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./src/sections/About/Feature/Components/SectionTitle/style.js");
-
-
-
-function SectionTitleBlock({
-  subTitleProps,
-  titleProps,
-  textProps,
-  subTitle,
-  title,
-  text,
-  ...rest
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default, rest, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Subtitle, subTitleProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: subTitle
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Main, Object.assign({}, titleProps, {
-    as: "h2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: title
-  })), text ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Text, textProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: text
-  })) : null);
-} // export default function SectionTitleBlock(){
-// return(
-//     <SectionTitleBlock 
-// subTitle="Hellow Bellow" 
-// title=" Hellow Bellow title"
-// text="Hellow Bellow text"
-// subTitleProps={{mt:"20px", mb:"20px"}}
-// titleProps={{mt:"20px", mb:"20px"}}
-// textProps={{mt:"20px", mb:"20px"}}
-// mb="20px" />
-// )
-// }
-
-/***/ }),
-
-/***/ "./src/sections/About/Feature/Components/SectionTitle/style.js":
-/*!*********************************************************************!*\
-  !*** ./src/sections/About/Feature/Components/SectionTitle/style.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const SectionTitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__SectionTitle",
-  componentId: "sc-1oagy3c-0"
-})([""]);
-
-SectionTitle.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "sc-1oagy3c-1"
-})(["font-size:18px;font-weight:400;letter-spacing:normal;line-height:1.77777;color:inherit;"]);
-SectionTitle.Subtitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Subtitle",
-  componentId: "sc-1oagy3c-2"
-})(["color:#ff5722;font-size:16px;font-weight:500;letter-spacing:normal;line-height:28px;position:relative;display:inline-block;"]);
-SectionTitle.Main = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Main",
-  componentId: "sc-1oagy3c-3"
-})(["font-size:32px;font-weight:500;letter-spacing:normal;line-height:1.38095;@media (min-width:768px){font-size:33px;}@media (min-width:1200px){font-size:42px;}"]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionTitle);
-
-/***/ }),
-
-/***/ "./src/sections/About/Feature/FeatureSection.js":
-/*!******************************************************!*\
-  !*** ./src/sections/About/Feature/FeatureSection.js ***!
-  \******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ FeatureSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style */ "./src/sections/About/Feature/style.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _Components_SectionTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Components/SectionTitle */ "./src/sections/About/Feature/Components/SectionTitle/index.js");
-/* harmony import */ var _Components_CounterBlock__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/CounterBlock */ "./src/sections/About/Feature/Components/CounterBlock/index.js");
-
-
-
-
-
-
-function FeatureSection() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default, {
-    backgroundColor: "#f3f4f6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    className: "col-xl-8 col-lg-10"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_SectionTitle__WEBPACK_IMPORTED_MODULE_2__.default, {
-    subTitle: "About us",
-    title: "We will make your website <br class='d-none d-xs-block'>\r look more elegant and stylish!",
-    titleProps: {
-      mb: "33px"
-    },
-    subTitleProps: {
-      mb: "20px"
-    }
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    xs: "12",
-    className: "col-lg-6 col-md-12 mb-5 mb-lg-7"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    mrLG: "30px"
-  }, "Business advisory service advises current and future businesses prospects of a client, with the aim of advancing their business or company. This service is used by all types of businesses and would involve examining the legal, tax, finance, market and risks factors involved to start up a business."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    xs: "12",
-    className: "col-lg-6 col-md-12 mb-5 mb-lg-7"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    mrLG: "30px"
-  }, "Business advisory service advises current and future businesses prospects of a client, with the aim of advancing their business or company. This service is used by all types of businesses and would involve examining the legal, tax, finance, market and risks factors involved to start up a business.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
-    className: "align-items-center justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    xs: "12",
-    className: "col-lg-6 col-md-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Image, {
-    mb: "30px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
-    className: "w-100",
-    src: "../../../assets/image/it-services/feature-l3-image.png",
-    alt: "it-service",
-    layout: "fullWidth",
-    placeholder: "blurred",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2654967507.json */ "./.cache/caches/gatsby-plugin-image/2654967507.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    className: "col-lg-6 col-md-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Contentlist, {
-    mbLG: "65px",
-    mb: "30px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, "Multi-page sites and one-page sites"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, "Built with Bootstrap 5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, "Free updates and support")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_CounterBlock__WEBPACK_IMPORTED_MODULE_3__.default, {
-    mt: "50px"
-  }))))));
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/Feature/index.js":
-/*!*********************************************!*\
-  !*** ./src/sections/About/Feature/index.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _FeatureSection__WEBPACK_IMPORTED_MODULE_0__.default)
-/* harmony export */ });
-/* harmony import */ var _FeatureSection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FeatureSection */ "./src/sections/About/Feature/FeatureSection.js");
-
-
-/***/ }),
-
-/***/ "./src/sections/About/Feature/style.js":
-/*!*********************************************!*\
-  !*** ./src/sections/About/Feature/style.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const Feature = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Feature",
-  componentId: "sc-1oysd53-0"
-})(["padding-top:55px;padding-bottom:60px;@media (min-width:768px){padding-top:75px;padding-bottom:80px;}@media (min-width:992px){padding-top:135px;padding-bottom:110px;}"]);
-
-Feature.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "sc-1oysd53-1"
-})([""]);
-Feature.Image = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Image",
-  componentId: "sc-1oysd53-2"
-})(["@media (min-width:992px){margin-right:30px;}}"]);
-Feature.Contentlist = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Contentlist",
-  componentId: "sc-1oysd53-3"
-})([""]);
-Feature.List = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__List",
-  componentId: "sc-1oysd53-4"
-})(["position:relative;z-index:1;padding-left:30px;margin-bottom:20px;color:var(--color-headings-2);font-size:16px;font-weight:400;letter-spacing:normal;line-height:1.75;&:before{content:\"\";position:absolute;width:10px;height:18px;background-color:#ff5722;left:10px;top:4px;}"]);
-Feature.Box = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Box",
-  componentId: "sc-1oysd53-5"
-})([""]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Feature);
-
-/***/ }),
-
-/***/ "./src/sections/About/Promo/PromoSection.js":
-/*!**************************************************!*\
-  !*** ./src/sections/About/Promo/PromoSection.js ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ PromoSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~data */ "./src/data/index.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./src/sections/About/Promo/style.js");
-
-
-
-
-function PromoSection({ ...rest
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default, {
-    backgroundColor: "#5034fc"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
-    className: "justify-content-center text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
-    className: "col-xl-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Title, {
-    fontColor: "#fff",
-    as: "h2",
-    mb: "45px"
-  }, "Interested in joining our team? "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Button, {
-    background: "#ff5722"
-  }, "Explore opportunities"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Shape, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "w-100",
-    src: _data__WEBPACK_IMPORTED_MODULE_1__.Images.PageAboutUs.InnerPromoShape,
-    alt: "inner shape"
-  })));
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/Promo/index.js":
-/*!*******************************************!*\
-  !*** ./src/sections/About/Promo/index.js ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _PromoSection__WEBPACK_IMPORTED_MODULE_0__.default)
-/* harmony export */ });
-/* harmony import */ var _PromoSection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PromoSection */ "./src/sections/About/Promo/PromoSection.js");
-
-
-/***/ }),
-
-/***/ "./src/sections/About/Promo/style.js":
-/*!*******************************************!*\
-  !*** ./src/sections/About/Promo/style.js ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-/* harmony import */ var polished__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! polished */ "./node_modules/polished/dist/polished.esm.js");
-
-
-
-
-const Promo = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Promo",
-  componentId: "sc-1stsw2p-0"
-})(["padding-top:50px;padding-bottom:50px;@media (min-width:768px){padding-top:75px;padding-bottom:80px;}@media (min-width:992px){padding-top:100px;padding-bottom:120px;}"]);
-
-Promo.Title = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Title",
-  componentId: "sc-1stsw2p-1"
-})(["font-size:32px;font-weight:500;letter-spacing:normal;line-height:1.3;@media (min-width:768px){font-size:38px;}@media (min-width:992px){font-size:48px;}"]);
-Promo.Content = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Content",
-  componentId: "sc-1stsw2p-2"
-})([""]);
-Promo.Button = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Button).withConfig({
-  displayName: "style__Button",
-  componentId: "sc-1stsw2p-3"
-})(["min-width:255px;height:56px;border-radius:5px;font-size:15px;border-radius:500px;color:#fff;transition:.4s;background:", ";box-shadow:", ";&:hover{box-shadow:", ";background:", ";color:#fff;}"], props => props.background, props => props.background ? "-12px 12px 50px " + (0,polished__WEBPACK_IMPORTED_MODULE_2__.rgba)(props.background, .3) : "none", props => props.background ? "-12px 12px 50px " + (0,polished__WEBPACK_IMPORTED_MODULE_2__.rgba)(props.background, 0) : "none", props => props.background);
-Promo.Shape = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Shape",
-  componentId: "sc-1stsw2p-4"
-})(["position:absolute;right:0;top:0;width:8%;"]);
-Promo.Box = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Box",
-  componentId: "sc-1stsw2p-5"
-})([""]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Promo);
-
-/***/ }),
-
-/***/ "./src/sections/About/Team/Components/Card/index.js":
-/*!**********************************************************!*\
-  !*** ./src/sections/About/Team/Components/Card/index.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ TeamCard)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style */ "./src/sections/About/Team/Components/Card/style.js");
-
-
-function TeamCard({
-  image,
-  userName,
-  userPosition,
-  ...rest
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default, rest, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "w-100",
-    src: image,
-    alt: "testimonial"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.InnerBlock, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Title, {
-    fontColor: "#fff"
-  }, userName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    className: "card__user-media__cat",
-    fontColor: "#fff"
-  }, userPosition), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Social, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.SocialItem, {
-    as: "a",
-    href: "href://instagram.com",
-    tabIndex: 0
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fab fa-instagram"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.SocialItem, {
-    as: "a",
-    href: "href://instagram.com",
-    tabIndex: 0
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fab fa-linkedin"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.SocialItem, {
-    as: "a",
-    href: "href://instagram.com",
-    tabIndex: 0
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fab fa-facebook"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.SocialItem, {
-    as: "a",
-    href: "href://instagram.com",
-    tabIndex: 0
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fab fa-twitter"
-  })))))));
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/Team/Components/Card/style.js":
-/*!**********************************************************!*\
-  !*** ./src/sections/About/Team/Components/Card/style.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const Card = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).attrs({
-  className: "team-card"
-}).withConfig({
-  displayName: "style__Card",
-  componentId: "tz9qgi-0"
-})(["position:relative;border-radius:15px;overflow:hidden;border:none;cursor:all-scroll;&:focus,&:active{outline:none;box-shadow:none;}.card-innerblock{position:absolute;left:0;bottom:0;transform:translateY(100%);}&:hover{.card-innerblock{transform:translateY(0);}}"]);
-
-Card.InnerBlock = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).attrs({
-  className: "card-innerblock"
-}).withConfig({
-  displayName: "style__InnerBlock",
-  componentId: "tz9qgi-1"
-})(["   background:linear-gradient( 360deg,#ff794e 0%,rgba(255,121,78,0.69) 38.45%,rgba(253,52,110,0) 79.35%,rgba(253,52,110,0) 111.11% );width:100%;height:50%;border-bottom-left-radius:15px;border-bottom-right-radius:15px;transition:0.5s;> div{position:absolute;left:0;bottom:0;margin-left:45px;margin-bottom:15px;}"]);
-Card.Title = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Title",
-  componentId: "tz9qgi-2"
-})(["font-size:21px;font-weight:500;letter-spacing:normal;line-height:30px;color:var(--bs-white);margin-bottom:0;"]);
-Card.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "tz9qgi-3"
-})(["font-size:13px;font-weight:500;font-style:normal;letter-spacing:normal;line-height:22px;margin-bottom:0;opacity:.7;"]);
-Card.Social = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Social",
-  componentId: "tz9qgi-4"
-})(["margin-top:15px;"]);
-Card.SocialItem = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__SocialItem",
-  componentId: "tz9qgi-5"
-})(["color:#fff;padding-right:20px;transition-duration:0.4s;"]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Card);
-
-/***/ }),
-
-/***/ "./src/sections/About/Team/Components/SectionTitle/index.js":
-/*!******************************************************************!*\
-  !*** ./src/sections/About/Team/Components/SectionTitle/index.js ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SectionTitleBlock)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ~components */ "./src/components/index.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./src/sections/About/Team/Components/SectionTitle/style.js");
-
-
-
-function SectionTitleBlock({
-  subTitleProps,
-  titleProps,
-  textProps,
-  subTitle,
-  title,
-  text,
-  ...rest
-}) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default, rest, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Subtitle, subTitleProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: subTitle
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Main, Object.assign({}, titleProps, {
-    as: "h2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: title
-  })), text ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Text, textProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components__WEBPACK_IMPORTED_MODULE_1__.SuperTag, {
-    value: text
-  })) : null);
-} // export default function SectionTitleBlock(){
-// return(
-//     <SectionTitleBlock 
-// subTitle="Hellow Bellow" 
-// title=" Hellow Bellow title"
-// text="Hellow Bellow text"
-// subTitleProps={{mt:"20px", mb:"20px"}}
-// titleProps={{mt:"20px", mb:"20px"}}
-// textProps={{mt:"20px", mb:"20px"}}
-// mb="20px" />
-// )
-// }
-
-/***/ }),
-
-/***/ "./src/sections/About/Team/Components/SectionTitle/style.js":
-/*!******************************************************************!*\
-  !*** ./src/sections/About/Team/Components/SectionTitle/style.js ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const SectionTitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__SectionTitle",
-  componentId: "bnbrd7-0"
-})([""]);
-
-SectionTitle.Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Text",
-  componentId: "bnbrd7-1"
-})(["font-size:18px;font-weight:400;letter-spacing:normal;line-height:1.77777;color:inherit;"]);
-SectionTitle.Subtitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Subtitle",
-  componentId: "bnbrd7-2"
-})(["color:#ff5722;font-size:16px;font-weight:500;letter-spacing:normal;line-height:28px;position:relative;display:inline-block;"]);
-SectionTitle.Main = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Main",
-  componentId: "bnbrd7-3"
-})(["font-size:32px;font-weight:500;letter-spacing:normal;line-height:1.38095;@media (min-width:768px){font-size:33px;}@media (min-width:1200px){font-size:42px;}"]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionTitle);
-
-/***/ }),
-
-/***/ "./src/sections/About/Team/TeamSection.js":
-/*!************************************************!*\
-  !*** ./src/sections/About/Team/TeamSection.js ***!
-  \************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ TeamSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~data */ "./src/data/index.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Row.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var _Components_SectionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/SectionTitle */ "./src/sections/About/Team/Components/SectionTitle/index.js");
-/* harmony import */ var _Components_Card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Components/Card */ "./src/sections/About/Team/Components/Card/index.js");
-/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style */ "./src/sections/About/Team/style.js");
-
-
-
-
-
-
-
-function TeamSection({ ...rest
-}) {
-  const elSlider = react__WEBPACK_IMPORTED_MODULE_0___default().useRef();
-  const sliderConfig = {
-    centerMode: true,
-    centerPadding: "180px",
-    slidesToShow: 3,
-    dots: true,
-    arrows: false,
-    responsive: [{
-      breakpoint: 1200,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 3
-      }
-    }, {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 2
-      }
-    }, {
-      breakpoint: 700,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 1
-      }
-    }, {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: false,
-        centerPadding: "40px",
-        slidesToShow: 1,
-        dots: true
-      }
-    }, {
-      breakpoint: 400,
-      settings: {
-        arrows: false,
-        centerMode: false,
-        centerPadding: "100px",
-        slidesToShow: 1,
-        dots: true
-      }
-    }]
-  };
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_5__.default, Object.assign({}, rest, {
-    backgroundColor: "#f3f4f6"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__.default, {
-    className: "justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__.default, {
-    className: "col-xxl-6 col-md-8 col-xs-10"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_5__.default.Box, {
-    className: "text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_SectionTitle__WEBPACK_IMPORTED_MODULE_3__.default, {
-    subTitle: "Our Team",
-    title: "Meet the minds shaping <br class='d-none d-xs-block'>your digital business",
-    titleProps: {
-      mb: "33px"
-    },
-    subTitleProps: {
-      mb: "20px"
-    }
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    fluid: true
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_5__.default.SliderWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_slick__WEBPACK_IMPORTED_MODULE_1__.default, Object.assign({
-    ref: elSlider
-  }, sliderConfig), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.jente,
-    userName: "Jente Rosseel",
-    userPosition: "CEO"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.peter,
-    userName: "Peter Reinartz",
-    userPosition: "Management"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.ken,
-    userName: "Kennedy Adhola",
-    userPosition: "Management"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.joyce,
-    userName: "Joyce Njoki",
-    userPosition: "Support"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.denis,
-    userName: "Denis Githinji",
-    userPosition: "Engineer"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.esther,
-    userName: "Esther Bidali",
-    userPosition: "Engineer"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.noella,
-    userName: "Noella Mwanzia",
-    userPosition: "Engineer"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.joylinda,
-    userName: "Joy Linda",
-    userPosition: "Engineer"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Card__WEBPACK_IMPORTED_MODULE_4__.default, {
-    image: _data__WEBPACK_IMPORTED_MODULE_2__.Images.itServices.fatuma,
-    userName: "Fatuma Abdullahi",
-    userPosition: "Engineer"
-  })))));
-}
-
-/***/ }),
-
-/***/ "./src/sections/About/Team/index.js":
-/*!******************************************!*\
-  !*** ./src/sections/About/Team/index.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _TeamSection__WEBPACK_IMPORTED_MODULE_0__.default)
-/* harmony export */ });
-/* harmony import */ var _TeamSection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TeamSection */ "./src/sections/About/Team/TeamSection.js");
-
-
-/***/ }),
-
-/***/ "./src/sections/About/Team/style.js":
-/*!******************************************!*\
-  !*** ./src/sections/About/Team/style.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ~styled */ "./src/styles/index.js");
-
-
-
-const Team = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Team",
-  componentId: "sc-1vunmy-0"
-})(["padding-top:55px;padding-bottom:40px;@media (min-width:768px){padding-top:75px;padding-bottom:60px;}@media (min-width:992px){padding-top:135px;padding-bottom:110px;}"]);
-
-Team.Title = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Heading).withConfig({
-  displayName: "style__Title",
-  componentId: "sc-1vunmy-1"
-})(["font-size:32px;font-weight:500;letter-spacing:normal;line-height:1.3;@media (min-width:768px){font-size:38px;}@media (min-width:992px){font-size:48px;}"]);
-Team.Subtitle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Paragraph).withConfig({
-  displayName: "style__Subtitle",
-  componentId: "sc-1vunmy-2"
-})(["font-size:16px;font-weight:500;letter-spacing:normal;line-height:1.75;"]);
-Team.SliderWrapper = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__SliderWrapper",
-  componentId: "sc-1vunmy-3"
-})([".slick-track{display:flex!important;}.slick-slide{margin:15px 15px;@media (min-width:480px){margin:49px 15px;}&.slick-center{.team-card{box-shadow:0 8px 45px rgba(0,0,0,0.3);}}}.slick-dots{list-style:none;display:inline-flex!important;align-items:center;justify-content:center;text-align:center;margin:0;padding:0;margin:0 auto;width:100%;margin-top:10px;li{display:flex;button{border:none;color:transparent;width:22px;height:5px;border-radius:3px;background-color:#828288;margin:0 5px;transition:0.4s ease-in-out;&:focus{outline:none;}}&.slick-active{button{background-color:#fd346e;}}}}"]);
-Team.Box = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(_styled__WEBPACK_IMPORTED_MODULE_0__.Box).withConfig({
-  displayName: "style__Box",
-  componentId: "sc-1vunmy-4"
-})([""]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Team);
-
-/***/ }),
-
-/***/ "./src/sections/About/index.js":
-/*!*************************************!*\
-  !*** ./src/sections/About/index.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AboutSection": () => (/* reexport safe */ _About__WEBPACK_IMPORTED_MODULE_0__.default),
-/* harmony export */   "ContentSection": () => (/* reexport safe */ _Content__WEBPACK_IMPORTED_MODULE_1__.default),
-/* harmony export */   "FeatureSection": () => (/* reexport safe */ _Feature__WEBPACK_IMPORTED_MODULE_2__.default),
-/* harmony export */   "PromoSection": () => (/* reexport safe */ _Promo__WEBPACK_IMPORTED_MODULE_3__.default),
-/* harmony export */   "TeamSection": () => (/* reexport safe */ _Team__WEBPACK_IMPORTED_MODULE_4__.default)
-/* harmony export */ });
-/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./About */ "./src/sections/About/About/index.js");
-/* harmony import */ var _Content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Content */ "./src/sections/About/Content/index.js");
-/* harmony import */ var _Feature__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Feature */ "./src/sections/About/Feature/index.js");
-/* harmony import */ var _Promo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Promo */ "./src/sections/About/Promo/index.js");
-/* harmony import */ var _Team__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Team */ "./src/sections/About/Team/index.js");
-
-
-
-
-
 
 /***/ }),
 
@@ -14742,7 +13390,7 @@ function ContactSection() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_SectionTitle__WEBPACK_IMPORTED_MODULE_2__.default, {
     subTitle: "Contact Us",
     title: "Send A Message",
-    text: "When, while lovely valley teems with vapour around meand <br class='d-non d-lg-block'/>\r meridian the upper impenetrable.",
+    text: "We're here to help and answer any question you might have <br class='d-non d-lg-block'/>\r we look forward to hearing from you.",
     subTitleProps: {
       mb: "10px"
     },
@@ -14815,11 +13463,9 @@ function ContactSection() {
     as: "h2"
   }, "Get In Touch"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsBoxText, {
     as: "p"
-  }, "therefore always free from ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", {
+  }, "You can visit our offices ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", {
     className: "d-none d-xl-block"
-  }), "  repetition, injected humour, or ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", {
-    className: "d-none d-xl-block"
-  }), " non-characteristic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }), " at Westalands for any further inquires you might have."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
     xs: "12",
     className: "col-lg-12 col-sm-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Widgets, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsIcon, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
@@ -14828,9 +13474,9 @@ function ContactSection() {
     as: "h3"
   }, "visit us :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsText, {
     as: "p"
-  }, "27 Division St, New York, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", {
+  }, "4th floor, Le'Mac, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", {
     className: "d-block"
-  }), " NY 10002, USA")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }), " Church Rd, Nairobi")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
     xs: "12",
     className: "col-lg-12 col-sm-6 active"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Widgets, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsIcon, {
@@ -14841,9 +13487,7 @@ function ContactSection() {
     as: "h3"
   }, "mail us :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsText, {
     as: "p"
-  }, "phlox@mail.com ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", {
-    className: "d-block"
-  }), " contact@mail.com")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, "info@italanta.com ")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
     xs: "12",
     className: "col-lg-12 col-sm-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Widgets, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsIcon, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
@@ -14852,9 +13496,7 @@ function ContactSection() {
     as: "h3"
   }, "call us :"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsText, {
     as: "p"
-  }, "+8 (123) 985 789 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", {
-    className: "d-block"
-  }), " +1 (123) 456 789"))))))))));
+  }, "+254 78 92 27 755"))))))))));
 }
 
 /***/ }),
@@ -15551,26 +14193,7 @@ function FeatureSection() {
     backgroundColor: "#fff"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
     className: "col-xl-8 col-lg-10"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_SectionTitle__WEBPACK_IMPORTED_MODULE_2__.default, {
-    subTitle: " Italanta - High Quality Talent",
-    title: "East Africa's powerhouse for <br class='d-none d-xs-block'>\r quality IT talent!",
-    titleProps: {
-      mb: "33px"
-    },
-    subTitleProps: {
-      mb: "20px"
-    }
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    xs: "12",
-    className: "col-lg-6 col-md-12 mb-5 mb-lg-7"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    mrLG: "30px"
-  }, "\u201CTalanta\u201D is the Swahili word for Talent. We aim to Discover, Develop and Deploy talent in the Information Technology Domain. We have local presence in the EU and US where we work with clients to address tech needs."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
-    xs: "12",
-    className: "col-lg-6 col-md-12 mb-5 mb-lg-7"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
-    mrLG: "30px"
-  }, "Spinning off our famous Elewa Academy in Brussels, we are training East-African software-engineers on cutting-edge technology through personalized apprenticeship-programs and on-the-job training. Internally and with international clients.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
     className: "align-items-center justify-content-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
     xs: "12",
@@ -15586,12 +14209,23 @@ function FeatureSection() {
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2654967507.json */ "./.cache/caches/gatsby-plugin-image/2654967507.json")
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
     className: "col-lg-6 col-md-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Contentlist, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_SectionTitle__WEBPACK_IMPORTED_MODULE_2__.default, {
+    subTitle: " Italanta - High Quality Talent",
+    title: "East Africa's powerhouse for <br class='d-none d-xs-block'>\r quality IT talent!",
+    titleProps: {
+      mb: "33px"
+    },
+    subTitleProps: {
+      mb: "20px"
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
+    mrLG: "30px"
+  }, "\u201CTalanta\u201D is the Swahili word for Talent. We aim to Discover, Develop and Deploy talent in the Information Technology Domain. We have local presence in the EU and US where we work with clients to address tech needs.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Text, {
+    mrLG: "30px"
+  }, "Spinning off our famous Elewa Academy in Brussels, we are training East-African software-engineers on cutting-edge technology through personalized apprenticeship-programs and on-the-job training. Internally and with international clients."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Contentlist, {
     mbLG: "65px",
     mb: "30px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, " iTalanta Academy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, " iTalanta Apprenticeship Program"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, " House of Talent")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_CounterBlock__WEBPACK_IMPORTED_MODULE_3__.default, {
-    mt: "50px"
-  }))))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, " iTalanta Academy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, " iTalanta Apprenticeship Program"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.List, null, " House of Talent")))))));
 }
 
 /***/ }),
@@ -16334,7 +14968,7 @@ function ProcessSection({ ...rest
 }) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_2__.default.Box, {
     pb: "30p",
-    pbXL: "50px"
+    pbXL: "30px"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__.default, {
     xs: "12",
     className: "text-center"
@@ -70106,6 +68740,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/denis-a40b7a398822041b9d660c6692b4d967.png");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/deploy-icon.png":
+/*!******************************************************!*\
+  !*** ./src/assets/image/it-services/deploy-icon.png ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/develop-icon.png":
+/*!*******************************************************!*\
+  !*** ./src/assets/image/it-services/develop-icon.png ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/assets/image/it-services/discover-icon.png":
+/*!********************************************************!*\
+  !*** ./src/assets/image/it-services/discover-icon.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
 
 /***/ }),
 
