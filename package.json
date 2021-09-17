@@ -44,7 +44,9 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
+    "contentful-import": "^8.2.6",
     "eslint-import-resolver-alias": "^1.1.2",
+    "netlify-cli": "^6.9.6",
     "prettier": "2.2.1"
   },
   "keywords": [
