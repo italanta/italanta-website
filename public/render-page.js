@@ -13685,52 +13685,19 @@ function ContentSection() {
     className: "align-items-center justify-content-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
     xs: "12",
-    className: "col-lg-4 col-md-10 col-xs-11 text-center text-lg-start"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_SectionTitle__WEBPACK_IMPORTED_MODULE_2__.default, {
-    subTitle: "About us",
-    title: "An Exceptionally unique<br class='d-none d-md-block d-lg-none'> experience Tailored to you",
-    text: "In a professional context it often happens that private or corporate clients order a publication news while still not being ready.",
-    titleProps: {
-      mb: "30px"
-    },
-    subTitleProps: {
-      mb: "25px"
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Button, {
-    background: "#ff5722",
-    rounded: true,
-    mt: "25px"
-  }, "Learn More")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
-    xs: "12",
-    className: "col-xxl-5 col-lg-4 col-md-6 col-xs-9"
+    className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Image, {
     mt: "30px",
     mb: "30px",
     mbMD: "0",
     mtMD: "0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    src: "../../../assets/image/home-agency/elewa-team.png",
+    src: "../../../assets/image/it-services/elewa-team.png",
     alt: "content",
     layout: "fullWidth",
     placeholder: "blurred",
-    __error: "No data found for image \"../../../assets/image/home-agency/elewa-team.png\"\n              undefinedCould not read image data file \"C:\\Users\\ianod\\elewa\\italanta-website\\.cache\\caches\\gatsby-plugin-image\\2741225273.json\". \nThis may mean that the images in \"C:\\Users\\ianod\\elewa\\italanta-website\\src\\sections\\About\\Content\\ContentSection.js\" were not processed.\nPlease ensure that your gatsby version is at least 2.24.78."
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
-    xs: "12",
-    className: "col-xl-3 col-lg-4 col-md-6 col-xs-9 order-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetsWrapper, {
-    mb: "-10px",
-    mtMD: "40px",
-    mtLG: "0",
-    mrXS: "70px",
-    mrMD: "30px",
-    mrLG: "0"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Widget, {
-    pb: "10px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetTitle, null, "Our Customer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetText, null, "Business advisory service advises current and future businesses prospects of a client, with the aim of")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Widget, {
-    pb: "10px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetTitle, null, "Our Product"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetText, null, "Business advisory service advises current and future businesses prospects of a client, with the aim of")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.Widget, {
-    pb: "10px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetTitle, null, "Our Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_style__WEBPACK_IMPORTED_MODULE_1__.default.WidgetText, null, "Business advisory service advises current and future businesses prospects of a client, with the aim of"))))))));
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/257692674.json */ "./.cache/caches/gatsby-plugin-image/257692674.json")
+  })))))));
 }
 
 /***/ }),

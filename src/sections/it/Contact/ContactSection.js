@@ -12,8 +12,8 @@ return(
             <SectionTitle
             subTitle="Contact Us" 
             title="Send A Message"
-            text="When, while lovely valley teems with vapour around meand <br class='d-non d-lg-block'/>
-            meridian the upper impenetrable."
+            text="We're here to help and answer any question you might have <br class='d-non d-lg-block'/>
+            we look forward to hearing from you."
             subTitleProps={{mb:"10px"}}
             titleProps={{mb:"10px",as:"h2"}}
             mb="50px" />
@@ -61,7 +61,7 @@ return(
       <Col xs="12" className="col-xl-5 col-lg-5">
         <Contact.WidgetsBox className="contact-widget-box">
             <Contact.WidgetsBoxTitle as="h2">Get In Touch</Contact.WidgetsBoxTitle>
-            <Contact.WidgetsBoxText as="p">therefore always free from <br className="d-none d-xl-block" />  repetition, injected humour, or <br className="d-none d-xl-block" /> non-characteristic</Contact.WidgetsBoxText>
+            <Contact.WidgetsBoxText as="p">You can visit our offices <br className="d-none d-xl-block" /> at Westalands for any further inquires you might have.</Contact.WidgetsBoxText>
           <Row>
             <Col xs="12" className="col-lg-12 col-sm-6">
               <Contact.Widgets>
@@ -70,7 +70,7 @@ return(
                 </Contact.WidgetsIcon>
                 <Contact.WidgetsBoxBody>
                   <Contact.WidgetsTitle as="h3">visit us :</Contact.WidgetsTitle>
-                  <Contact.WidgetsText as="p">27 Division St, New York, <br className="d-block" /> NY 10002, USA</Contact.WidgetsText>
+                  <Contact.WidgetsText as="p">4th floor, Le'Mac, <br className="d-block" /> Church Rd, Nairobi</Contact.WidgetsText>
                 </Contact.WidgetsBoxBody>
               </Contact.Widgets>
             </Col>
@@ -81,7 +81,7 @@ return(
               </Contact.WidgetsIcon>
               <Contact.WidgetsBoxBody>
                 <Contact.WidgetsTitle as="h3">mail us :</Contact.WidgetsTitle>
-                <Contact.WidgetsText as="p">phlox@mail.com <br className="d-block" /> contact@mail.com</Contact.WidgetsText>
+                <Contact.WidgetsText as="p">info@italanta.com </Contact.WidgetsText>
               </Contact.WidgetsBoxBody>
               </Contact.Widgets>
             </Col>
@@ -92,7 +92,7 @@ return(
               </Contact.WidgetsIcon>
               <Contact.WidgetsBoxBody>
                 <Contact.WidgetsTitle as="h3">call us :</Contact.WidgetsTitle>
-                <Contact.WidgetsText as="p">+8 (123) 985 789 <br className="d-block" /> +1 (123) 456 789</Contact.WidgetsText>
+                <Contact.WidgetsText as="p">+254 78 92 27 755</Contact.WidgetsText>
               </Contact.WidgetsBoxBody>
               </Contact.Widgets>
             </Col>
