@@ -1,4 +1,5 @@
-const path = require(`path`)
+const path = require(`path`);
+
 module.exports = {
   siteMetadata: {
     title: `Shade Gatsby`,
@@ -31,5 +32,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-background-image`,
+    `gatsby-plugin-netlify-cms`
   ],
 }
