@@ -35,6 +35,10 @@ const SiteHeader = styled.div.attrs({
   }
   .site-brand {
     order: 1;
+    max-width: 100px;
+  }
+  #h-logo {
+    max-width: 150px;
   }
   .header-btns {
     order: 2;

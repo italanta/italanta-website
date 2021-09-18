@@ -8,7 +8,7 @@ export default function Layout({
   return (
     <>
     <Helmet>
-          <title>Fastland Gatsby Landing Template</title>
+          <title>iTalanta | Local Presence, Global Talent</title>
           <link rel="icon" type="image/png" href={favicon} />
     </Helmet>
       <Header/>

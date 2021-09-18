@@ -16,10 +16,10 @@ const SiteNavbar = ({buttonBlock,darkLogo,customLogo,defaultLogo}) => {
       >
         <Navbar.Brand href="/">
 
-          {defaultLogo ? (<img src={defaultLogo} alt="site-brand"/>) : customLogo ? (
-            <img src={customLogo} alt="site-brand"/>
+          {defaultLogo ? (<img src={defaultLogo} alt="site-brand" id="h-logo" />) : customLogo ? (
+            <img src={customLogo} id="h-logo" alt="site-brand"/>
           ) : (
-            <img src={darkLogo ? siteBrandDark : siteBrandLight} alt="site-brand"/>
+            <img src={darkLogo ? siteBrandDark : siteBrandLight} id="h-logo" alt="site-brand"/>
           )}
         </Navbar.Brand>
         <Navbar.Toggle
