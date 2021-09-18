@@ -12,7 +12,7 @@ return(
       {/* Welcome content Area */}
       <Col xs="12" className="col-xxl-5 col-xl-6 col-lg-7 col-md-8 col-xs-11">
         <div className="welcome-content welcome-content--l3">
-          <Hero.Subtitle>iTalanta</Hero.Subtitle>
+          <Hero.Subtitle>Local Presence, Global Resources</Hero.Subtitle>
           <Hero.Title>Discover, Develop, Deploy  <br className="d-none d-xs-block" /></Hero.Title>
           <Hero.Text>We develop products, apps and the teams to grow them, <br className="d-none d-sm-block" />
             so that you can grow the business.</Hero.Text>
