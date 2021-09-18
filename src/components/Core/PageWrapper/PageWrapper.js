@@ -8,7 +8,7 @@ import HeaderButton from "../Header/InnerPageHeader"
         headerClasses:"light-header site-header--menu-end site-header--button-sep position-relative",
         containerFluid:false,
         darkLogo:true,
-        buttonBlock:(<HeaderButton as={Link} btnText="Purchase"/>)
+        buttonBlock:(<HeaderButton as={Link} btnText="For developers"/>)
     }
     const activeHeader = ( innerPage ? innerPageDefault : headerDefault );  
   const sitectx = React.useContext(GlobalHeaderContext);
