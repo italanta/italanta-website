@@ -13,7 +13,7 @@ return(
       <Col className="col-xl-8 col-lg-10">
         <Feature.Box>
         <SectionTitle 
-                subTitle="Our Quality Standard" 
+                subTitle="Our Key to Success" 
                 title="Local Presence, Global Resources"
                 titleProps={{mb:"33px"}}
                 subTitleProps={{mb:"20px"}}

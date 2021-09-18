@@ -20,7 +20,31 @@ const Container = styled(Box)
         padding-bottom: 100px;
     }
 
+    .founder-overlay {
+        height: 0;
+    }
+        .founder-name {
+            font-weight: bold;
+
+            position: relative;
+            top: 90px;
+            left: 150px;
+        }
+        .founder-title {
+            position: relative;
+            top: 95px;
+            left: 150px;
+        }
+        .founder-socials {
+            position: relative;
+            top: 100px;
+            left: 150px;
+        }
+            .founder-socials a {
+                margin-right: 6px;
+            }
 `
+
 Container.Image = styled(Box)`
 padding-bottom: 35px;
 
@@ -32,7 +56,12 @@ padding-bottom: 35px;
     margin-left: 60px;
 }
 `
+
 Container.Box = styled(Box)`
 
 `
+
+
+
+
 export default Container;
