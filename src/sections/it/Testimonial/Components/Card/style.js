@@ -7,7 +7,7 @@ import { Box, Heading,Paragraph } from '~styled';
 const propToColor = (arg = "#1787FC" ) => transparentize(0.70, arg);
 
 const Card = styled(Box).attrs({className:"testimonial-card card"})`
-        background: #fff;
+    background: #f3f4f6;
     border: 0;
     color: #262729;
     padding-left: 40px;

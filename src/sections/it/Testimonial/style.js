@@ -7,6 +7,7 @@ import {
 
 const Testimonial = styled(Box)
 `
+    background-color: #fff;
     padding-top: 50px;
     padding-bottom: 36px;
 

@@ -1,4 +1,4 @@
-import LogoBlack from "~image/logo/logo-black.png";
+import LogoBlack from "~image/logo.png";
 import LogoWhite from "~image/logo/logo-white.png";
 import counDownImage from "~image/mixed/pattern-img-1.png";
 import l2BrandLogoLine1 from "~image/brand-logo/brand-line-1.png";
@@ -66,7 +66,7 @@ import l3featureImg from "~image/it-services/feature-l3-image.png";
 import l3conTentOneImg from "~image/it-services/feature-l3-image.png";
 import l3conTentTwoImg from "~image/it-services/content-l3-img-1.png";
 import l3promoBg from "~image/it-services/promo-bg.png";
-import l3testiMonialUserImg1 from "~image/it-services/user-circle-1.png";
+import l3testiMonialUserImg1 from "~image/it-services/geoffroy.png";
 import l3testiMonialUserImg2 from "~image/it-services/user-circle-2.png";
 import l3testiMonialUserImg3 from "~image/it-services/user-circle-3.png";
 import l3testiMonialUserImg4 from "~image/it-services/user-circle-4.png";

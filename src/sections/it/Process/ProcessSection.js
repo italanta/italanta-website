@@ -11,7 +11,7 @@ return(
       <Row>
         <Col xs="12" className="text-center">
             <Process.Subtitle as="h5">Our Process</Process.Subtitle>
-            <Process.Title as="h2">Digital system for your company</Process.Title>
+            <Process.Title as="h2">How we can work together</Process.Title>
         </Col>
       </Row>
     </Process.Box>

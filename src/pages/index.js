@@ -6,8 +6,6 @@ import HeroSection from '~sections/it/Hero'
 import ServicesSection from '~sections/it/Services'
 import FeatureSection from '~sections/it/Feature'
 import ContentSectionOne from '~sections/it/ContentOne'
-import ProcessSection from '~sections/it/Process'
-import CtaSection from '~sections/it/Cta'
 import TestimonialSection from '~sections/it/Testimonial'
 import ContactSection from '~sections/it/Contact'
 import FooterThree from '~sections/it/FooterThree'
@@ -32,8 +30,8 @@ export default function HomeIt() {
         <ServicesSection/>
         <FeatureSection/>
         <ContentSectionOne/>
-        <ProcessSection/>
-        <CtaSection/>
+        {/* <ProcessSection/> */}
+        {/* <CtaSection/> */}
         <TestimonialSection/>
         <ContactSection/>
         <FooterThree/>
