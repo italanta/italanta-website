@@ -23,6 +23,10 @@ padding-bottom: 20px;
     padding-bottom: 20px;
 }
 
+#logo-footer {
+    max-width: 240px;
+}
+
 `
 Footer.Widgets = styled(Box)
 `

@@ -14,11 +14,12 @@ return(
                 {/* Brand Logo*/}
                 <Footer.Box mb="30px">
                     <Link  to="#">
-                        <img src={Images.FooterSix.LogoBlack} alt="logo" />
+                        <img id="logo-footer" src={Images.FooterSix.LogoBlack} alt="logo" />
                     </Link>
                 </Footer.Box>
                 <Footer.Text mb="36px">
-                We’re the digital agency to create<br className="d-none d-xl-block" /> your digital presence for better<br className="d-none d-xl-block" /> conversion and sales.</Footer.Text>
+                Local Presence, Global Resources<br className="d-none d-xl-block" />Developing products, apps and the teams to grow <br/> them,
+so that you can grow the business.</Footer.Text>
 
             </Footer.Widgets>
             </Col>
@@ -29,15 +30,15 @@ return(
                         <Footer.Title>Contact Details</Footer.Title>
                         <Footer.Address className="widgets-address">
                             <Footer.AddressItem>
-                                <span>Amsterdam <br className="d-block" />
-                                Netherlands</span>
+                                <span>Rue d'Anvers 40 <br className="d-block" />
+                                Brussels (BE)</span>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
-                                <a href="#">+31 62 19 22 705
-                                <span className="d-block"> 7 Days - 8am - 10pm </span> </a>
+                                <a href="#">+32 479 38 55 04
+                                <span className="d-block"> 7 Days - 8am - 6pm </span> </a>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
-                                <a href="mailto:info@medcartel.com">info@medcartel.com</a>
+                                <a href="mailto:peter@italanta.net">peter@italanta.net</a>
                             </Footer.AddressItem>
                         </Footer.Address>
                     </Footer.Widgets>
@@ -98,11 +99,16 @@ return(
         </Row>
         </Footer.Box>
         <Footer.Copyright>
-        <Footer.CopyrightText>© 2021 Fastland By FinestDevs. All Rights Reserved</Footer.CopyrightText>
+        <Footer.CopyrightText>© 2021 iTalanta, Elewa Group. All Rights Reserved</Footer.CopyrightText>
         <Footer.SocialShare>
-            <Footer.SocialShareItem>
+            {/* <Footer.SocialShareItem>
                 <a href="#">
                 <i className="fab fa-facebook-square" />
+                </a>
+            </Footer.SocialShareItem> */}
+            <Footer.SocialShareItem>
+                <a href="#">
+                <i className="fab fa-github" />
                 </a>
             </Footer.SocialShareItem>
             <Footer.SocialShareItem>
@@ -110,11 +116,11 @@ return(
                 <i className="fab fa-twitter" />
                 </a>
             </Footer.SocialShareItem>
-            <Footer.SocialShareItem>
+            {/* <Footer.SocialShareItem>
                 <a href="#">
                 <i className="fab fa-instagram" />
                 </a>
-            </Footer.SocialShareItem>
+            </Footer.SocialShareItem> */}
             <Footer.SocialShareItem>
                 <a href="#">
                 <i className="fab fa-linkedin" />
