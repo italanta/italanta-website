@@ -13,8 +13,9 @@ return(
     <Row className="justify-content-center">
       <Col className="col-xxl-6 col-xl-7 col-md-9 col-sm-10 text-center">
       <SectionTitle
-        subTitle="Our Services" 
-        title="We run all kinds of services in form of Technologies"
+        subTitle="What we do" 
+        title="Solid solutions for your business"
+        subsubTitle="Only the highest quality is deliverable. With particular attention to architecture & team, we produce fast and reliable solutions that scale."
         subTitleProps={{mb:"27px"}}
         titleProps={{mb:"10px",as:"h2"}}
         mb="69px" />
@@ -33,7 +34,7 @@ return(
               title={title}
               text={text}
               icon={icon}
-              to="/marketing"
+              to="/services"
               iconBackground={iconBackground}
             />
           </Services.Box>
