@@ -24,11 +24,11 @@ const header = {
 export default function HomeIt() {
   return (
     <PageWrapper headerConfig={header}>
-        <ProcessSection/>
         <FeatureSection/>
         <ContentSectionOne/>
         <ContentSectionOne/>
         <ContentSectionOne/>
+        <ProcessSection/>
         <ContactSection/>
         <FooterThree/>
     </PageWrapper>

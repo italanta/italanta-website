@@ -3,7 +3,7 @@ import React from "react";
 import { PageWrapper } from "~components/Core"
 import HeaderButton from "~sections/it/Header"
 import FooterThree from '~sections/it/FooterThree'
-import { AboutSection, TeamSection, ContentSection, PromoSection } from "~sections/About";
+import { TeamSection, ContentSection, PromoSection } from "~sections/About";
 
 
 const header = {
