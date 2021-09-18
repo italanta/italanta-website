@@ -74,10 +74,11 @@ const HeaderButton = ({btnLink,btnOneText,btnText,...rest})=>{
     return(
         <HeaderButtonWrapper {...rest}>
             <ul className="d-none d-xl-flex list-unstyled">
-                <li><a href="#"><i className="fab fa-instagram text-primary"></i></a></li>
+                {/* <li><a href="#"><i className="fab fa-instagram text-primary"></i></a></li> */}
                 <li><a href="#"><i className="fab fa-linkedin text-primary"></i></a></li>
-                <li><a href="#"><i className="fab fa-facebook text-primary"></i></a></li>
-                <li><a href="#"><i className="fab fa-twitter text-primary"></i></a></li>
+                {/* <li><a href="#"><i className="fab fa-facebook text-primary"></i></a></li> */}
+                {/* <li><a href="#"><i className="fab fa-twitter text-primary"></i></a></li> */}
+                <li><a href="#"><i className="fab fa-github text-primary"></i></a></li>
             </ul>
             <Link target="_blank" className="btn btn-2" to={btnLink ? btnLink : "/"}>
                 {btnText}
