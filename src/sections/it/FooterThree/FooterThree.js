@@ -34,7 +34,7 @@ so that you can grow the business.</Footer.Text>
                                 Brussels (BE)</span>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
-                                <a href="#">+32 479 38 55 04
+                                <a href="tel+:0032479385504">+32 479 38 55 04
                                 <span className="d-block"> 7 Days - 8am - 6pm </span> </a>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
