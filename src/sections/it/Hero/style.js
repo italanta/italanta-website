@@ -65,7 +65,7 @@ Hero.Button = styled(Button) `
     box-shadow: -12px 12px 50px rgb(253 52 110 / 30%);
     }
     &>btn-2{
-        box-shadow: -12px 12px 50px rgb(96 1 211 / 30%);
+        box-shadow: 0 24px 50px rgba(25, 83, 255, 0.05);
     }
 
 `
