@@ -15,7 +15,7 @@ const Card = styled(Box).attrs({className:"testimonial-card card"})`
     border-radius: 15px;
     transition: 0.4s;
     &:hover {
-        background-color: #5034fc;
+        background-color: #0033CC;
         color: #fff;
 
         @media (min-width:992px) {

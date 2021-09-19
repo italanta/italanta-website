@@ -37,7 +37,7 @@ Hero.Title = styled(Heading)`
     }
 `
 Hero.Subtitle = styled(Heading)`
-    color: #ff5722;
+    color: #FFB800;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.75;

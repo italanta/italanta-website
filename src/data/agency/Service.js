@@ -20,7 +20,7 @@ const ServiceData = [
         {
           id:"as3",
           icon: "fas fa-headphones",
-          iconColor:"#ff5722",
+          iconColor:"#ff971d",
           title: "Customer Support",
           text:
             "Stay on top of your task lists and stay in touch with what's happening",
@@ -28,7 +28,7 @@ const ServiceData = [
         {
           id:"as4",
           icon: "fas fa-envelope",
-          iconColor:"#ff5722",
+          iconColor:"#ff971d",
           title: "Email Marketing",
           text:
             "Stay on top of your task lists and stayin touch with what's happening",

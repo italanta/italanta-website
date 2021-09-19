@@ -19,9 +19,9 @@ export const HeaderButtonWrapper = styled(Box)`
         letter-spacing: -0.4px;
         margin-left:10px;
         color:#fff;
-        background-color: #5034fc;
-        border-color: #5034fc;
-        box-shadow: -12px 20px 50px rgb(80 52 252 / 30%);
+        background-color: #0033CC;
+        border-color: #0033CC;
+        box-shadow: 0 24px 50px rgba(25, 83, 255, 0.2);
         font-size: 15px;
         font-weight: 500;
         height: 50px;

@@ -90,7 +90,7 @@ Contact.From = styled(Box)`
       border: 0;
 
       &:checked[type="checkbox"] {
-        background-color: #5034fc !important;
+        background-color: #0033CC !important;
         box-shadow: none;
       }
 
@@ -107,7 +107,8 @@ Contact.From = styled(Box)`
 `
 Contact.WidgetsBox = styled(Box)`
     padding: 30px 30px 15px;
-    background-color: #5034fc;
+    background-color: rgba(0, 51, 204, 0.9);
+    box-shadow: 0 24px 50px rgba(25, 83, 255, 0.2);
     border-radius: 15px;
 
     @media (min-width: 575px) {
@@ -168,7 +169,7 @@ Contact.WidgetsIcon = styled(Paragraph)`
     color: #fff;
     border-radius: 50%;
     &.active{
-        color: #5034fc;
+        color: #0033CC;
         background-color: #fff;
     }
 `
@@ -196,7 +197,7 @@ Contact.WidgetsBoxBody = styled(Box)`
 Contact.Button = styled(Button)`
     min-width: 180px;
     height: 56px;
-    background-color: #ff5722;
+    background-color: #ff971d;
     box-shadow: 0 4px 4px rgba(253, 100, 52, 0.3);
     border-radius: 55px;
     color: #fff;

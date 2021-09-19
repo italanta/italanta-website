@@ -7,7 +7,7 @@ const propToColor = (arg = "#1787FC" ) => transparentize(0.70, arg);
 
 const Card = styled(Box)`
     border-radius: 10px;
-    background-color: #5034fc;
+    background-color: #0033CC;
     padding-top: 40px;
     padding-left: 45px;
     padding-right: 45px;

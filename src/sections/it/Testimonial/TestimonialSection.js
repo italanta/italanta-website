@@ -48,8 +48,8 @@ return(
     <Row className="justify-content-center">
         <Col xs="12" className="col-12 col-lg-8 col-xl-9 col-xxl-7 text-center">
             <Testimonial.Box mb="30px" mbSM="40px" mbLG="100px">
-                <Testimonial.Subtitle as="h6" fontColor="#ff5722" mb="30px">Don't take it from us</Testimonial.Subtitle>
-                <Testimonial.Title as="h2">We would be nothing without our clients</Testimonial.Title>
+                <Testimonial.Subtitle as="h6" fontColor="#FFB800" mb="30px">Don't take it from us</Testimonial.Subtitle>
+                <Testimonial.Title as="h2">In service of our clients</Testimonial.Title>
             </Testimonial.Box>
             
         </Col>

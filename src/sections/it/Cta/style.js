@@ -53,13 +53,13 @@ Cta.Text = styled(Paragraph)`
 
 Cta.Button = styled(Button)`
   color: #fff !important;
-  background-color: #ff5722;
-    border-color: #ff5722;
-  box-shadow: -12px 12px 50px rgb(253 52 110 / 30%);
+  background-color: #ff971d;
+    border-color: #ff971d;
+  box-shadow: -12px 12px 50px rgb(255 151 29 / 30%);
   border-radius: 500px;
 
   &:hover {
-    box-shadow: 0 20px 20px rgb(255 75 96 / 0%);
+    box-shadow: 0 20px 20px rgb(255 75 29 / 0%);
     color: #fff !important;
   }
 `

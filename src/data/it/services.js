@@ -25,7 +25,7 @@ const ServiceData = [
           icon:"fas fa-users",
           title: "Dedicated teams",
           text: "Managed teams of best talent",
-          iconBackground:"#ff5722"
+          iconBackground:"#ff971d"
         },
         {
           id:"is5",

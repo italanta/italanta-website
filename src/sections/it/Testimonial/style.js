@@ -24,7 +24,7 @@ const Testimonial = styled(Box)
 `
 Testimonial.Subtitle = styled(Heading)
 `
-    color: #ff5722;
+    color: #FFB800;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: normal;

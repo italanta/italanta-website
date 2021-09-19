@@ -42,6 +42,7 @@ const Container = styled(Box)
         }
             .founder-socials a {
                 margin-right: 6px;
+                color: #FFB800;
             }
 `
 

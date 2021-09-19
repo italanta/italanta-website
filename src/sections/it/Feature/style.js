@@ -41,7 +41,7 @@ Feature.List = styled(Box)`
     position: absolute;
     width: 10px;
     height: 18px;
-    background-color: #ff5722;
+    background-color: #ff971d;
     left: 10px;
     top: 4px;
 }

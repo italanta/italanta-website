@@ -3,7 +3,7 @@ const ProcessData = [
       {
         id:"ps1",
         icon: "1",
-        iconBackground: "#5034fc",
+        iconBackground: "#0033CC",
         title: "General Concept",
         text:
           "Part of what Adobe does is advise customers about how to transform, to be more",

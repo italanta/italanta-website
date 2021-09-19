@@ -20,12 +20,12 @@ const HeaderButtonWrapper = styled(Box).attrs({className:"header-btn-block"})`
         letter-spacing: -0.4px;
         color:#fff;
         margin-left:10px;
-        background-color: #5034fc;
-        border-color: #5034fc;
-        box-shadow:-12px 20px 50px rgb(80 52 252 / 30%);
+        background-color: #0033CC;
+        border-color: #0033CC;
+        box-shadow: 0 24px 50px rgba(25, 83, 255, 0.2);
         border-radius:500px;
         &:hover{
-            box-shadow:-12px 20px 50px rgb(80 52 252 / 0%);
+            box-shadow: 0 24px 50px rgba(25, 83, 255, 0.05);
             /* box-shadow: 0 0px 0px rgba(241, 139, 98, 0.3); */
         }
     }

@@ -63,7 +63,7 @@ Card.Icon = styled(Paragraph)`
     font-weight: 500;
     line-height: 30px;
     color:${props => props.iconDark? "#000" : "#fff" };
-    background:${props => props.backgroundColor? props.backgroundColor: "#5034fc" };
+    background:${props => props.backgroundColor? props.backgroundColor: "#0033CC" };
     box-shadow:  ${props => "-12px 12px 50px " + propToColor(props.backgroundColor)};
 `
 Card.Title = styled(Heading)`
