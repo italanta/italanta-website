@@ -29,13 +29,9 @@ const Card = styled(Box).attrs({className:"team-card"})`
     
 `
 Card.InnerBlock = styled(Box).attrs({className: "card-innerblock"})`  
-    background: linear-gradient(
-      360deg,
-      #ff794e 0%,
-      rgba(255, 121, 78, 0.69) 38.45%,
-      rgba(253, 52, 110, 0) 79.35%,
-      rgba(253, 52, 110, 0) 111.11%
-    );
+    background: linear-gradient(360deg, 
+                  rgba(0,51,204,1) 5%, 
+                  rgba(0,51,204,0) 80%);
     
       width: 100%;
       height: 50%;

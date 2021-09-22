@@ -100,7 +100,7 @@ Footer.AddressItem = styled(Box).attrs({ className: "list-items", as: "li" })`
     line-height: 30px;
     transition: 0.4s;
     &:hover {
-      color: #5034fc !important;
+      color: #0033cc !important;
     }
   }
   i {
@@ -108,7 +108,7 @@ Footer.AddressItem = styled(Box).attrs({ className: "list-items", as: "li" })`
     margin-top: 10px;
     font-size: 20px;
     width: 35px;
-    color: #5034fc;
+    color: #0033cc;
   }
   span {
     color: rgba(38, 39, 41, 0.7) !important;
@@ -145,7 +145,7 @@ Footer.ListItems = styled(Box).attrs({ className: "list-items", as: "li" })`
     line-height: 30px;
     transition: 0.4s;
     &:hover {
-      color: #5034fc !important;
+      color: #0033cc !important;
     }
   }
   i {
@@ -188,7 +188,7 @@ Footer.SocialShareItem = styled(Box).attrs({
     font-size: 15px;
     transition: 0.4s;
     &:hover {
-      color: #5034fc;
+      color: #0033cc;
     }
   }
 `

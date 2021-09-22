@@ -5,13 +5,13 @@ import Promo from './style'
  
 export default function PromoSection({...rest}){
 return(
-<Promo backgroundColor="#5034fc">
+<Promo backgroundColor="#0033cc">
   <Container>
     <Row className="justify-content-center text-center">
       <Col className="col-xl-8">
         <Promo.Content>
           <Promo.Title fontColor="#fff" as="h2" mb="45px">Interested in joining our team? </Promo.Title>
-          <Promo.Button background="#FFB800">Explore job opportunities</Promo.Button>
+          <Promo.Button background="#FFB800">Join the next Kuza Talanta intake</Promo.Button>
         </Promo.Content>
       </Col>
     </Row>

@@ -6,7 +6,7 @@ import FeatureSection from '~sections/about/Feature'
 import ContentSection from '~sections/about/Content'
 import TeamSection from '~sections/about/Team'
 import PromoSection from '~sections/about/Promo'
-import FooterSection from "~sections/about/Footer";
+import FooterThree from '~sections/it/FooterThree';
 
 export default function About() {
   return (
@@ -20,7 +20,7 @@ export default function About() {
         <ContentSection/>
         <TeamSection/>
         <PromoSection/>
-        <FooterSection/>
+        <FooterThree/>
     </PageWrapper>
   )
 }

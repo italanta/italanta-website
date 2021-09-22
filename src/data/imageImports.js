@@ -103,13 +103,15 @@ import aboutUsl6Img1 from "~image/home-digital-agency/content-l7-1.png";
 import aboutUsl6Img2 from "~image/home-digital-agency/content-l7-2.png";
 import contentOnel6Img1 from "~image/home-digital-agency/1.jpg";
 import contentOnel6Img2 from "~image/home-digital-agency/2.jpg";
-import l6teamImg1 from "~image/home-digital-agency/team-member-1.png";
-import l6teamImg2 from "~image/home-digital-agency/team-member-2.png";
-import l6teamImg3 from "~image/home-digital-agency/team-member-3.png";
-import l6teamImg4 from "~image/home-digital-agency/team-member-4.png";
-import l6teamImg5 from "~image/home-digital-agency/team-member-5.png";
-import l6portFolioImg1 from "~image/portfolio/portfolio-l6-img-1.png";
-import l6portFolioImg2 from "~image/portfolio/portfolio-l6-img-2.png";
+
+import denisImg  from "~image/it-services/Denis.png";
+import jenteImg  from "~image/it-services/Jente.png";
+import estherImg from "~image/it-services/esther.png";
+import fatumaImg from "~image/it-services/Fatuma.png";
+import joyLindaImg from "~image/it-services/Joy-Linda.png";
+import kenImg    from "~image/it-services/Ken.png";
+import noellaImg from "~image/it-services/noella.png";
+import peterImg  from "~image/it-services/peter.png";
 import l6portFolioImg3 from "~image/portfolio/portfolio-img-1.png";
 import herol7Img1 from "~image/home-app/hero-l8-1.png";
 import herol7Img2 from "~image/home-app/hero-l8-2.png";
@@ -286,16 +288,8 @@ const Images = {
         aboutUsImg2: aboutUsl6Img2,
         contentOneImg1: contentOnel6Img1,
         contentOneImg2: contentOnel6Img2,
-        teamImg1: l6teamImg1,
-        teamImg2: l6teamImg2,
-        teamImg3: l6teamImg3,
-        teamImg4: l6teamImg4,
-        teamImg5: l6teamImg5,
         promoBg: l5promoBg,
-        portFolioImg1: l6portFolioImg1,
-        portFolioImg2: l6portFolioImg2,
         portFolioImg3: l6portFolioImg3,
-
     },
     HomeApp: {
         heroImg1: herol7Img1,
@@ -343,11 +337,16 @@ const Images = {
         videoContentImg: videoContentImg,
         conTentOneImg: l3conTentOneImg,
         aboutUsImg1: aboutUsl5Img1,
-        teamImg1: l6teamImg1,
-        teamImg2: l6teamImg2,
-        teamImg3: l6teamImg3,
-        teamImg4: l6teamImg4,
-        teamImg5: l6teamImg5,
+        
+        DenisImg: denisImg,
+        JenteImg: jenteImg,
+        EstherImg: estherImg,
+        FatumaImg: fatumaImg,
+        JoyLindaImg: joyLindaImg,
+        KenImg: kenImg,
+        NoellaImg: noellaImg,
+        PeterImg: peterImg,
+
         InnerPromoShape: InnerPromoShape,
     },
 

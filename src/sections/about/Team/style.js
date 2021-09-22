@@ -77,7 +77,7 @@ Team.SliderWrapper = styled(Box)`
       }
       &.slick-active {
         button {
-          background-color: #fd346e;
+          background-color: #0033cc;
         }
       }
     }

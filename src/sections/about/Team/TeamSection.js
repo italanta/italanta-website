@@ -72,7 +72,7 @@ export default function TeamSection({...rest}) {
             <Team.Box className="text-center">
             <SectionTitle
                 subTitle="Our Team" 
-                title="Meet the minds shaping <br class='d-none d-xs-block'>your digital business"
+                title="Meet the innovators behind your technology"
                 titleProps={{mb:"33px"}}
                 subTitleProps={{mb:"20px"}}
                 />
@@ -89,11 +89,14 @@ export default function TeamSection({...rest}) {
               ref={elSlider}
               {...sliderConfig}
             >
-              <TeamCard image={Images.DigiTalagency.teamImg1} userName="Talan Bergson" userPosition="CEO, Greener"/>
-              <TeamCard image={Images.DigiTalagency.teamImg2} userName="Talan Bergson" userPosition="CEO, Greener"/>
-              <TeamCard image={Images.DigiTalagency.teamImg3} userName="Talan Bergson" userPosition="CEO, Greener"/>
-              <TeamCard image={Images.DigiTalagency.teamImg4} userName="Talan Bergson" userPosition="CEO, Greener"/>
-              <TeamCard image={Images.DigiTalagency.teamImg5} userName="Talan Bergson" userPosition="CEO, Greener"/>
+              <TeamCard image={Images.PageAboutUs.JenteImg} userName="Jente Rosseel"    userPosition="Lead Engineer"/>
+              <TeamCard image={Images.PageAboutUs.LindaImg} userName="Linda Warui"      userPosition="Senior Project Manager"/>
+              <TeamCard image={Images.PageAboutUs.NoellaImg} userName="Noella Mwanzia"   userPosition="iTalanta Developer"/>
+              <TeamCard image={Images.PageAboutUs.JoyLindaImg} userName="Joy-Linda Wawira" userPosition="iTalanta Developer"/>
+              <TeamCard image={Images.PageAboutUs.FatumaImg} userName="Fatuma Samatar"   userPosition="iTalanta Developer"/>
+              <TeamCard image={Images.PageAboutUs.KenImg} userName="Kennedy Adhola"   userPosition="HR Director"/>
+              <TeamCard image={Images.PageAboutUs.PeterImg} userName="Peter Reinartz"   userPosition="Executive Chairman"/>
+              <TeamCard image={Images.PageAboutUs.EstherImg} userName="Esther Bidali"    userPosition="Solution Designer"/>
             </Slider>
             </Team.SliderWrapper>
       </Container>
