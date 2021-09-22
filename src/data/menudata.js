@@ -2,32 +2,32 @@
 
 export const menuItems = [
   {
-    name: "services",
-    label: "Services",
-    items: [
-      { name: "services#prod-dev",
-        label: "Product Development",
-      },
-      { name: "services#mvp-dev", label: "Stable MVPs" },
-      { name: "services#qa", label: "Quality Assurance" },
-      { name: "services#architecture", label: "Cloud Architecture" },
-      { name: "services#audit", label: "IT Policy & Cloud Security" },
-    ],
+    name: "/",
+    label: "Home",
+    // items: [
+    //   { name: "services#prod-dev",
+    //     label: "Product Development",
+    //   },
+    //   { name: "services#mvp-dev", label: "Stable MVPs" },
+    //   { name: "services#qa", label: "Quality Assurance" },
+    //   { name: "services#architecture", label: "Cloud Architecture" },
+    //   { name: "services#audit", label: "IT Policy & Cloud Security" },
+    // ],
   },
   {
-    name: "cases",
-    label: "Cases",
-    items: [
-      { name: "cases/whatsapp", label: "What'sApp?" },
-      { name: "cases/m4y-live", label: "Live voting in 6 weeks" },
-      { name: "cases/s4y-case", label: "Enterprise Startup" },
-      { name: "cases/startup-to-bank", label: "Startup to Bank" },
+    name: "about-us",
+    label: "About Us",
+    // items: [
+    //   { name: "cases/whatsapp", label: "What'sApp?" },
+    //   { name: "cases/m4y-live", label: "Live voting in 6 weeks" },
+    //   { name: "cases/s4y-case", label: "Enterprise Startup" },
+    //   { name: "cases/startup-to-bank", label: "Startup to Bank" },
 
-    ]
+    // ]
   },
   {
-    name: "blog",
-    label: "Blog"
+    name: "for-devs",
+    label: "For Developers"
   },
 
        
