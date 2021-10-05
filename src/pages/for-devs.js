@@ -8,8 +8,8 @@ import ContentSectionTwo from "~sections/devs/ContentTwo"
 import TestimonialSection from "~sections/devs/Testimonial"
 import CounterSection from "~sections/devs/Counter"
 import CtaSection from "~sections/devs/Cta"
-import FooterOne from "~sections/devs/FooterOne"
-import HeaderButton from "~sections/devs/Header"
+
+import FooterThree from '~sections/it/FooterThree'
 
 import { header } from '../elements/header';
 
@@ -24,7 +24,7 @@ export default function Marketing() {
       <TestimonialSection />
       <CounterSection/>
       <CtaSection />
-      <FooterOne/>
+      <FooterThree/>
     </PageWrapper>
   )
 }
