@@ -105,7 +105,7 @@ import contentOnel6Img1 from "~image/home-digital-agency/1.jpg";
 import contentOnel6Img2 from "~image/home-digital-agency/2.jpg";
 
 import denisImg  from "~image/it-services/Denis.png";
-import jenteImg  from "~image/it-services/Jente.png";
+import jenteImg  from "~image/it-services/jente.png";
 import estherImg from "~image/it-services/esther.png";
 import fatumaImg from "~image/it-services/Fatuma.png";
 import joyLindaImg from "~image/it-services/Joy-Linda.png";
