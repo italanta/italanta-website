@@ -22,18 +22,17 @@ export default function ServiceSection() {
           <Row className="align-items-end justify-content-center text-start">
             <Col xs="12" className="col-lg-7 col-md-12 col-xs-10">
                 <Service.Title as="h2" mb="0">
-                  Your business needs a
+                  Our mantra;
                   <br className="d-none d-xs-block d-lg-none d-xl-block" />
-                  better shape today.
+                  Discover, Develop, Deploy.
                 </Service.Title>
             </Col>
             <Col xs="12" className="col-lg-5 col-md-12 col-xs-10">
                <Service.Text>
-                    Create custom landing pages with
-                    <br className="d-none d-xs-block" /> Fastland that converts
-                    more visitors
-                    <br className="d-none d-sm-block" /> than any website. Easy
-                    &amp; Fast.
+                    You are unique, we know!
+                    <br className="d-none d-xs-block" /> Our 3-phased program tailors 
+                    <br className="d-none d-sm-block" /> to your unique growth.
+                    <br className="d-none d-sm-block" /> From n00b to guru...
                </Service.Text>
             </Col>
           </Row>

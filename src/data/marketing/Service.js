@@ -4,26 +4,26 @@ const serviceData = {
         {
           id:"ms1",
           icon: Images.marketing.servicesIcon1,
-          iconColor: "#ffd166",
-          title: "Manage Smartly",
+          iconColor: "#ffb000",
+          title: "Gundua Talanta",
           text:
-            "Stay on top of your task lists and stay<br class='d-none d-lg-block'> in touch with what's happening",
+            "Learn to code professionaly via an intensive 20-week hands-on curriculum. Apply and get paid to learn on one of our campuses, or join our open intakes online!",
         },
         {
           id:"ms2",
           icon: Images.marketing.servicesIcon2,
-          iconColor:"#96f7d2",
-          title: "Communicate Fast",
+          iconColor:"#ff5723",
+          title: "Kuza Talanta",
           text:
-            "Stay on top of your task lists and stay<br class='d-none d-lg-block'> in touch with what's happening",
+            "Two-year international apprenticeship program where you grow from junior to senior developer, while working on global assignments.",
         },
         {
           id:"ms3",
           icon: Images.marketing.servicesIcon3,
           iconColor:"#a9d2ff",
-          title: "Influence Easily",
+          title: "Makazi Talanta",
           text:
-            "Stay on top of your task lists and stay<br class='d-none d-lg-block'> in touch with what's happening",
+            "Open intakes of senior developers to work full-time or freelance from our 'Houses of Talent' spread across Kenya. Open to digital nomads!",
         },
       ]
   }

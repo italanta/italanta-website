@@ -43,7 +43,7 @@ export default function HeroSection() {
                     <Hero.Newsletter>
                     <form>
                       <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/>
-                      <Button className="btn-purple-heart"textTransform="capitalized">Join our Academy</Button>
+                      <Button className="btn-blue" textTransform="capitalized">Join our Academy</Button>
                     </form>
                   </Hero.Newsletter>
                   <Hero.NewsletterText>

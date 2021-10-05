@@ -96,13 +96,17 @@ Hero.Newsletter = styled(Box)`
             margin-bottom: 0;
         }
     }
-    .btn {
+    .btn-blue {
         min-width: 100%;
         height: 70px;
+        margin-left: 10px;
         border-radius: 10px;
         @media (min-width:480px) {
             min-width: 172px;
         }
+        
+        color: white;
+        background: #0033cc;
     }
 
 `
