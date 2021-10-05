@@ -1,40 +1,66 @@
-import React from 'react';
-
+import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
-import { Link } from '~components';
-import  Video   from '~components/VideoModal';
-
+import ReactTypingEffect from 'react-typing-effect';
+import { Link } from "~components";
+import { Button } from "~styled";
 import ImageGroup from "./Components/ImageGroup";
-import Hero from "./style"
+import Hero from "./style";
 
-export default function HeroSection()
-{
-  return(
-    <Hero>
-      <Container>
-        <Row className="align-items-center justify-content-center justify-content-md-start">
-          {/*Welcome Image Area */}
-          <Col xs="12" className="col-xxl-7 col-xl-6 col-lg-5 col-md-8 col-6 d-none d-lg-block">
-            <ImageGroup/>
-          </Col>
-          {/*/ .Welcome Image Area */}
-          {/* Welcome content Area */}
-          <Col xs="12" className="col-xxl-5 col-xl-6 col-lg-7 col-md-8 col-xs-11">
-            <div className="welcome-content welcome-content--l3">
-              <Hero.Subtitle>East Africa's Powerhouse</Hero.Subtitle>
-              <Hero.Title>Discover, Develop, Deploy  <br className="d-none d-xs-block" /></Hero.Title>
-              <Hero.Text>We develop products, apps and the teams to grow them, <br className="d-none d-sm-block" />
-                so that you can grow the business.</Hero.Text>
-              <Hero.BtnGroup>
-                <Hero.Button className="btn-primary btn-1 text-white" as={Video} id="LWZ7iytIA6k">Learn More</Hero.Button>
-                <Hero.Button className="btn-electric-violet-2 btn-2" as={Link} to="/">Start building</Hero.Button>
-              </Hero.BtnGroup>
-            </div>
-          </Col>
-          {/*/ .Welcome Content Area */}
-        </Row>
-      </Container>
-    </Hero>
-  );
+export default function HeroSection() {
+ 
+  return (
+      <Hero className="position-relative bg-default">
+        <Container>
+          <Row>
+            {/* Welcome content Area */}
+            <Col
+              className="col-xl-6 col-lg-7 col-md-8 col-xs-11 order-2 order-lg-1"
+              xs="12"
+            >
+              <Hero.Content>
+                <Hero.Title as="h1">
+                  It's all for you! Boost your
+                  <br />
+                  
+                  <ReactTypingEffect
+                    text={["potential.", "mind.", "talent."]}
+                    className="highlight-text d-inline-block text-primary"
+                    speed="150"
+                    eraseSpeed="100"
+                    typingDelay="400"
+                    eraseDelay="800"
+                    cursorClassName="typed-cursor"
+                  />
+                </Hero.Title>
+                <Hero.Text>
+                  iTalanta is a global Talent Accelerator with a strong focus
+                  <br className="d-none d-xs-block" /> 
+                  on talent-development in East-Africa.
+                </Hero.Text>
+                {/* Newsletter */}
+                <Row>
+                  <Col xs="12" className="col-xxl-10">
+                    <Hero.Newsletter>
+                    <form>
+                      <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/>
+                      <Button className="btn-purple-heart"textTransform="capitalized">Join our Academy</Button>
+                    </form>
+                  </Hero.Newsletter>
+                  <Hero.NewsletterText>
+                    Are you already a (rising) star developer in East-Africa or Europe? <Link to="/">Join our Engineering Team.</Link>
+                  </Hero.NewsletterText>
+                  </Col>
+                </Row>
+              </Hero.Content>
+            </Col>
+            {/*/ .Welcome Content Area */}
+            {/*Welcome Image Area */}
+            <Col xs={12} className="col-xl-6 col-lg-5 col-md-10 order-1 order-lg-2 position-static">
+              <ImageGroup/>
+            </Col>
+            {/*/ .Welcome Image Area */}
+          </Row>
+        </Container>
+      </Hero>
+  )
 }

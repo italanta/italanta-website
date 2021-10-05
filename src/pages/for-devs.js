@@ -1,41 +1,30 @@
-import React from "react";
+import React from "react"
 import { PageWrapper } from "~components/Core"
-import HeaderButton from "~sections/it/Header"
-import HeroSection from '~sections/devs/Hero'
-import ServicesSection from '~sections/it/Services'
-import FeatureSection from '~sections/it/Feature'
-import ContentSectionOne from '~sections/it/ContentOne'
-import ProcessSection from '~sections/it/Process'
-import CtaSection from '~sections/it/Cta'
-import TestimonialSection from '~sections/it/Testimonial'
-import ContactSection from '~sections/it/Contact'
-import FooterThree from '~sections/it/FooterThree'
+import HeroSection from "~sections/devs/Hero"
+import ServiceSection from "~sections/devs/Service"
+import FeatureSection from "~sections/devs/Features"
+import ContentSectionOne from "~sections/devs/ContentOne"
+import ContentSectionTwo from "~sections/devs/ContentTwo"
+import TestimonialSection from "~sections/devs/Testimonial"
+import CounterSection from "~sections/devs/Counter"
+import CtaSection from "~sections/devs/Cta"
+import FooterOne from "~sections/devs/FooterOne"
+import HeaderButton from "~sections/devs/Header"
 
-const header = {
-  headerClasses: "site-header site-header--menu-start light-header site-header--with-border site-header--sticky",
-  containerFluid:false,
-  buttonBlock: (
-    <HeaderButton
-      className="ms-auto d-none d-xs-inline-flex"
-      btnText="Purchase"
-      mr="15px"
-      mrLG="0"
-    />
-  ),
-}
+import { header } from '../elements/header';
 
-export default function ForDevs() {
+export default function Marketing() {
   return (
     <PageWrapper headerConfig={header}>
-        <HeroSection/>
-        <ServicesSection/>
-        <FeatureSection/>
-        <ContentSectionOne/>
-        <ProcessSection/>
-        <CtaSection/>
-        <TestimonialSection/>
-        <ContactSection/>
-        <FooterThree/>
+      <HeroSection/>
+      <ServiceSection/>
+      <FeatureSection/>
+      <ContentSectionOne/>
+      <ContentSectionTwo/>
+      <TestimonialSection />
+      <CounterSection/>
+      <CtaSection />
+      <FooterOne/>
     </PageWrapper>
   )
 }
