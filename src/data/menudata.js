@@ -2,7 +2,7 @@
 
 export const menuItems = [
   {
-    name: "/",
+    name: "",
     label: "Home",
     // items: [
     //   { name: "services#prod-dev",
