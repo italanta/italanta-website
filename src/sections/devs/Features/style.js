@@ -2,10 +2,13 @@ import styled from "styled-components/macro"
 import { Box, Heading, Paragraph } from "~styled"
 
 const Feature = styled(Box)`
+    background-color: #0033cc;
+
     position: relative;
     overflow: hidden;
     padding-top: 55px;
     padding-bottom: 20px;
+
     @media (min-width:768px) {
         padding-top: 70px;
         padding-bottom: 40px;
@@ -59,6 +62,7 @@ Feature.Text = styled(Paragraph)`
     letter-spacing: normal;
     line-height: 1.62;
     opacity:.7;
+    
     @media (min-width:992px) {
         font-size: 21px;
     }
@@ -80,7 +84,7 @@ Feature.Tab  = styled(Box).attrs(props => ({
                     border-radius: 10px;
                     color: #2b59ff!important;
                     i {
-                        color:var(--bs-primary);
+                        color:#ffb000;
                     }
                 }
                 

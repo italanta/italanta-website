@@ -17,12 +17,12 @@ export default function Marketing() {
   return (
     <PageWrapper headerConfig={header}>
       <HeroSection/>
-      <ServiceSection/>
       <FeatureSection/>
       <ContentSectionOne/>
       <ContentSectionTwo/>
       <TestimonialSection />
       <CounterSection/>
+      <ServiceSection/>
       <CtaSection />
       <FooterThree/>
     </PageWrapper>

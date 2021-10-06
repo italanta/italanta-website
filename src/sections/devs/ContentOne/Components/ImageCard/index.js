@@ -4,13 +4,13 @@ export default function ImageCard({...rest}) {
   return (
     <Card {...rest}>
       <Card.CounterBlock>
-        <Card.Counter>68%</Card.Counter>
+        <Card.Counter>1Y</Card.Counter>
         <Card.CounterBlockIcon>
           <i className="fa fa-arrow-up" />
         </Card.CounterBlockIcon>
       </Card.CounterBlock>
         <Card.Text>
-          Extra growth for your company.
+          From junior to senior.
         </Card.Text>
     </Card>
   )

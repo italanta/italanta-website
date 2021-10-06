@@ -19,7 +19,7 @@ export default function HeroSection() {
             >
               <Hero.Content>
                 <Hero.Title as="h1">
-                  It's all for you! Boost your
+                  We help you boost your
                   <br />
                   
                   <ReactTypingEffect

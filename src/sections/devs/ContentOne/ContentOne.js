@@ -13,9 +13,15 @@ return(
       </Col>
       {/* Content Widgets */}
       <Col xs="auto" className="col-xxl-4 col-xl-5 offset-xl-1 col-lg-6 offset-lg-1 col-md-8 col-xs-9">
-        <Content.Title as="h2">Get instant <br /> growth result <br /> for business.</Content.Title>
-        <Content.Text>Create custom landing pages
-          with Fastland that converts more visitors than any website. Easy, Reliable &amp; Fast. The best medicines &amp; biggest brands within 30 minutes at your home.</Content.Text>
+        <Content.Title as="h2">Marketeer <br /> to senior dev<br /> in one year.</Content.Title>
+        <Content.Text>
+          <p>Meet Esther, a Bachelor in Communication who while working as a marketer, 
+          upskilled herself as a developer to the point where she could join the apprenticeship program. </p>
+          <p>
+            Since then, her growth has been phenomenal! Esther is the fastest apprentice to ever clear our program and
+            now works as a solution designer for one of our European startup. 
+          </p>
+        </Content.Text>
       </Col>
     </Row>
   </Container>
