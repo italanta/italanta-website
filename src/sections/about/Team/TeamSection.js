@@ -92,8 +92,8 @@ export default function TeamSection({...rest}) {
               <TeamCard image={Images.PageAboutUs.JenteImg} userName="Jente Rosseel"    userPosition="Lead Engineer"/>
               <TeamCard image={Images.PageAboutUs.LindaImg} userName="Linda Warui"      userPosition="Senior Project Manager"/>
               <TeamCard image={Images.PageAboutUs.NoellaImg} userName="Noella Mwanzia"   userPosition="iTalanta Developer"/>
-              <TeamCard image={Images.PageAboutUs.JoyLindaImg} userName="Joy-Linda Wawira" userPosition="iTalanta Developer"/>
               <TeamCard image={Images.PageAboutUs.FatumaImg} userName="Fatuma Samatar"   userPosition="iTalanta Developer"/>
+              <TeamCard image={Images.PageAboutUs.JoyLindaImg} userName="Joy-Linda Wawira" userPosition="iTalanta Developer"/>
               <TeamCard image={Images.PageAboutUs.KenImg} userName="Kennedy Adhola"   userPosition="HR Director"/>
               <TeamCard image={Images.PageAboutUs.PeterImg} userName="Peter Reinartz"   userPosition="Executive Chairman"/>
               <TeamCard image={Images.PageAboutUs.EstherImg} userName="Esther Bidali"    userPosition="Solution Designer"/>

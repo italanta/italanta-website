@@ -19,11 +19,12 @@ const FeatureSection = ({ ...rest }) => {
           <Col xs="auto" className="col-xl-8 col-lg-10">
             <Feature.Box mb="35px" mbMD="80px" mbLG="148px">
               <Feature.Title className="mb-5" as="h2" fontColor="#fff">
-                A deeper look into our<br className="d-none d-xs-block" />
-                developer packages
+                An offer for every stage<br className="d-none d-xs-block" />
+                of <span style={{color: `#ff971d`}}>your</span> development.
               </Feature.Title>
               <Feature.Text className="mt-8" fontColor="#fff">
-                Practical intakes for your level.
+                Regular academy intakes, quarterly apprenticeship recruitements and continuous open positions for senior development, UX/UI, QA and project
+                management.
                 {/* <br className="d-none d-xs-block" />. */}
               </Feature.Text>
             </Feature.Box>
