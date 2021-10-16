@@ -3,7 +3,7 @@ import { Link } from '~components'
 import Card from './style'
 export default function ServicesCardTwo({title, text,to,iconBackground,...rest}){
 return(
-  <Card as={Link} to="#">
+  <Card as={Link} to="/contact">
           <Card.Title as="h2">Start</Card.Title>
             <Card.Body>
                 <Card.Text as="p">Let's get started!</Card.Text>

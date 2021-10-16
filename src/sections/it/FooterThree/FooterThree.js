@@ -78,7 +78,7 @@ so that you can grow the business.</Footer.Text>
                                 <a href="/for-devs">For Developers</a>
                             </Footer.ListItems>
                             <Footer.ListItems>
-                                <a href="https://www.linkedin.com/company/elewa-company-ltf/" target="_blank">LinkedIn</a>
+                                <a href="https://www.linkedin.com/company/elewa/" target="_blank">LinkedIn</a>
                             </Footer.ListItems>
                         </Footer.List>
                     </Footer.Widgets>
@@ -96,22 +96,22 @@ so that you can grow the business.</Footer.Text>
                 </a>
             </Footer.SocialShareItem> */}
             <Footer.SocialShareItem>
-                <a href="#">
+                <a href="https://github.com/iote" target="_blank">
                 <i className="fab fa-github" />
                 </a>
             </Footer.SocialShareItem>
-            <Footer.SocialShareItem>
+            {/* <Footer.SocialShareItem>
                 <a href="#">
                 <i className="fab fa-twitter" />
                 </a>
-            </Footer.SocialShareItem>
+            </Footer.SocialShareItem> */}
             {/* <Footer.SocialShareItem>
                 <a href="#">
                 <i className="fab fa-instagram" />
                 </a>
             </Footer.SocialShareItem> */}
             <Footer.SocialShareItem>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/italanta" target="_blank">
                 <i className="fab fa-linkedin" />
                 </a>
             </Footer.SocialShareItem>

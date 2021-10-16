@@ -111,6 +111,7 @@ import fatumaImg from "~image/it-services/Fatuma.png";
 import joyLindaImg from "~image/it-services/Joy-Linda.png";
 import kenImg    from "~image/it-services/Ken.png";
 import noellaImg from "~image/it-services/noella.png";
+import lindaImg from "~image/it-services/linda.png";
 import peterImg  from "~image/it-services/peter.png";
 import l6portFolioImg3 from "~image/portfolio/portfolio-img-1.png";
 import herol7Img1 from "~image/home-app/hero-l8-1.png";
@@ -345,6 +346,7 @@ const Images = {
         JoyLindaImg: joyLindaImg,
         KenImg: kenImg,
         NoellaImg: noellaImg,
+        LindaImg: lindaImg,
         PeterImg: peterImg,
 
         InnerPromoShape: InnerPromoShape,

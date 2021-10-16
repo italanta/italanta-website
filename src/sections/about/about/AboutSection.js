@@ -27,8 +27,8 @@ return(
                 subTitleProps={{mb:"25px"}}
                 />
           <About.ButtonGroup mt="25px">
-            <About.Button className="btn-primary btn-1" as={Link} to="/">Learn More</About.Button>
-            <About.Button className="btn-electric-violet-2 btn-2"  as={Link} to="/">Get Started</About.Button>
+            <About.Button className="btn-primary btn-1" as={Link} to="/about-us">Learn More</About.Button>
+            <About.Button className="btn-electric-violet-2 btn-2"  as={Link} to="/contact">Get Started</About.Button>
           </About.ButtonGroup>
         </About.Content>
       </Col>

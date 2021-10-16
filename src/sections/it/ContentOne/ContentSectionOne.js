@@ -25,7 +25,7 @@ return(
         mb="69px" />
         </Content.Box>
         <div className="skillbar-wrapper">
-          <b><a href="/program">Learn how we are making this happen</a></b>
+          <b><a href="/for-devs">Learn how we are making this happen</a></b>
         </div>
         {/* <div className="skillbar-wrapper">
           {/* Single Skill Bar */}

@@ -28,7 +28,7 @@ export const menuItems = [
        
   {
     name: "contact",
-    label: "Start Building"
+    label: "Contact"
   },
 ];
 export default menuItems;

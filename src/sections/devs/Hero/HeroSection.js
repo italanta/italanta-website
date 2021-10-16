@@ -43,7 +43,7 @@ export default function HeroSection() {
                     <Hero.Newsletter>
                     <form>
                       <input type={"email"} name={"email"} placeholder="Enter your email" className="form-control"/>
-                      <Button className="btn-blue" textTransform="capitalized">Join our Academy</Button>
+                      <Button className="btn-blue" textTransform="capitalized" as={Link} to="https://www.linkedin.com/company/elewa/jobs/" target="_blank">Our open positions</Button>
                     </form>
                   </Hero.Newsletter>
                   <Hero.NewsletterText>

@@ -22,7 +22,7 @@ export default function HomeIt() {
         {/* <ProcessSection/> */}
         {/* <CtaSection/> */}
         <TestimonialSection/>
-        <ContactSection/>
+        {/* <ContactSection/> */}
         <FooterThree/>
     </PageWrapper>
   )

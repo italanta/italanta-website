@@ -28,7 +28,7 @@ const serviceData = {
           title: "Makazi Talanta",
           text:
             "Open intakes of senior developers to work full-time or freelance from our 'Houses of Talent' spread across Kenya. Open to digital nomads!",
-            link: "https://www.linkedin.com/company/elewa-company-ltf/jobs/",
+            link: "https://www.linkedin.com/company/elewa/jobs/",
             linkText: "View open positions"
         },
       ]
