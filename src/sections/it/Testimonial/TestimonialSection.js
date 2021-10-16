@@ -61,21 +61,23 @@ return(
         className="testimonial-slider row"
         {...sliderConfig1}
         >
-            <Col className="col-lg-6 col-md-12">
+            <Col className="col-lg-3 col-sm-1"></Col>
+            <Col className="col-lg-6 col-sm-10">
                 <TestimonialCard 
                     title="Geoffroy Uyttenhove, CEO Syndic4you" 
                     image={Images.itServices.testiMonialUserImg1}
                     text="As a fast-growing SaaS in Belgium and France, it's important to have partners we can rely on. iTalanta handles our technology end-to-end.
                     With support from their Belgian and global talent, we are able to deliver on our promise – offering the best real-estate management platform in the world!" />
             </Col>
-            <Col className="col-lg-6 col-md-12">
+            <Col className="col-lg-3 col-sm-1"></Col>
+            {/* <Col className="col-lg-6 col-md-12">
                 <TestimonialCard
                     title="Wim Bellemans, Founder Spotlights BV" 
                     image={Images.itServices.testiMonialUserImg2}
                     text="Searching for a partner to develop my MVP, I talked to many software agencies. With iTalanta, things
                     were different. They took the time to understand my use case and provided me with an offer
                     based on my unique requirements and broken down in a language I could understand." />
-            </Col>
+            </Col> */}
             {/* <Col className="col-lg-4 col-md-12">
                 <TestimonialCard text="There are many variations passages of Lorem lpsum available, but the majority have suffered alteration in some form, by injected or randomised." title="Jack Jill" image={Images.itServices.testiMonialUserImg3}/>
             </Col> */}

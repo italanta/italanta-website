@@ -39,10 +39,10 @@ return(
         {/* </div> */}
       </Col>
       <Col xs="12" className="col-xl-7 col-lg-6 col-md-8 col-xs-10 order-1 order-lg-2">
-        <div class="founder-overlay">
-          <div class="founder-name">Jente Rosseel</div>
-          <div class="founder-title">Co-Founder, Computer Scientist,<br/>Teacher & iTalanta Lead Engineer</div> 
-          <div class="founder-socials">
+        <div className="founder-overlay">
+          <div className="founder-name">Jente Rosseel</div>
+          <div className="founder-title">Co-Founder, Computer Scientist,<br/>Teacher & iTalanta Lead Engineer</div> 
+          <div className="founder-socials">
             <ul className="d-none d-xl-flex list-unstyled">
               <li><a href="https://www.linkedin.com/in/jrosseel/" target="_blank"><i className="fab fa-linkedin text-primary"></i></a></li>
               <li><a href="https://github.com/jrosseel" target="_blank"><i className="fab fa-github text-primary"></i></a></li>

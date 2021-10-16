@@ -25,11 +25,6 @@ export const menuItems = [
 
     // ]
   },
-  {
-    name: "for-devs",
-    label: "For Developers"
-  },
-
        
   {
     name: "contact",

@@ -47,6 +47,10 @@ Content.Text = styled(Paragraph)`
     &:last-child {
         margin-bottom: 0;
     }
+
+    .disclaimer {
+        font-size: 0.75em;
+    }
 `
 
 Content.Box =styled(Box)``

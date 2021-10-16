@@ -7,7 +7,9 @@ const serviceData = {
           iconColor: "#ffb000",
           title: "Gundua Talanta",
           text:
-            "Learn to code professionaly via an intensive 20-week hands-on curriculum. Apply and get paid to learn on one of our campuses, or join our open intakes online!",
+            "Learn to code professionaly via an intensive 20-week hands-on curriculum. Regular calls for applications for our campuses, or you can join an open session online!",
+          link: "https://forms.office.com/r/TFPcw6hYgF",
+          linkText: "Join the waiting list!"
         },
         {
           id:"ms2",
@@ -16,6 +18,8 @@ const serviceData = {
           title: "Kuza Talanta",
           text:
             "Two-year international apprenticeship program where you grow from junior to senior developer, while working on global assignments.",
+            link: "https://forms.office.com/r/p47VGaenLd",
+            linkText: "Next intake January 2022"
         },
         {
           id:"ms3",
@@ -24,6 +28,8 @@ const serviceData = {
           title: "Makazi Talanta",
           text:
             "Open intakes of senior developers to work full-time or freelance from our 'Houses of Talent' spread across Kenya. Open to digital nomads!",
+            link: "https://www.linkedin.com/company/elewa-company-ltf/jobs/",
+            linkText: "View open positions"
         },
       ]
   }

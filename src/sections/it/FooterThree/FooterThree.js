@@ -18,16 +18,16 @@ return(
                     </Link>
                 </Footer.Box>
                 <Footer.Text mb="36px">
-                Local Presence, Global Resources<br className="d-none d-xl-block" />Developing products, apps and the teams to grow <br/> them,
+                <b>Discover, Develop, Deploy!</b><br className="d-none d-xl-block" />Developing products, apps and the teams to grow <br/> them,
 so that you can grow the business.</Footer.Text>
 
             </Footer.Widgets>
             </Col>
             <Col xs="12" className="col-lg-8">
             <Row>
-            <Col xs="12" className="col-lg-4 col-xs-6">
+                <Col xs="12" className="col-lg-4 col-xs-6">
                     <Footer.Widgets>
-                        <Footer.Title>Contact Details</Footer.Title>
+                        <Footer.Title>Contact (BE)</Footer.Title>
                         <Footer.Address className="widgets-address">
                             <Footer.AddressItem>
                                 <span>Rue d'Anvers 40 <br className="d-block" />
@@ -35,7 +35,7 @@ so that you can grow the business.</Footer.Text>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
                                 <a href="tel+:0032479385504">+32 479 38 55 04
-                                <span className="d-block"> 7 Days - 8am - 6pm </span> </a>
+                                <span className="d-block"> 5 Days - 9am - 6pm </span> </a>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
                                 <a href="mailto:peter@italanta.net">peter@italanta.net</a>
@@ -44,62 +44,51 @@ so that you can grow the business.</Footer.Text>
                     </Footer.Widgets>
                 </Col>
                 <Col xs="12" className="col-lg-4 col-xs-6">
-                <Footer.Widgets>
-                    <Footer.Title>Company</Footer.Title>
-                    <Footer.List>
-                        <Footer.ListItems>
-                            <a href="#">About
-                            us</a>
-                        </Footer.ListItems>
-                        <Footer.ListItems>
-                            <a href="#">Privacy
-                            Policy</a>
-                        </Footer.ListItems>
-                        <Footer.ListItems>
-                            <a href="#">Terms &amp;
-                            Conditions</a>
-                        </Footer.ListItems>
-                        <Footer.ListItems>
-                            <a href="#">Rider</a>
-                        </Footer.ListItems>
-                        <Footer.ListItems>
-                            <a href="#">Contact</a>
-                        </Footer.ListItems>
-                    </Footer.List>
-                </Footer.Widgets>
+                    <Footer.Widgets>
+                        <Footer.Title>Contact (KE)</Footer.Title>
+                        <Footer.Address className="widgets-address">
+                            <Footer.AddressItem>
+                                <span>Le Mac, Church Road<br className="d-block" />
+                                Nairobi (KE)</span>
+                            </Footer.AddressItem>
+                            <Footer.AddressItem>
+                                <a href="tel+:00254789227755">+254 78 92 27 755
+                                <span className="d-block"> 5 Days - 8am - 5pm </span> </a>
+                            </Footer.AddressItem>
+                            <Footer.AddressItem>
+                                <a href="mailto:kennedy@italanta.net">kennedy@italanta.net</a>
+                            </Footer.AddressItem>
+                        </Footer.Address>
+                    </Footer.Widgets>
                 </Col>
 
                 <Col xs="12" className="col-lg-4 col-xs-7">
-                <Footer.Widgets>
-                    <Footer.Title>Instagram</Footer.Title>
-                    <Footer.Gallery as={Row}>
-                        <Col xs="4">
-                            <img src={Images.footerThree.instaImg1} alt="insta-image" className="w-100" />
-                        </Col>
-                        <Col xs="4">
-                            <img src={Images.footerThree.instaImg2} alt="insta-image" className="w-100" />
-                        </Col>
-                        <Col xs="4">
-                            <img src={Images.footerThree.instaImg3} alt="insta-image" className="w-100" />
-                        </Col>
-                        <Col xs="4">
-                            <img src={Images.footerThree.instaImg4} alt="insta-image" className="w-100" />
-                        </Col>
-                        <Col xs="4">
-                            <img src={Images.footerThree.instaImg5} alt="insta-image" className="w-100" />
-                        </Col>
-                        <Col xs="4">
-                            <img src={Images.footerThree.instaImg6} alt="insta-image" className="w-100" />
-                        </Col>
-                    </Footer.Gallery>
-                </Footer.Widgets>
+                    <Footer.Widgets>
+                        <Footer.Title>Links</Footer.Title>
+                        <Footer.List>
+                            <Footer.ListItems>
+                                <a href="/">Home
+                                us</a>
+                            </Footer.ListItems>
+                            <Footer.ListItems>
+                                <a href="/about-us">About
+                                us</a>
+                            </Footer.ListItems>
+                            <Footer.ListItems>
+                                <a href="/for-devs">For Developers</a>
+                            </Footer.ListItems>
+                            <Footer.ListItems>
+                                <a href="https://www.linkedin.com/company/elewa-company-ltf/" target="_blank">LinkedIn</a>
+                            </Footer.ListItems>
+                        </Footer.List>
+                    </Footer.Widgets>
                 </Col>
             </Row>
             </Col>
         </Row>
         </Footer.Box>
         <Footer.Copyright>
-        <Footer.CopyrightText>© 2021 iTalanta, Elewa Group. All Rights Reserved</Footer.CopyrightText>
+        <Footer.CopyrightText>© 2021 iTalanta, an Elewa Company Limited brand. All Rights Reserved</Footer.CopyrightText>
         <Footer.SocialShare>
             {/* <Footer.SocialShareItem>
                 <a href="#">

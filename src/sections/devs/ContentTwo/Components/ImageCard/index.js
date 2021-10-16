@@ -4,7 +4,7 @@ export default function ImageCard({...rest}) {
   return (
     <Card {...rest}>
         <Card.SingleBlock border="3px">
-          <Card.Title as="h3" >$271,824</Card.Title>
+          <Card.Title as="h3" >,824</Card.Title>
           <Card.Text fontColor="#25373f">Annual revenue</Card.Text>
         </Card.SingleBlock>
         <Card.SingleBlock>

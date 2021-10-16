@@ -3,7 +3,6 @@ import React from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 
 import { Link } from '~components';
-import  Video   from '~components/VideoModal';
 
 import ImageGroup from "./Components/ImageGroup";
 import Hero from "./style"
@@ -22,8 +21,8 @@ export default function HeroSection()
               <Hero.Text>We develop products, apps and the teams to grow them, <br className="d-none d-sm-block" />
                 so that you can grow the business.</Hero.Text>
               <Hero.BtnGroup>
-                <Hero.Button className="btn-primary btn-1 text-white" as={Video} id="LWZ7iytIA6k">Learn More</Hero.Button>
-                <Hero.Button className="btn-electric-violet-2 btn-2" as={Link} to="/">Start building</Hero.Button>
+                <Hero.Button className="btn-primary btn-1 text-white" as={Link} to="/about-us">Learn More</Hero.Button>
+                <Hero.Button className="btn-electric-violet-2 btn-2" as={Link} to="/contact">Start building</Hero.Button>
               </Hero.BtnGroup>
             </div>
           </Col>

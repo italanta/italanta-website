@@ -39,6 +39,13 @@ Widget.Text = styled(Paragraph)`
     letter-spacing: normal;
     line-height: 1.75;
     opacity:.7;
+
+    .tlink {
+        margin-top: 20px;
+        background-color: #0033cc;
+        padding: 5px 15px;
+        font-weight: bold;
+    }
 `
 
 

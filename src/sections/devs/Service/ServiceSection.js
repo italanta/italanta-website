@@ -22,26 +22,31 @@ export default function ServiceSection() {
           <Row className="align-items-end justify-content-center text-start">
             <Col xs="12" className="col-lg-7 col-md-12 col-xs-10">
                 <Service.Title as="h2" mb="0">
-                  Our mantra;
+                  Take your talent to the
                   <br className="d-none d-xs-block d-lg-none d-xl-block" />
-                  Discover, Develop, Deploy.
+                  next level, today!
                 </Service.Title>
             </Col>
             <Col xs="12" className="col-lg-5 col-md-12 col-xs-10">
                <Service.Text>
                     You are unique, we know!
-                    <br className="d-none d-xs-block" /> Our 3-phased program tailors 
+                    <br className="d-none d-xs-block" /> Whatever stage you are at..
+                    <br className="d-none d-sm-block" /> Our 3-phased program tailors 
                     <br className="d-none d-sm-block" /> to your unique growth.
-                    <br className="d-none d-sm-block" /> From n00b to guru...
                </Service.Text>
             </Col>
           </Row>
             <Service.Box mtLG="100px" mtMD="40px">
               <Row className="justify-content-center justify-content-md-start">
                 {/* Single Service */}
-                {serviceData.services.map(({ title, icon,iconColor, text,id }) => {
+                {serviceData.services.map(({ title, icon,iconColor, text, linkText, link, id }) => {
                   return(<Col className="col-lg-4 col-xs-6 col-10" key={id}>
-                  <ServiceWidget icon={icon} title={title} text={text} iconColor={iconColor} id={id} mt="40px" /></Col>) 
+                  <ServiceWidget 
+                    id={id} 
+                    icon={icon} iconColor={iconColor}
+                    title={title} text={text}  
+                    linkText={linkText} link={link}
+                    mt="40px" /></Col>) 
                 })}
               </Row>
             </Service.Box>

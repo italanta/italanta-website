@@ -3,6 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { StaticImage as Img } from 'gatsby-plugin-image'
 import Content from './style'
 import SectionTitle from './Components/SectionTitle'
+
+import { Link } from '~components';
+
 export default function ContentSection(){
   return(
     <Content>
@@ -12,15 +15,19 @@ export default function ContentSection(){
             <Col xs="12" className="col-lg-4 col-md-10 col-xs-11 text-center text-lg-start">
               {/* Section Title */}
               <SectionTitle 
-                    subTitle="Our program" 
-                    title="Three levels of <br class='d-none d-md-block d-lg-none'/> excellence. <br class='d-none d-md-block d-lg-none'/> Tailored to you"
-                    text="You're professional growth is important to us! Whether you're taking your first steps into technology, or you're that experienced 10x engineer, 
-                            you'll find  we provide a challenging and tailored environment. We're here to take care of you, so you can take care of our clients."
+                    subTitle="A professional partner, with you all the way!" 
+                    title="Energy, Excellence and Growth. We're in this together."
+                    text="Our professionals are here to understand the challenges you are facing today, 
+                      and to bring you and your customers into tomorrow.
+                      Our model offers you an offshore team that can take care of your product. 
+                      With resources spanning across analysis, management, design, development and quality assurance, 
+                      we offer managed teams to your organisation that can take care of your products end-to-end."
                     titleProps={{mb:"30px"}}
                     subTitleProps={{mb:"25px"}}
                     />
-                    <Content.Button background="#FFB800" rounded={true} mt="25px">
-                      View our vacancies
+                    <Content.Button background="#FFB800" rounded={true} mt="25px"
+                                    as={Link} to="/contact">
+                      Chat with us
                     </Content.Button>
             </Col>
             <Col xs="12" className="col-xxl-5 col-lg-4 col-md-6 col-xs-9">
@@ -58,7 +65,7 @@ export default function ContentSection(){
                 </Content.Widget>
                 {/*/ .Single Services */}
                 <Content.Widget>
-                  <a href="#">
+                  <a href="/for-devs">
                     <b>Join the team</b>
                   </a>
                 </Content.Widget>

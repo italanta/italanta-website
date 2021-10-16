@@ -5,9 +5,6 @@ import ServiceSection from "~sections/devs/Service"
 import FeatureSection from "~sections/devs/Features"
 import ContentSectionOne from "~sections/devs/ContentOne"
 import ContentSectionTwo from "~sections/devs/ContentTwo"
-import TestimonialSection from "~sections/devs/Testimonial"
-import CounterSection from "~sections/devs/Counter"
-import CtaSection from "~sections/devs/Cta"
 
 import FooterThree from '~sections/it/FooterThree'
 
@@ -19,11 +16,9 @@ export default function Marketing() {
       <HeroSection/>
       <FeatureSection/>
       <ContentSectionOne/>
-      <ContentSectionTwo/>
-      <TestimonialSection />
-      <CounterSection/>
+  
       <ServiceSection/>
-      <CtaSection />
+      
       <FooterThree/>
     </PageWrapper>
   )

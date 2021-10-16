@@ -11,7 +11,7 @@ return(
       <Col className="col-xl-8">
         <Promo.Content>
           <Promo.Title fontColor="#fff" as="h2" mb="45px">Interested in joining our team? </Promo.Title>
-          <Promo.Button background="#FFB800">Join the next Kuza Talanta intake</Promo.Button>
+          <Promo.Button background="#FFB800">Check out our developer offers</Promo.Button>
         </Promo.Content>
       </Col>
     </Row>
