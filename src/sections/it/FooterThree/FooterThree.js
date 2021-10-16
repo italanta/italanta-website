@@ -78,7 +78,7 @@ so that you can grow the business.</Footer.Text>
                                 <a href="/for-devs">For Developers</a>
                             </Footer.ListItems>
                             <Footer.ListItems>
-                                <a href="https://www.linkedin.com/company/elewa/" target="_blank">LinkedIn</a>
+                                <a href="https://www.linkedin.com/company/italanta/" target="_blank">LinkedIn</a>
                             </Footer.ListItems>
                         </Footer.List>
                     </Footer.Widgets>
