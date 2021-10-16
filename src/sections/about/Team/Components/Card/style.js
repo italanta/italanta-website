@@ -72,10 +72,6 @@ Card.SocialItem = styled(Box)`
     color: #fff;
     padding-right: 20px;
     transition-duration: 0.4s;
-
-    .link-icon {
-      background: white;
-    }
 `
 
 export default Card;
