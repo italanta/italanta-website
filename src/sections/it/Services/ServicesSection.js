@@ -34,7 +34,7 @@ return(
               title={title}
               text={text}
               icon={icon}
-              to="/services"
+              to="/contact"
               iconBackground={iconBackground}
             />
           </Services.Box>
