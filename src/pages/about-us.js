@@ -13,7 +13,7 @@ export default function About() {
     <PageWrapper headerConfig={header}>
         <BreadCrumbSection title="About" text="Talanta is the Swahili word for Talent. 
           We are a software agency that doubles as a talent accelerator. 
-          From the first steps our clients and engineers take, to their rise into startdom. 
+          From the first steps our clients and engineers take, to their rise into stardom. 
           We are with them all the way." />
         {/* <AboutSection/> */}
         {/* <FeatureSection/> */}
