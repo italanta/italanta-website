@@ -30,7 +30,7 @@ so that you can grow the business.</Footer.Text>
                         <Footer.Title>Contact (BE)</Footer.Title>
                         <Footer.Address className="widgets-address">
                             <Footer.AddressItem>
-                                <span>Rue d'Anvers 40 <br className="d-block" />
+                                <span>Antwerpselaan 40 <br className="d-block" />
                                 Brussels (BE)</span>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
@@ -48,7 +48,7 @@ so that you can grow the business.</Footer.Text>
                         <Footer.Title>Contact (KE)</Footer.Title>
                         <Footer.Address className="widgets-address">
                             <Footer.AddressItem>
-                                <span>Le Mac, Church Road<br className="d-block" />
+                                <span>LeMac, Church Road<br className="d-block" />
                                 Nairobi (KE)</span>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
