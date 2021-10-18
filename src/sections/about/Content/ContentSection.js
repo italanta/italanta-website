@@ -57,7 +57,7 @@ export default function ContentSection(){
                 {/*/ .Single Services */}
                 {/* Single Services */}
                 <Content.Widget pb="10px">
-                  <Content.WidgetTitle>Makaza Talanta</Content.WidgetTitle>
+                  <Content.WidgetTitle>Makazi Talanta</Content.WidgetTitle>
                   <Content.WidgetText>
                     Our 'House of Talent' hosts only the best senior engineers, from
                     Kenya and abroad and spread over our many campuses.
