@@ -70,7 +70,7 @@ const FeatureSection = ({ ...rest }) => {
                       text={`
                         We encourage new graduates to join our campus in <br class="d-none d-lg-block" /> 
                         Nairobi or Kakuma which prepares you for the start <br class="d-none d-lg-block" /> 
-                        of a professional carreer. We mostly recruit from our <br class="d-none d-lg-block" />
+                        of a professional career. We mostly recruit from our <br class="d-none d-lg-block" />
                         campus graduates. New areas opening soon!`}/>
                   </Col>
                   <Col

@@ -15,7 +15,7 @@ return(
       <SectionTitle
         subTitle="What we do" 
         title="Solid solutions for your business"
-        subsubTitle="Only the highest quality is deliverable. With particular attention to architecture & team, we produce fast and reliable solutions that scale."
+        subsubTitle="Only the highest quality is deliverable. With particular attention to architecture & team composition, we produce fast and reliable solutions that scale."
         subTitleProps={{mb:"27px"}}
         titleProps={{mb:"10px",as:"h2"}}
         mb="69px" />

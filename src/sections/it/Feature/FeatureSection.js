@@ -26,7 +26,7 @@ return(
         <Feature.Box>
           <Feature.Text mrLG="30px">
           <p>With a core experience in the startup and innovation space, iTalanta partners with clients as an <b>end-to-end technology solution provider</b>.</p>
-          <p>Specialised over a series of different projects, we design holistic solutions that look beyond just the producy but that fit well with your vision, team and operations.</p>
+          <p>Specialised over a series of different projects, we design holistic solutions that look beyond just the product but that fit well with your vision, team and operations.</p>
           </Feature.Text>
         </Feature.Box>
       </Col>
@@ -36,7 +36,7 @@ return(
            <p>Our <b>local presence, global resources formula</b> allows us to offer 
            high- and cutting-edge technology quality at an unmatched price.</p>
            <p>We act as the bridge between your context and culture, and talent in the South. 
-           Not lacking a short of highly-motivated talent, our academies currently train up 45 youth annually to international coding standards, scaling to 500 soon.
+           The South has an abundance of highly-motivated talent, allowing our academies to upskill 45 youth annually to international coding standards, scaling to 500 soon.
            </p>
           </Feature.Text>
         </Feature.Box> 

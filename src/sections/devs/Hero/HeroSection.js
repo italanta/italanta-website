@@ -47,7 +47,7 @@ export default function HeroSection() {
                     </form>
                   </Hero.Newsletter>
                   <Hero.NewsletterText>
-                    Are you already a (rising) star developer in East-Africa or Europe? <Link to="/">Join our Engineering Team.</Link>
+                    Are you already a (rising) star developer in East-Africa or Europe? <Link to="https://www.linkedin.com/company/elewa/jobs/">Join our Engineering Team.</Link>
                   </Hero.NewsletterText>
                   </Col>
                 </Row>

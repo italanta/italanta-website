@@ -16,7 +16,7 @@ return(
       <Col xs="auto" className="col-xxl-4 col-xl-5 offset-xl-1 col-lg-6 offset-lg-1 col-md-8 col-xs-9">
         <Content.Title as="h2">Marketer <br /> to Senior Dev<br /> in one year.</Content.Title>
         <Content.Text>
-          <p>Meet Esther, a Bachelor in Communication who while working as a marketer, 
+          <p>Meet Esther, a Bachelor in Communication graduate who, while working as a marketer, 
           upskilled herself as a developer to the point where she could join the apprenticeship program. </p>
           <p>
             Since then, her growth has been phenomenal! Esther is the fastest apprentice to ever clear our program and
