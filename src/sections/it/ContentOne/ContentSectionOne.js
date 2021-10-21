@@ -16,9 +16,9 @@ return(
         title="Our Commitment"
         text="As Europe is suffering under a lack of available workforce,
         East-Africa contains an unimaginable pool of highly-skilled talent 
-        that is being wasted due to lack of opportunity. <br/><br/>Over the next 5 years, 
-        our vision is to offer <b>world-class jobs to over 500 highly motivated 
-        youths each year</b>, with a <b>quality standard much higher
+        that is being wasted due to lack of opportunity. <br/><br/>Over the next five years, 
+        our vision is to offer <b>world-class jobs to over 1,000 highly motivated 
+        youths</b>, with a <b>quality standard much higher
         than what is available</b> in the global market."
         subTitleProps={{mb:"10px"}}
         titleProps={{mb:"10px",as:"h2"}}
