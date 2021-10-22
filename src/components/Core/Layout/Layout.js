@@ -20,6 +20,16 @@ var chatWootPlugin = { __html: `<script>
     })(document,"script");
   </script>` };
 
+var analytics = { __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T32LQJTSZP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T32LQJTSZP');
+</script>`};
+
 export default function Layout({
   children,
 }) {
@@ -32,6 +42,7 @@ export default function Layout({
       <Header/>
       {children}
       <div dangerouslySetInnerHTML={chatWootPlugin}></div>
+      <div dangerouslySetInnerHTML={analytics}></div>
     </>
   )
 }
