@@ -28,8 +28,8 @@ export const menuItems = [
 
   {
     name: "https://blog.italanta.net",
-    
-    label: "Blog"
+    label: "Blog",
+    isExternal: true
   },
        
   {
