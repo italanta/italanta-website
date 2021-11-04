@@ -25,11 +25,18 @@ export const menuItems = [
 
     // ]
   },
+
+  {
+    name: "https://blog.italanta.net",
+    
+    label: "Blog"
+  },
        
   {
     name: "contact",
     label: "Contact"
   },
+  
 ];
 export default menuItems;
 
