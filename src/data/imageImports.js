@@ -109,6 +109,9 @@ import jenteImg  from "~image/it-services/jente.png";
 import estherImg from "~image/it-services/esther.png";
 import fatumaImg from "~image/it-services/Fatuma.png";
 import joyLindaImg from "~image/it-services/Joy-Linda.png";
+import paulImg from "~image/it-services/paul.png";
+import alaminImg from "~image/it-services/alamin.png";
+import ianImg from "~image/it-services/ian.png";
 import kenImg    from "~image/it-services/Ken.png";
 import noellaImg from "~image/it-services/noella.png";
 import lindaImg from "~image/it-services/linda.png";
@@ -344,6 +347,9 @@ const Images = {
         EstherImg: estherImg,
         FatumaImg: fatumaImg,
         JoyLindaImg: joyLindaImg,
+        paulImg: paulImg,
+        alaminImg: alaminImg,
+        ianImg: ianImg,
         KenImg: kenImg,
         NoellaImg: noellaImg,
         LindaImg: lindaImg,
