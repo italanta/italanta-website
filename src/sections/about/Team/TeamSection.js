@@ -97,8 +97,8 @@ export default function TeamSection({...rest}) {
               <TeamCard image={Images.PageAboutUs.alaminImg} userName="Alamin Juma"        userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/alamin-juma-401911151/"/>
               <TeamCard image={Images.PageAboutUs.JoyLindaImg} userName="Joy-Linda Wawira" userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/joy-l-035438148/"/>
               <TeamCard image={Images.PageAboutUs.ianImg} userName="Ian Odhiambo"          userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/ian-odhiambo-a742b1141/"/>
-              <TeamCard image={Images.PageAboutUs.KenImg} userName="Kennedy Adhola"        userPosition="HR Director"              link="https://www.linkedin.com/in/kennedy-adhola-97570535/"/>
               <TeamCard image={Images.PageAboutUs.PeterImg} userName="Peter Reinartz"      userPosition="Executive Chairman"       link="https://www.linkedin.com/in/peter-reinartz-1b4452ab/"/>
+              <TeamCard image={Images.PageAboutUs.KenImg} userName="Kennedy Adhola"        userPosition="HR Director"              link="https://www.linkedin.com/in/kennedy-adhola-97570535/"/>
               <TeamCard image={Images.PageAboutUs.EstherImg} userName="Esther Bidali"      userPosition="Solution Designer"        link="https://www.linkedin.com/in/esther-bidali-740b729a/"/>
             </Slider>
             </Team.SliderWrapper>
