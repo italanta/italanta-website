@@ -14,7 +14,7 @@ return(
               search for<br />talent!</Content.Title>
             <Content.Text>
               Check out <a href="https://www.linkedin.com/company/elewa-company-ltf/jobs">open positions</a> and apply today!
-              <br className="d-none d-sm-block" /><i className="disclaimer">iTalanta BV, all rights reserved. iTalanta BV is a member of Elewa Group</i>
+              <br className="d-none d-sm-block" /><i className="disclaimer">iTalanta BV, all rights reserved. iTalanta BV is a member of the Elewa Group</i>
             </Content.Text>
           </Content.Box>
       </Col>
