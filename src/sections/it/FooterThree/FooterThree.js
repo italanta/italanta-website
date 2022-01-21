@@ -30,15 +30,18 @@ so that you can grow the business.</Footer.Text>
                         <Footer.Title>Contact (BE)</Footer.Title>
                         <Footer.Address className="widgets-address">
                             <Footer.AddressItem>
-                                <span>Antwerpselaan 40 <br className="d-block" />
-                                Brussels (BE)</span>
+                                <span>Krabos 22<br className="d-block" />
+                                1501 Halle (BE)</span>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
                                 <a href="tel+:0032479385504">+32 479 38 55 04
                                 <span className="d-block"> 5 Days - 9am - 6pm </span> </a>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
-                                <a href="mailto:peter@italanta.net">peter@italanta.net</a>
+                                <a href="mailto:peter@italanta.net">contact@italanta.be</a>
+                            </Footer.AddressItem>
+                            <Footer.AddressItem>
+                                <a href="https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=780602847">BE0780.602.847</a>
                             </Footer.AddressItem>
                         </Footer.Address>
                     </Footer.Widgets>
@@ -48,7 +51,8 @@ so that you can grow the business.</Footer.Text>
                         <Footer.Title>Contact (KE)</Footer.Title>
                         <Footer.Address className="widgets-address">
                             <Footer.AddressItem>
-                                <span>LeMac, Church Road<br className="d-block" />
+                                <span>3rd Floor, The Promenade,<br className="d-block" /> 
+                                General Mathenge Rd.<br className="d-block" />
                                 Nairobi (KE)</span>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
