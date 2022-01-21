@@ -31,7 +31,8 @@ so that you can grow the business.</Footer.Text>
                         <Footer.Address className="widgets-address">
                             <Footer.AddressItem>
                                 <span>Krabos 22<br className="d-block" />
-                                1501 Halle (BE)</span>
+                                1501 Halle (BE)<br className="d-block" />
+                                <a href="https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=780602847">BE0780.602.847</a></span>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
                                 <a href="tel+:0032479385504">+32 479 38 55 04
@@ -39,9 +40,6 @@ so that you can grow the business.</Footer.Text>
                             </Footer.AddressItem>
                             <Footer.AddressItem>
                                 <a href="mailto:peter@italanta.net">contact@italanta.be</a>
-                            </Footer.AddressItem>
-                            <Footer.AddressItem>
-                                <a href="https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=780602847">BE0780.602.847</a>
                             </Footer.AddressItem>
                         </Footer.Address>
                     </Footer.Widgets>
