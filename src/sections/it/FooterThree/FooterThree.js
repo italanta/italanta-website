@@ -92,7 +92,7 @@ so that you can grow the business.</Footer.Text>
         </Row>
         </Footer.Box>
         <Footer.Copyright>
-        <Footer.CopyrightText>© 2021 iTalanta, an Elewa Company Limited brand. All Rights Reserved</Footer.CopyrightText>
+        <Footer.CopyrightText>© 2022 iTalanta BV. All Rights Reserved. Proud member of the Elewa Group.</Footer.CopyrightText>
         <Footer.SocialShare>
             {/* <Footer.SocialShareItem>
                 <a href="#">
