@@ -93,7 +93,7 @@ export default function TeamSection({...rest}) {
               <TeamCard image={Images.PageAboutUs.LindaImg} userName="Linda Warui"         userPosition="Senior Project Manager"   link="https://www.linkedin.com/in/linda-warui/"/>
               <TeamCard image={Images.PageAboutUs.NoellaImg} userName="Noella Mwanzia"     userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/noella-mwanzia-633803173/"/>
               <TeamCard image={Images.PageAboutUs.paulImg}    userName="Paul Chesa"        userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/paulchesa/"/>
-              <TeamCard image={Images.PageAboutUs.FatumaImg} userName="Fatuma Samatar"     userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/fatuma-abdullahi-6b804948/"/>
+              {/* <TeamCard image={Images.PageAboutUs.FatumaImg} userName="Fatuma Samatar"     userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/fatuma-abdullahi-6b804948/"/> */}
               <TeamCard image={Images.PageAboutUs.alaminImg} userName="Alamin Juma"        userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/alamin-juma-401911151/"/>
               <TeamCard image={Images.PageAboutUs.JoyLindaImg} userName="Joy-Linda Wawira" userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/joy-l-035438148/"/>
               <TeamCard image={Images.PageAboutUs.ianImg} userName="Ian Odhiambo"          userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/ian-odhiambo-a742b1141/"/>
