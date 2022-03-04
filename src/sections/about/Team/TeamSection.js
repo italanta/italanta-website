@@ -90,7 +90,7 @@ export default function TeamSection({...rest}) {
               {...sliderConfig}
             >
               <TeamCard image={Images.PageAboutUs.JenteImg} userName="Jente Rosseel"       userPosition="Lead Engineer & CEO"      link="https://www.linkedin.com/in/jrosseel/"/>
-              <TeamCard image={Images.PageAboutUs.LindaImg} userName="Linda Warui"         userPosition="Chief Operations Officer" link="https://www.linkedin.com/in/linda-warui/"/>
+              <TeamCard image={Images.PageAboutUs.LindaImg} userName="Linda Warui"         userPosition="Senior Project Manager"   link="https://www.linkedin.com/in/linda-warui/"/>
               <TeamCard image={Images.PageAboutUs.NoellaImg} userName="Noella Mwanzia"     userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/noella-mwanzia-633803173/"/>
               <TeamCard image={Images.PageAboutUs.paulImg}    userName="Paul Chesa"        userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/paulchesa/"/>
               <TeamCard image={Images.PageAboutUs.FatumaImg} userName="Fatuma Samatar"     userPosition="iTalanta Developer"       link="https://www.linkedin.com/in/fatuma-abdullahi-6b804948/"/>
